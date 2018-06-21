@@ -30,3 +30,10 @@ http://video.jiudafu.com/jlxw/%e9%98%b4%e9%99%b5%e6%b3%89.mp4
 ## 图片
 http://video.jiudafu.com/jlxw/%E8%BF%8E%E9%A6%99.jpg
 
+
+data.jiudafu.com/jingluo/images0/%E5%BC%BA%E9%97%B4%E5%90%8E%E9%A1%B6%E7%99%BE%E4%BC%9A_opt.jpeg
+
+
+  "root_url": "http://data.jiudafu.com/jingluo/",
+  "img_url": "http://data.jiudafu.com/jingluo/images/",
+  "img_ext": ".jpic",
