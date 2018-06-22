@@ -59,21 +59,62 @@ const xwList = async () => {
 const getXwImg = async () => {
     const xwDetail = require(path.resolve(__dirname, '../database/json/xwDetail.json'))
     // console.log(xwDetail)
-    const imgs = R.map(v => {
+    const imgs = await R.map(v => {
         return v.name
     }
   )
     const xwNames = imgs(xwDetail)
     const getRes = async (name) => {
-        await sleep(1000)
-        const uri = `http://api.jiudaifu.com/v2/data/jlxw/extra?xwname=${encodeURI(name)}`
-        return await rp(uri)
+        let res
+        try {
+            const uri = `http://api.jiudaifu.com/v2/data/jlxw/extra?xwname=${encodeURI(name)}`
+            // await sleep(1500)
+            res = await rp(uri)
+            // res = JSON.stringify(res, null, 2)
+            // res = eval('(' + res + ')')
+            // 剔除一些属性
+            res = JSON.parse(res)
+            // 这里使用R.pick不起作用
+            res = R.compose(
+              R.omit(['video_etag', 'thumb_etag']),
+              R.prop('data')
+            )(res)
+            // console.log(res)
+        } catch (error) {
+            console.log(error)
+        }
+        return res
     }
-    const imgUrl = R.compose(
-      R.omit(['video_etag', 'thumb_etag']),
-      R.pick(['data']),
-      R.map(getRes)
-    )
-    console.log(imgUrl(xwNames[0]))
+    // const imgUrl = R.compose(
+    //   R.omit(['video_etag', 'thumb_etag']),
+    //   R.pick(['data']),
+    //   R.map(getRes)
+    // )
+
+    // const imgUrl = await Promise.all(data)
+    // console.log(JSON.stringify(imgUrl))
+    // fs.writeFileSync(path.resolve(__dirname, '../database/json/fileUrl.json'), JSON.stringify(imgUrl, null, 2), 'utf8')
+    // getRes(xwNames[0])
+
+    // const data = await xwNames.map(async v => {
+    //     const data = await getRes(v)
+    //     console.log(data)
+    //     return data
+    // })
+
+    // let res = Object.assign({}, {
+    //     code: 0,
+    //     data: data
+    // })
+    let arrs = []
+    for (let i = 0; i < xwNames.length; i++) {
+        const name = xwNames[i]
+        await sleep(1000)
+        let data = await getRes(name)
+        console.log(data)
+        arrs.push(data)
+    }
+
+    fs.writeFileSync(path.resolve(__dirname, '../database/json/fileUrl.json'), JSON.stringify(arrs, null, 2), 'utf8')
 }
 getXwImg()

@@ -5,13 +5,15 @@
     "main": "app.js",
     "scripts": {
         "start": "pm2 start process.prod.json --no-daemon",
-        "local-dev": "nodemon --config nodemon.json app.js",
+        "dev": "nodemon --config nodemon.json index.js",
         "initdb": "npm install && node tools/initdb.js"
     },
     "author": "Jason",
     "license": "MIT",
     "dependencies": {
         "axios": "^0.15.3",
+        "babel-preset-env": "^1.7.0",
+        "babel-register": "^6.26.0",
         "knex": "^0.13.0",
         "koa": "^2.0.0",
         "koa-bodyparser": "^3.2.0",
@@ -21,7 +23,9 @@
         "mkdir-p": "0.0.7",
         "mysql": "^2.14.1",
         "pify": "^2.3.0",
+        "qiniu": "^7.2.0",
         "ramda": "^0.25.0",
+        "random-token": "0.0.8",
         "request-promise": "^4.2.2",
         "wafer-node-sdk": "^1.0.7"
     },

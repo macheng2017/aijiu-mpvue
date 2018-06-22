@@ -1,0 +1,2939 @@
+[
+  {
+    "id": 1,
+    "name": "三焦俞",
+    "video_url": "http://video.jiudafu.com/jlxw/三焦俞.mp4",
+    "thumb_url": "http://video.jiudafu.com/jlxw/三焦俞.jpg",
+    "code": 200
+  },
+  {
+    "id": 2,
+    "name": "三角灸",
+    "video_url": "http://video.jiudafu.com/jlxw/三角灸.mp4",
+    "thumb_url": "http://video.jiudafu.com/jlxw/三角灸.jpg",
+    "code": 200
+  },
+  {
+    "id": 3,
+    "name": "三间",
+    "video_url": "http://video.jiudafu.com/jlxw/三间.mp4",
+    "thumb_url": "http://video.jiudafu.com/jlxw/三间.jpg",
+    "code": 200
+  },
+  {
+    "id": 4,
+    "name": "三阳络",
+    "video_url": "http://video.jiudafu.com/jlxw/三阳络.mp4",
+    "thumb_url": "http://video.jiudafu.com/jlxw/三阳络.jpg",
+    "code": 200
+  },
+  {
+    "id": 5,
+    "name": "三阴交",
+    "video_url": "http://video.jiudafu.com/jlxw/三阴交.mp4",
+    "thumb_url": "http://video.jiudafu.com/jlxw/三阴交.jpg",
+    "code": 200
+  },
+  {
+    "id": 6,
+    "name": "上关",
+    "video_url": "http://video.jiudafu.com/jlxw/上关.mp4",
+    "thumb_url": "http://video.jiudafu.com/jlxw/上关.jpg",
+    "code": 200
+  },
+  {
+    "id": 7,
+    "name": "上巨虚",
+    "video_url": "http://video.jiudafu.com/jlxw/上巨虚.mp4",
+    "thumb_url": "http://video.jiudafu.com/jlxw/上巨虚.jpg",
+    "code": 200
+  },
+  {
+    "id": 8,
+    "name": "上廉",
+    "video_url": "http://video.jiudafu.com/jlxw/上廉.mp4",
+    "thumb_url": "http://video.jiudafu.com/jlxw/上廉.jpg",
+    "code": 200
+  },
+  {
+    "id": 9,
+    "name": "上明",
+    "video_url": "http://video.jiudafu.com/jlxw/上明.mp4",
+    "thumb_url": "http://video.jiudafu.com/jlxw/上明.jpg",
+    "code": 200
+  },
+  {
+    "id": 10,
+    "name": "上星",
+    "video_url": "http://video.jiudafu.com/jlxw/上星.mp4",
+    "thumb_url": "http://video.jiudafu.com/jlxw/上星.jpg",
+    "code": 200
+  },
+  {
+    "id": 11,
+    "name": "上脘",
+    "video_url": "http://video.jiudafu.com/jlxw/上脘.mp4",
+    "thumb_url": "http://video.jiudafu.com/jlxw/上脘.jpg",
+    "code": 200
+  },
+  {
+    "id": 12,
+    "name": "上迎香",
+    "video_url": "http://video.jiudafu.com/jlxw/上迎香.mp4",
+    "thumb_url": "http://video.jiudafu.com/jlxw/上迎香.jpg",
+    "code": 200
+  },
+  {
+    "id": 13,
+    "name": "上髎",
+    "video_url": "http://video.jiudafu.com/jlxw/上髎.mp4",
+    "thumb_url": "http://video.jiudafu.com/jlxw/上髎.jpg",
+    "code": 200
+  },
+  {
+    "id": 14,
+    "name": "下关",
+    "video_url": "http://video.jiudafu.com/jlxw/下关.mp4",
+    "thumb_url": "http://video.jiudafu.com/jlxw/下关.jpg",
+    "code": 200
+  },
+  {
+    "id": 15,
+    "name": "下巨虚",
+    "video_url": "http://video.jiudafu.com/jlxw/下巨虚.mp4",
+    "thumb_url": "http://video.jiudafu.com/jlxw/下巨虚.jpg",
+    "code": 200
+  },
+  {
+    "id": 16,
+    "name": "下廉",
+    "video_url": "http://video.jiudafu.com/jlxw/下廉.mp4",
+    "thumb_url": "http://video.jiudafu.com/jlxw/下廉.jpg",
+    "code": 200
+  },
+  {
+    "id": 17,
+    "name": "下极俞",
+    "video_url": "http://video.jiudafu.com/jlxw/下极俞.mp4",
+    "thumb_url": "http://video.jiudafu.com/jlxw/下极俞.jpg",
+    "code": 200
+  },
+  {
+    "id": 18,
+    "name": "下脘",
+    "video_url": "http://video.jiudafu.com/jlxw/下脘.mp4",
+    "thumb_url": "http://video.jiudafu.com/jlxw/下脘.jpg",
+    "code": 200
+  },
+  {
+    "id": 19,
+    "name": "下髎",
+    "video_url": "http://video.jiudafu.com/jlxw/下髎.mp4",
+    "thumb_url": "http://video.jiudafu.com/jlxw/下髎.jpg",
+    "code": 200
+  },
+  {
+    "id": 20,
+    "name": "不容",
+    "video_url": "http://video.jiudafu.com/jlxw/不容.mp4",
+    "thumb_url": "http://video.jiudafu.com/jlxw/不容.jpg",
+    "code": 200
+  },
+  {
+    "id": 21,
+    "name": "丘墟",
+    "video_url": "http://video.jiudafu.com/jlxw/丘墟.mp4",
+    "thumb_url": "http://video.jiudafu.com/jlxw/丘墟.jpg",
+    "code": 200
+  },
+  {
+    "id": 22,
+    "name": "丝竹空",
+    "video_url": "http://video.jiudafu.com/jlxw/丝竹空.mp4",
+    "thumb_url": "http://video.jiudafu.com/jlxw/丝竹空.jpg",
+    "code": 200
+  },
+  {
+    "id": 23,
+    "name": "中冲",
+    "video_url": "http://video.jiudafu.com/jlxw/中冲.mp4",
+    "thumb_url": "http://video.jiudafu.com/jlxw/中冲.jpg",
+    "code": 200
+  },
+  {
+    "id": 24,
+    "name": "中封",
+    "video_url": "http://video.jiudafu.com/jlxw/中封.mp4",
+    "thumb_url": "http://video.jiudafu.com/jlxw/中封.jpg",
+    "code": 200
+  },
+  {
+    "id": 25,
+    "name": "中府",
+    "video_url": "http://video.jiudafu.com/jlxw/中府.mp4",
+    "thumb_url": "http://video.jiudafu.com/jlxw/中府.jpg",
+    "code": 200
+  },
+  {
+    "id": 26,
+    "name": "中庭",
+    "video_url": "http://video.jiudafu.com/jlxw/中庭.mp4",
+    "thumb_url": "http://video.jiudafu.com/jlxw/中庭.jpg",
+    "code": 200
+  },
+  {
+    "id": 27,
+    "name": "中极",
+    "video_url": "http://video.jiudafu.com/jlxw/中极.mp4",
+    "thumb_url": "http://video.jiudafu.com/jlxw/中极.jpg",
+    "code": 200
+  },
+  {
+    "id": 28,
+    "name": "中枢",
+    "video_url": "http://video.jiudafu.com/jlxw/中枢.mp4",
+    "thumb_url": "http://video.jiudafu.com/jlxw/中枢.jpg",
+    "code": 200
+  },
+  {
+    "id": 29,
+    "name": "中泉",
+    "video_url": "http://video.jiudafu.com/jlxw/中泉.mp4",
+    "thumb_url": "http://video.jiudafu.com/jlxw/中泉.jpg",
+    "code": 200
+  },
+  {
+    "id": 30,
+    "name": "中注",
+    "video_url": "http://video.jiudafu.com/jlxw/中注.mp4",
+    "thumb_url": "http://video.jiudafu.com/jlxw/中注.jpg",
+    "code": 200
+  },
+  {
+    "id": 31,
+    "name": "中渎",
+    "video_url": "http://video.jiudafu.com/jlxw/中渎.mp4",
+    "thumb_url": "http://video.jiudafu.com/jlxw/中渎.jpg",
+    "code": 200
+  },
+  {
+    "id": 32,
+    "name": "中渚",
+    "video_url": "http://video.jiudafu.com/jlxw/中渚.mp4",
+    "thumb_url": "http://video.jiudafu.com/jlxw/中渚.jpg",
+    "code": 200
+  },
+  {
+    "id": 33,
+    "name": "中脘",
+    "video_url": "http://video.jiudafu.com/jlxw/中脘.mp4",
+    "thumb_url": "http://video.jiudafu.com/jlxw/中脘.jpg",
+    "code": 200
+  },
+  {
+    "id": 34,
+    "name": "中膂俞",
+    "video_url": "http://video.jiudafu.com/jlxw/中膂俞.mp4",
+    "thumb_url": "http://video.jiudafu.com/jlxw/中膂俞.jpg",
+    "code": 200
+  },
+  {
+    "id": 35,
+    "name": "中都",
+    "video_url": "http://video.jiudafu.com/jlxw/中都.mp4",
+    "thumb_url": "http://video.jiudafu.com/jlxw/中都.jpg",
+    "code": 200
+  },
+  {
+    "id": 36,
+    "name": "中髎",
+    "video_url": "http://video.jiudafu.com/jlxw/中髎.mp4",
+    "thumb_url": "http://video.jiudafu.com/jlxw/中髎.jpg",
+    "code": 200
+  },
+  {
+    "id": 37,
+    "name": "中魁",
+    "video_url": "http://video.jiudafu.com/jlxw/中魁.mp4",
+    "thumb_url": "http://video.jiudafu.com/jlxw/中魁.jpg",
+    "code": 200
+  },
+  {
+    "id": 38,
+    "name": "丰隆",
+    "video_url": "http://video.jiudafu.com/jlxw/丰隆.mp4",
+    "thumb_url": "http://video.jiudafu.com/jlxw/丰隆.jpg",
+    "code": 200
+  },
+  {
+    "id": 39,
+    "name": "乳中",
+    "video_url": "http://video.jiudafu.com/jlxw/乳中.mp4",
+    "thumb_url": "http://video.jiudafu.com/jlxw/乳中.jpg",
+    "code": 200
+  },
+  {
+    "id": 40,
+    "name": "乳四穴",
+    "video_url": "http://video.jiudafu.com/jlxw/乳四穴.mp4",
+    "thumb_url": "http://video.jiudafu.com/jlxw/乳四穴.jpg",
+    "code": 200
+  },
+  {
+    "id": 41,
+    "name": "乳根",
+    "video_url": "http://video.jiudafu.com/jlxw/乳根.mp4",
+    "thumb_url": "http://video.jiudafu.com/jlxw/乳根.jpg",
+    "code": 200
+  },
+  {
+    "id": 42,
+    "name": "二白",
+    "video_url": "http://video.jiudafu.com/jlxw/二白.mp4",
+    "thumb_url": "http://video.jiudafu.com/jlxw/二白.jpg",
+    "code": 200
+  },
+  {
+    "id": 43,
+    "name": "二间",
+    "video_url": "http://video.jiudafu.com/jlxw/二间.mp4",
+    "thumb_url": "http://video.jiudafu.com/jlxw/二间.jpg",
+    "code": 200
+  },
+  {
+    "id": 44,
+    "name": "云门",
+    "video_url": "http://video.jiudafu.com/jlxw/云门.mp4",
+    "thumb_url": "http://video.jiudafu.com/jlxw/云门.jpg",
+    "code": 200
+  },
+  {
+    "id": 45,
+    "name": "五处",
+    "video_url": "http://video.jiudafu.com/jlxw/五处.mp4",
+    "thumb_url": "http://video.jiudafu.com/jlxw/五处.jpg",
+    "code": 200
+  },
+  {
+    "id": 46,
+    "name": "五枢",
+    "video_url": "http://video.jiudafu.com/jlxw/五枢.mp4",
+    "thumb_url": "http://video.jiudafu.com/jlxw/五枢.jpg",
+    "code": 200
+  },
+  {
+    "id": 47,
+    "name": "交信",
+    "video_url": "http://video.jiudafu.com/jlxw/交信.mp4",
+    "thumb_url": "http://video.jiudafu.com/jlxw/交信.jpg",
+    "code": 200
+  },
+  {
+    "id": 48,
+    "name": "京门",
+    "video_url": "http://video.jiudafu.com/jlxw/京门.mp4",
+    "thumb_url": "http://video.jiudafu.com/jlxw/京门.jpg",
+    "code": 200
+  },
+  {
+    "id": 49,
+    "name": "京骨",
+    "video_url": "http://video.jiudafu.com/jlxw/京骨.mp4",
+    "thumb_url": "http://video.jiudafu.com/jlxw/京骨.jpg",
+    "code": 200
+  },
+  {
+    "id": 50,
+    "name": "人迎",
+    "video_url": "http://video.jiudafu.com/jlxw/人迎.mp4",
+    "thumb_url": "http://video.jiudafu.com/jlxw/人迎.jpg",
+    "code": 200
+  },
+  {
+    "id": 51,
+    "name": "仆参",
+    "video_url": "http://video.jiudafu.com/jlxw/仆参.mp4",
+    "thumb_url": "http://video.jiudafu.com/jlxw/仆参.jpg",
+    "code": 200
+  },
+  {
+    "id": 52,
+    "name": "伏兔",
+    "video_url": "http://video.jiudafu.com/jlxw/伏兔.mp4",
+    "thumb_url": "http://video.jiudafu.com/jlxw/伏兔.jpg",
+    "code": 200
+  },
+  {
+    "id": 53,
+    "name": "会宗",
+    "video_url": "http://video.jiudafu.com/jlxw/会宗.mp4",
+    "thumb_url": "http://video.jiudafu.com/jlxw/会宗.jpg",
+    "code": 200
+  },
+  {
+    "id": 54,
+    "name": "会阳",
+    "video_url": "http://video.jiudafu.com/jlxw/会阳.mp4",
+    "thumb_url": "http://video.jiudafu.com/jlxw/会阳.jpg",
+    "code": 200
+  },
+  {
+    "code": 404
+  },
+  {
+    "id": 55,
+    "name": "侠溪",
+    "video_url": "http://video.jiudafu.com/jlxw/侠溪.mp4",
+    "thumb_url": "http://video.jiudafu.com/jlxw/侠溪.jpg",
+    "code": 200
+  },
+  {
+    "id": 56,
+    "name": "侠白",
+    "video_url": "http://video.jiudafu.com/jlxw/侠白.mp4",
+    "thumb_url": "http://video.jiudafu.com/jlxw/侠白.jpg",
+    "code": 200
+  },
+  {
+    "id": 57,
+    "name": "俞府",
+    "video_url": "http://video.jiudafu.com/jlxw/俞府.mp4",
+    "thumb_url": "http://video.jiudafu.com/jlxw/俞府.jpg",
+    "code": 200
+  },
+  {
+    "id": 58,
+    "name": "偏历",
+    "video_url": "http://video.jiudafu.com/jlxw/偏历.mp4",
+    "thumb_url": "http://video.jiudafu.com/jlxw/偏历.jpg",
+    "code": 200
+  },
+  {
+    "id": 59,
+    "name": "光明",
+    "video_url": "http://video.jiudafu.com/jlxw/光明.mp4",
+    "thumb_url": "http://video.jiudafu.com/jlxw/光明.jpg",
+    "code": 200
+  },
+  {
+    "id": 60,
+    "name": "兑端",
+    "video_url": "http://video.jiudafu.com/jlxw/兑端.mp4",
+    "thumb_url": "http://video.jiudafu.com/jlxw/兑端.jpg",
+    "code": 200
+  },
+  {
+    "id": 61,
+    "name": "八邪",
+    "video_url": "http://video.jiudafu.com/jlxw/八邪.mp4",
+    "thumb_url": "http://video.jiudafu.com/jlxw/八邪.jpg",
+    "code": 200
+  },
+  {
+    "id": 62,
+    "name": "八风",
+    "video_url": "http://video.jiudafu.com/jlxw/八风.mp4",
+    "thumb_url": "http://video.jiudafu.com/jlxw/八风.jpg",
+    "code": 200
+  },
+  {
+    "code": 404
+  },
+  {
+    "id": 63,
+    "name": "公孙",
+    "video_url": "http://video.jiudafu.com/jlxw/公孙.mp4",
+    "thumb_url": "http://video.jiudafu.com/jlxw/公孙.jpg",
+    "code": 200
+  },
+  {
+    "id": 64,
+    "name": "关元",
+    "video_url": "http://video.jiudafu.com/jlxw/关元.mp4",
+    "thumb_url": "http://video.jiudafu.com/jlxw/关元.jpg",
+    "code": 200
+  },
+  {
+    "id": 65,
+    "name": "关元俞",
+    "video_url": "http://video.jiudafu.com/jlxw/关元俞.mp4",
+    "thumb_url": "http://video.jiudafu.com/jlxw/关元俞.jpg",
+    "code": 200
+  },
+  {
+    "id": 66,
+    "name": "关冲",
+    "video_url": "http://video.jiudafu.com/jlxw/关冲.mp4",
+    "thumb_url": "http://video.jiudafu.com/jlxw/关冲.jpg",
+    "code": 200
+  },
+  {
+    "id": 67,
+    "name": "关门",
+    "video_url": "http://video.jiudafu.com/jlxw/关门.mp4",
+    "thumb_url": "http://video.jiudafu.com/jlxw/关门.jpg",
+    "code": 200
+  },
+  {
+    "id": 68,
+    "name": "养老",
+    "video_url": "http://video.jiudafu.com/jlxw/养老.mp4",
+    "thumb_url": "http://video.jiudafu.com/jlxw/养老.jpg",
+    "code": 200
+  },
+  {
+    "id": 69,
+    "name": "内关",
+    "video_url": "http://video.jiudafu.com/jlxw/内关.mp4",
+    "thumb_url": "http://video.jiudafu.com/jlxw/内关.jpg",
+    "code": 200
+  },
+  {
+    "id": 70,
+    "name": "内庭",
+    "video_url": "http://video.jiudafu.com/jlxw/内庭.mp4",
+    "thumb_url": "http://video.jiudafu.com/jlxw/内庭.jpg",
+    "code": 200
+  },
+  {
+    "id": 71,
+    "name": "内踝尖",
+    "video_url": "http://video.jiudafu.com/jlxw/内踝尖.mp4",
+    "thumb_url": "http://video.jiudafu.com/jlxw/内踝尖.jpg",
+    "code": 200
+  },
+  {
+    "code": 404
+  },
+  {
+    "id": 72,
+    "name": "冲门",
+    "video_url": "http://video.jiudafu.com/jlxw/冲门.mp4",
+    "thumb_url": "http://video.jiudafu.com/jlxw/冲门.jpg",
+    "code": 200
+  },
+  {
+    "id": 73,
+    "name": "冲阳",
+    "video_url": "http://video.jiudafu.com/jlxw/冲阳.mp4",
+    "thumb_url": "http://video.jiudafu.com/jlxw/冲阳.jpg",
+    "code": 200
+  },
+  {
+    "id": 74,
+    "name": "列缺",
+    "video_url": "http://video.jiudafu.com/jlxw/列缺.mp4",
+    "thumb_url": "http://video.jiudafu.com/jlxw/列缺.jpg",
+    "code": 200
+  },
+  {
+    "id": 75,
+    "name": "前谷",
+    "video_url": "http://video.jiudafu.com/jlxw/前谷.mp4",
+    "thumb_url": "http://video.jiudafu.com/jlxw/前谷.jpg",
+    "code": 200
+  },
+  {
+    "id": 76,
+    "name": "前顶",
+    "video_url": "http://video.jiudafu.com/jlxw/前顶.mp4",
+    "thumb_url": "http://video.jiudafu.com/jlxw/前顶.jpg",
+    "code": 200
+  },
+  {
+    "id": 77,
+    "name": "劳宫",
+    "video_url": "http://video.jiudafu.com/jlxw/劳宫.mp4",
+    "thumb_url": "http://video.jiudafu.com/jlxw/劳宫.jpg",
+    "code": 200
+  },
+  {
+    "id": 78,
+    "name": "十七椎",
+    "video_url": "http://video.jiudafu.com/jlxw/十七椎.mp4",
+    "thumb_url": "http://video.jiudafu.com/jlxw/十七椎.jpg",
+    "code": 200
+  },
+  {
+    "code": 404
+  },
+  {
+    "id": 79,
+    "name": "十宣",
+    "video_url": "http://video.jiudafu.com/jlxw/十宣.mp4",
+    "thumb_url": "http://video.jiudafu.com/jlxw/十宣.jpg",
+    "code": 200
+  },
+  {
+    "id": 80,
+    "name": "华盖",
+    "video_url": "http://video.jiudafu.com/jlxw/华盖.mp4",
+    "thumb_url": "http://video.jiudafu.com/jlxw/华盖.jpg",
+    "code": 200
+  },
+  {
+    "id": 81,
+    "name": "印堂",
+    "video_url": "http://video.jiudafu.com/jlxw/印堂.mp4",
+    "thumb_url": "http://video.jiudafu.com/jlxw/印堂.jpg",
+    "code": 200
+  },
+  {
+    "id": 82,
+    "name": "厉兑",
+    "video_url": "http://video.jiudafu.com/jlxw/厉兑.mp4",
+    "thumb_url": "http://video.jiudafu.com/jlxw/厉兑.jpg",
+    "code": 200
+  },
+  {
+    "id": 83,
+    "name": "厥阴俞",
+    "video_url": "http://video.jiudafu.com/jlxw/厥阴俞.mp4",
+    "thumb_url": "http://video.jiudafu.com/jlxw/厥阴俞.jpg",
+    "code": 200
+  },
+  {
+    "id": 84,
+    "name": "口禾髎",
+    "video_url": "http://video.jiudafu.com/jlxw/口禾髎.mp4",
+    "thumb_url": "http://video.jiudafu.com/jlxw/口禾髎.jpg",
+    "code": 200
+  },
+  {
+    "id": 85,
+    "name": "合谷",
+    "video_url": "http://video.jiudafu.com/jlxw/合谷.mp4",
+    "thumb_url": "http://video.jiudafu.com/jlxw/合谷.jpg",
+    "code": 200
+  },
+  {
+    "id": 86,
+    "name": "合阳",
+    "video_url": "http://video.jiudafu.com/jlxw/合阳.mp4",
+    "thumb_url": "http://video.jiudafu.com/jlxw/合阳.jpg",
+    "code": 200
+  },
+  {
+    "id": 87,
+    "name": "后溪",
+    "video_url": "http://video.jiudafu.com/jlxw/后溪.mp4",
+    "thumb_url": "http://video.jiudafu.com/jlxw/后溪.jpg",
+    "code": 200
+  },
+  {
+    "id": 88,
+    "name": "后顶",
+    "video_url": "http://video.jiudafu.com/jlxw/后顶.mp4",
+    "thumb_url": "http://video.jiudafu.com/jlxw/后顶.jpg",
+    "code": 200
+  },
+  {
+    "id": 89,
+    "name": "听会",
+    "video_url": "http://video.jiudafu.com/jlxw/听会.mp4",
+    "thumb_url": "http://video.jiudafu.com/jlxw/听会.jpg",
+    "code": 200
+  },
+  {
+    "id": 90,
+    "name": "听宫",
+    "video_url": "http://video.jiudafu.com/jlxw/听宫.mp4",
+    "thumb_url": "http://video.jiudafu.com/jlxw/听宫.jpg",
+    "code": 200
+  },
+  {
+    "id": 91,
+    "name": "周荣",
+    "video_url": "http://video.jiudafu.com/jlxw/周荣.mp4",
+    "thumb_url": "http://video.jiudafu.com/jlxw/周荣.jpg",
+    "code": 200
+  },
+  {
+    "id": 92,
+    "name": "命门",
+    "video_url": "http://video.jiudafu.com/jlxw/命门.mp4",
+    "thumb_url": "http://video.jiudafu.com/jlxw/命门.jpg",
+    "code": 200
+  },
+  {
+    "id": 93,
+    "name": "哑门",
+    "video_url": "http://video.jiudafu.com/jlxw/哑门.mp4",
+    "thumb_url": "http://video.jiudafu.com/jlxw/哑门.jpg",
+    "code": 200
+  },
+  {
+    "id": 94,
+    "name": "商丘",
+    "video_url": "http://video.jiudafu.com/jlxw/商丘.mp4",
+    "thumb_url": "http://video.jiudafu.com/jlxw/商丘.jpg",
+    "code": 200
+  },
+  null,
+  {
+    "id": 96,
+    "name": "商阳",
+    "video_url": "http://video.jiudafu.com/jlxw/商阳.mp4",
+    "thumb_url": "http://video.jiudafu.com/jlxw/商阳.jpg",
+    "code": 200
+  },
+  {
+    "id": 97,
+    "name": "四渎",
+    "video_url": "http://video.jiudafu.com/jlxw/四渎.mp4",
+    "thumb_url": "http://video.jiudafu.com/jlxw/四渎.jpg",
+    "code": 200
+  },
+  {
+    "id": 98,
+    "name": "四满",
+    "video_url": "http://video.jiudafu.com/jlxw/四满.mp4",
+    "thumb_url": "http://video.jiudafu.com/jlxw/四满.jpg",
+    "code": 200
+  },
+  {
+    "id": 99,
+    "name": "四白",
+    "video_url": "http://video.jiudafu.com/jlxw/四白.mp4",
+    "thumb_url": "http://video.jiudafu.com/jlxw/四白.jpg",
+    "code": 200
+  },
+  {
+    "id": 100,
+    "name": "四神聪",
+    "video_url": "http://video.jiudafu.com/jlxw/四神聪.mp4",
+    "thumb_url": "http://video.jiudafu.com/jlxw/四神聪.jpg",
+    "code": 200
+  },
+  {
+    "id": 101,
+    "name": "四缝",
+    "video_url": "http://video.jiudafu.com/jlxw/四缝.mp4",
+    "thumb_url": "http://video.jiudafu.com/jlxw/四缝.jpg",
+    "code": 200
+  },
+  {
+    "id": 102,
+    "name": "囟会",
+    "video_url": "http://video.jiudafu.com/jlxw/囟会.mp4",
+    "thumb_url": "http://video.jiudafu.com/jlxw/囟会.jpg",
+    "code": 200
+  },
+  {
+    "id": 103,
+    "name": "地五会",
+    "video_url": "http://video.jiudafu.com/jlxw/地五会.mp4",
+    "thumb_url": "http://video.jiudafu.com/jlxw/地五会.jpg",
+    "code": 200
+  },
+  {
+    "id": 104,
+    "name": "地仓",
+    "video_url": "http://video.jiudafu.com/jlxw/地仓.mp4",
+    "thumb_url": "http://video.jiudafu.com/jlxw/地仓.jpg",
+    "code": 200
+  },
+  {
+    "id": 105,
+    "name": "地机",
+    "video_url": "http://video.jiudafu.com/jlxw/地机.mp4",
+    "thumb_url": "http://video.jiudafu.com/jlxw/地机.jpg",
+    "code": 200
+  },
+  {
+    "id": 106,
+    "name": "复溜",
+    "video_url": "http://video.jiudafu.com/jlxw/复溜.mp4",
+    "thumb_url": "http://video.jiudafu.com/jlxw/复溜.jpg",
+    "code": 200
+  },
+  {
+    "id": 107,
+    "name": "外丘",
+    "video_url": "http://video.jiudafu.com/jlxw/外丘.mp4",
+    "thumb_url": "http://video.jiudafu.com/jlxw/外丘.jpg",
+    "code": 200
+  },
+  {
+    "id": 108,
+    "name": "外关",
+    "video_url": "http://video.jiudafu.com/jlxw/外关.mp4",
+    "thumb_url": "http://video.jiudafu.com/jlxw/外关.jpg",
+    "code": 200
+  },
+  {
+    "id": 109,
+    "name": "外劳宫",
+    "video_url": "http://video.jiudafu.com/jlxw/外劳宫.mp4",
+    "thumb_url": "http://video.jiudafu.com/jlxw/外劳宫.jpg",
+    "code": 200
+  },
+  {
+    "id": 110,
+    "name": "外踝尖",
+    "video_url": "http://video.jiudafu.com/jlxw/外踝尖.mp4",
+    "thumb_url": "http://video.jiudafu.com/jlxw/外踝尖.jpg",
+    "code": 200
+  },
+  {
+    "id": 111,
+    "name": "外陵",
+    "video_url": "http://video.jiudafu.com/jlxw/外陵.mp4",
+    "thumb_url": "http://video.jiudafu.com/jlxw/外陵.jpg",
+    "code": 200
+  },
+  {
+    "id": 112,
+    "name": "大包",
+    "video_url": "http://video.jiudafu.com/jlxw/大包.mp4",
+    "thumb_url": "http://video.jiudafu.com/jlxw/大包.jpg",
+    "code": 200
+  },
+  {
+    "id": 113,
+    "name": "大巨",
+    "video_url": "http://video.jiudafu.com/jlxw/大巨.mp4",
+    "thumb_url": "http://video.jiudafu.com/jlxw/大巨.jpg",
+    "code": 200
+  },
+  {
+    "id": 114,
+    "name": "大敦",
+    "video_url": "http://video.jiudafu.com/jlxw/大敦.mp4",
+    "thumb_url": "http://video.jiudafu.com/jlxw/大敦.jpg",
+    "code": 200
+  },
+  {
+    "id": 115,
+    "name": "大杼",
+    "video_url": "http://video.jiudafu.com/jlxw/大杼.mp4",
+    "thumb_url": "http://video.jiudafu.com/jlxw/大杼.jpg",
+    "code": 200
+  },
+  {
+    "id": 116,
+    "name": "大椎",
+    "video_url": "http://video.jiudafu.com/jlxw/大椎.mp4",
+    "thumb_url": "http://video.jiudafu.com/jlxw/大椎.jpg",
+    "code": 200
+  },
+  {
+    "id": 117,
+    "name": "大横",
+    "video_url": "http://video.jiudafu.com/jlxw/大横.mp4",
+    "thumb_url": "http://video.jiudafu.com/jlxw/大横.jpg",
+    "code": 200
+  },
+  {
+    "id": 118,
+    "name": "大肠俞",
+    "video_url": "http://video.jiudafu.com/jlxw/大肠俞.mp4",
+    "thumb_url": "http://video.jiudafu.com/jlxw/大肠俞.jpg",
+    "code": 200
+  },
+  {
+    "id": 119,
+    "name": "大赫",
+    "video_url": "http://video.jiudafu.com/jlxw/大赫.mp4",
+    "thumb_url": "http://video.jiudafu.com/jlxw/大赫.jpg",
+    "code": 200
+  },
+  {
+    "id": 120,
+    "name": "大迎",
+    "video_url": "http://video.jiudafu.com/jlxw/大迎.mp4",
+    "thumb_url": "http://video.jiudafu.com/jlxw/大迎.jpg",
+    "code": 200
+  },
+  {
+    "id": 121,
+    "name": "大都",
+    "video_url": "http://video.jiudafu.com/jlxw/大都.mp4",
+    "thumb_url": "http://video.jiudafu.com/jlxw/大都.jpg",
+    "code": 200
+  },
+  {
+    "id": 122,
+    "name": "大钟",
+    "video_url": "http://video.jiudafu.com/jlxw/大钟.mp4",
+    "thumb_url": "http://video.jiudafu.com/jlxw/大钟.jpg",
+    "code": 200
+  },
+  {
+    "id": 123,
+    "name": "大陵",
+    "video_url": "http://video.jiudafu.com/jlxw/大陵.mp4",
+    "thumb_url": "http://video.jiudafu.com/jlxw/大陵.jpg",
+    "code": 200
+  },
+  {
+    "id": 124,
+    "name": "大骨空",
+    "video_url": "http://video.jiudafu.com/jlxw/大骨空.mp4",
+    "thumb_url": "http://video.jiudafu.com/jlxw/大骨空.jpg",
+    "code": 200
+  },
+  {
+    "id": 125,
+    "name": "天井",
+    "video_url": "http://video.jiudafu.com/jlxw/天井.mp4",
+    "thumb_url": "http://video.jiudafu.com/jlxw/天井.jpg",
+    "code": 200
+  },
+  {
+    "id": 126,
+    "name": "天冲",
+    "video_url": "http://video.jiudafu.com/jlxw/天冲.mp4",
+    "thumb_url": "http://video.jiudafu.com/jlxw/天冲.jpg",
+    "code": 200
+  },
+  {
+    "id": 127,
+    "name": "天宗",
+    "video_url": "http://video.jiudafu.com/jlxw/天宗.mp4",
+    "thumb_url": "http://video.jiudafu.com/jlxw/天宗.jpg",
+    "code": 200
+  },
+  {
+    "id": 128,
+    "name": "天容",
+    "video_url": "http://video.jiudafu.com/jlxw/天容.mp4",
+    "thumb_url": "http://video.jiudafu.com/jlxw/天容.jpg",
+    "code": 200
+  },
+  {
+    "id": 129,
+    "name": "天府",
+    "video_url": "http://video.jiudafu.com/jlxw/天府.mp4",
+    "thumb_url": "http://video.jiudafu.com/jlxw/天府.jpg",
+    "code": 200
+  },
+  {
+    "id": 130,
+    "name": "天枢",
+    "video_url": "http://video.jiudafu.com/jlxw/天枢.mp4",
+    "thumb_url": null,
+    "code": 200
+  },
+  {
+    "id": 131,
+    "name": "天柱",
+    "video_url": "http://video.jiudafu.com/jlxw/天柱.mp4",
+    "thumb_url": "http://video.jiudafu.com/jlxw/天柱.jpg",
+    "code": 200
+  },
+  {
+    "id": 132,
+    "name": "天池",
+    "video_url": "http://video.jiudafu.com/jlxw/天池.mp4",
+    "thumb_url": "http://video.jiudafu.com/jlxw/天池.jpg",
+    "code": 200
+  },
+  {
+    "id": 133,
+    "name": "天泉",
+    "video_url": "http://video.jiudafu.com/jlxw/天泉.mp4",
+    "thumb_url": "http://video.jiudafu.com/jlxw/天泉.jpg",
+    "code": 200
+  },
+  {
+    "id": 134,
+    "name": "天溪",
+    "video_url": "http://video.jiudafu.com/jlxw/天溪.mp4",
+    "thumb_url": "http://video.jiudafu.com/jlxw/天溪.jpg",
+    "code": 200
+  },
+  {
+    "id": 135,
+    "name": "天牖",
+    "video_url": "http://video.jiudafu.com/jlxw/天牖.mp4",
+    "thumb_url": "http://video.jiudafu.com/jlxw/天牖.jpg",
+    "code": 200
+  },
+  {
+    "id": 136,
+    "name": "天突",
+    "video_url": "http://video.jiudafu.com/jlxw/天突.mp4",
+    "thumb_url": "http://video.jiudafu.com/jlxw/天突.jpg",
+    "code": 200
+  },
+  {
+    "id": 137,
+    "name": "天窗",
+    "video_url": "http://video.jiudafu.com/jlxw/天窗.mp4",
+    "thumb_url": "http://video.jiudafu.com/jlxw/天窗.jpg",
+    "code": 200
+  },
+  {
+    "id": 138,
+    "name": "天髎",
+    "video_url": "http://video.jiudafu.com/jlxw/天髎.mp4",
+    "thumb_url": "http://video.jiudafu.com/jlxw/天髎.jpg",
+    "code": 200
+  },
+  {
+    "id": 139,
+    "name": "天鼎",
+    "video_url": "http://video.jiudafu.com/jlxw/天鼎.mp4",
+    "thumb_url": "http://video.jiudafu.com/jlxw/天鼎.jpg",
+    "code": 200
+  },
+  {
+    "id": 140,
+    "name": "太乙",
+    "video_url": "http://video.jiudafu.com/jlxw/太乙.mp4",
+    "thumb_url": "http://video.jiudafu.com/jlxw/太乙.jpg",
+    "code": 200
+  },
+  {
+    "id": 141,
+    "name": "太冲",
+    "video_url": "http://video.jiudafu.com/jlxw/太冲.mp4",
+    "thumb_url": "http://video.jiudafu.com/jlxw/太冲.jpg",
+    "code": 200
+  },
+  {
+    "id": 142,
+    "name": "太渊",
+    "video_url": "http://video.jiudafu.com/jlxw/太渊.mp4",
+    "thumb_url": "http://video.jiudafu.com/jlxw/太渊.jpg",
+    "code": 200
+  },
+  {
+    "id": 143,
+    "name": "太溪",
+    "video_url": "http://video.jiudafu.com/jlxw/太溪.mp4",
+    "thumb_url": "http://video.jiudafu.com/jlxw/太溪.jpg",
+    "code": 200
+  },
+  {
+    "id": 144,
+    "name": "太白",
+    "video_url": "http://video.jiudafu.com/jlxw/太白.mp4",
+    "thumb_url": "http://video.jiudafu.com/jlxw/太白.jpg",
+    "code": 200
+  },
+  {
+    "id": 145,
+    "name": "太阳",
+    "video_url": "http://video.jiudafu.com/jlxw/太阳.mp4",
+    "thumb_url": "http://video.jiudafu.com/jlxw/太阳.jpg",
+    "code": 200
+  },
+  {
+    "id": 146,
+    "name": "头临泣",
+    "video_url": "http://video.jiudafu.com/jlxw/头临泣.mp4",
+    "thumb_url": "http://video.jiudafu.com/jlxw/头临泣.jpg",
+    "code": 200
+  },
+  {
+    "id": 147,
+    "name": "头窍阴",
+    "video_url": "http://video.jiudafu.com/jlxw/头窍阴.mp4",
+    "thumb_url": "http://video.jiudafu.com/jlxw/头窍阴.jpg",
+    "code": 200
+  },
+  {
+    "id": 148,
+    "name": "头维",
+    "video_url": "http://video.jiudafu.com/jlxw/头维.mp4",
+    "thumb_url": "http://video.jiudafu.com/jlxw/头维.jpg",
+    "code": 200
+  },
+  {
+    "id": 149,
+    "name": "夹承浆",
+    "video_url": "http://video.jiudafu.com/jlxw/夹承浆.mp4",
+    "thumb_url": "http://video.jiudafu.com/jlxw/夹承浆.jpg",
+    "code": 200
+  },
+  {
+    "code": 404
+  },
+  {
+    "id": 150,
+    "name": "女膝",
+    "video_url": "http://video.jiudafu.com/jlxw/女膝.mp4",
+    "thumb_url": "http://video.jiudafu.com/jlxw/女膝.jpg",
+    "code": 200
+  },
+  {
+    "id": 151,
+    "name": "委中",
+    "video_url": "http://video.jiudafu.com/jlxw/委中.mp4",
+    "thumb_url": "http://video.jiudafu.com/jlxw/委中.jpg",
+    "code": 200
+  },
+  {
+    "id": 152,
+    "name": "委阳",
+    "video_url": "http://video.jiudafu.com/jlxw/委阳.mp4",
+    "thumb_url": "http://video.jiudafu.com/jlxw/委阳.jpg",
+    "code": 200
+  },
+  {
+    "id": 153,
+    "name": "子宫",
+    "video_url": "http://video.jiudafu.com/jlxw/子宫.mp4",
+    "thumb_url": "http://video.jiudafu.com/jlxw/子宫.jpg",
+    "code": 200
+  },
+  {
+    "id": 154,
+    "name": "孔最",
+    "video_url": "http://video.jiudafu.com/jlxw/孔最.mp4",
+    "thumb_url": "http://video.jiudafu.com/jlxw/孔最.jpg",
+    "code": 200
+  },
+  {
+    "id": 155,
+    "name": "安眠",
+    "video_url": "http://video.jiudafu.com/jlxw/安眠.mp4",
+    "thumb_url": "http://video.jiudafu.com/jlxw/安眠.jpg",
+    "code": 200
+  },
+  {
+    "id": 156,
+    "name": "完骨",
+    "video_url": "http://video.jiudafu.com/jlxw/完骨.mp4",
+    "thumb_url": "http://video.jiudafu.com/jlxw/完骨.jpg",
+    "code": 200
+  },
+  {
+    "id": 157,
+    "name": "定喘",
+    "video_url": "http://video.jiudafu.com/jlxw/定喘.mp4",
+    "thumb_url": "http://video.jiudafu.com/jlxw/定喘.jpg",
+    "code": 200
+  },
+  {
+    "id": 158,
+    "name": "小海",
+    "video_url": "http://video.jiudafu.com/jlxw/小海.mp4",
+    "thumb_url": "http://video.jiudafu.com/jlxw/小海.jpg",
+    "code": 200
+  },
+  {
+    "id": 159,
+    "name": "小肠俞",
+    "video_url": "http://video.jiudafu.com/jlxw/小肠俞.mp4",
+    "thumb_url": "http://video.jiudafu.com/jlxw/小肠俞.jpg",
+    "code": 200
+  },
+  {
+    "id": 160,
+    "name": "小骨空",
+    "video_url": "http://video.jiudafu.com/jlxw/小骨空.mp4",
+    "thumb_url": "http://video.jiudafu.com/jlxw/小骨空.jpg",
+    "code": 200
+  },
+  {
+    "id": 161,
+    "name": "少冲",
+    "video_url": "http://video.jiudafu.com/jlxw/少冲.mp4",
+    "thumb_url": "http://video.jiudafu.com/jlxw/少冲.jpg",
+    "code": 200
+  },
+  {
+    "id": 162,
+    "name": "少商",
+    "video_url": "http://video.jiudafu.com/jlxw/少商.mp4",
+    "thumb_url": "http://video.jiudafu.com/jlxw/少商.jpg",
+    "code": 200
+  },
+  {
+    "id": 163,
+    "name": "少府",
+    "video_url": "http://video.jiudafu.com/jlxw/少府.mp4",
+    "thumb_url": "http://video.jiudafu.com/jlxw/少府.jpg",
+    "code": 200
+  },
+  {
+    "id": 164,
+    "name": "少泽",
+    "video_url": "http://video.jiudafu.com/jlxw/少泽.mp4",
+    "thumb_url": "http://video.jiudafu.com/jlxw/少泽.jpg",
+    "code": 200
+  },
+  {
+    "id": 165,
+    "name": "少海",
+    "video_url": "http://video.jiudafu.com/jlxw/少海.mp4",
+    "thumb_url": "http://video.jiudafu.com/jlxw/少海.jpg",
+    "code": 200
+  },
+  {
+    "id": 166,
+    "name": "尺泽",
+    "video_url": "http://video.jiudafu.com/jlxw/尺泽.mp4",
+    "thumb_url": "http://video.jiudafu.com/jlxw/尺泽.jpg",
+    "code": 200
+  },
+  {
+    "id": 167,
+    "name": "居髎",
+    "video_url": "http://video.jiudafu.com/jlxw/居髎.mp4",
+    "thumb_url": "http://video.jiudafu.com/jlxw/居髎.jpg",
+    "code": 200
+  },
+  {
+    "id": 168,
+    "name": "屋翳",
+    "video_url": "http://video.jiudafu.com/jlxw/屋翳.mp4",
+    "thumb_url": "http://video.jiudafu.com/jlxw/屋翳.jpg",
+    "code": 200
+  },
+  {
+    "id": 169,
+    "name": "巨阙",
+    "video_url": "http://video.jiudafu.com/jlxw/巨阙.mp4",
+    "thumb_url": "http://video.jiudafu.com/jlxw/巨阙.jpg",
+    "code": 200
+  },
+  {
+    "id": 170,
+    "name": "巨骨",
+    "video_url": "http://video.jiudafu.com/jlxw/巨骨.mp4",
+    "thumb_url": "http://video.jiudafu.com/jlxw/巨骨.jpg",
+    "code": 200
+  },
+  {
+    "id": 171,
+    "name": "巨髎",
+    "video_url": "http://video.jiudafu.com/jlxw/巨髎.mp4",
+    "thumb_url": "http://video.jiudafu.com/jlxw/巨髎.jpg",
+    "code": 200
+  },
+  {
+    "id": 172,
+    "name": "带脉",
+    "video_url": "http://video.jiudafu.com/jlxw/带脉.mp4",
+    "thumb_url": "http://video.jiudafu.com/jlxw/带脉.jpg",
+    "code": 200
+  },
+  {
+    "id": 173,
+    "name": "幽门",
+    "video_url": "http://video.jiudafu.com/jlxw/幽门.mp4",
+    "thumb_url": "http://video.jiudafu.com/jlxw/幽门.jpg",
+    "code": 200
+  },
+  {
+    "id": 174,
+    "name": "库房",
+    "video_url": "http://video.jiudafu.com/jlxw/库房.mp4",
+    "thumb_url": "http://video.jiudafu.com/jlxw/库房.jpg",
+    "code": 200
+  },
+  {
+    "id": 175,
+    "name": "府舍",
+    "video_url": "http://video.jiudafu.com/jlxw/府舍.mp4",
+    "thumb_url": "http://video.jiudafu.com/jlxw/府舍.jpg",
+    "code": 200
+  },
+  {
+    "id": 176,
+    "name": "廉泉",
+    "video_url": "http://video.jiudafu.com/jlxw/廉泉.mp4",
+    "thumb_url": "http://video.jiudafu.com/jlxw/廉泉.jpg",
+    "code": 200
+  },
+  {
+    "id": 177,
+    "name": "建里",
+    "video_url": "http://video.jiudafu.com/jlxw/建里.mp4",
+    "thumb_url": "http://video.jiudafu.com/jlxw/建里.jpg",
+    "code": 200
+  },
+  {
+    "id": 178,
+    "name": "强间",
+    "video_url": "http://video.jiudafu.com/jlxw/强间.mp4",
+    "thumb_url": "http://video.jiudafu.com/jlxw/强间.jpg",
+    "code": 200
+  },
+  {
+    "id": 179,
+    "name": "归来",
+    "video_url": "http://video.jiudafu.com/jlxw/归来.mp4",
+    "thumb_url": "http://video.jiudafu.com/jlxw/归来.jpg",
+    "code": 200
+  },
+  {
+    "id": 180,
+    "name": "当阳",
+    "video_url": "http://video.jiudafu.com/jlxw/当阳.mp4",
+    "thumb_url": "http://video.jiudafu.com/jlxw/当阳.jpg",
+    "code": 200
+  },
+  {
+    "id": 181,
+    "name": "彧中",
+    "video_url": "http://video.jiudafu.com/jlxw/彧中.mp4",
+    "thumb_url": "http://video.jiudafu.com/jlxw/彧中.jpg",
+    "code": 200
+  },
+  {
+    "id": 182,
+    "name": "心俞",
+    "video_url": "http://video.jiudafu.com/jlxw/心俞.mp4",
+    "thumb_url": "http://video.jiudafu.com/jlxw/心俞.jpg",
+    "code": 200
+  },
+  {
+    "id": 183,
+    "name": "志室",
+    "video_url": "http://video.jiudafu.com/jlxw/志室.mp4",
+    "thumb_url": "http://video.jiudafu.com/jlxw/志室.jpg",
+    "code": 200
+  },
+  {
+    "id": 184,
+    "name": "急脉",
+    "video_url": "http://video.jiudafu.com/jlxw/急脉.mp4",
+    "thumb_url": "http://video.jiudafu.com/jlxw/急脉.jpg",
+    "code": 200
+  },
+  {
+    "id": 185,
+    "name": "悬厘",
+    "video_url": "http://video.jiudafu.com/jlxw/悬厘.mp4",
+    "thumb_url": "http://video.jiudafu.com/jlxw/悬厘.jpg",
+    "code": 200
+  },
+  {
+    "id": 186,
+    "name": "悬枢",
+    "video_url": "http://video.jiudafu.com/jlxw/悬枢.mp4",
+    "thumb_url": "http://video.jiudafu.com/jlxw/悬枢.jpg",
+    "code": 200
+  },
+  {
+    "id": 187,
+    "name": "悬钟",
+    "video_url": "http://video.jiudafu.com/jlxw/悬钟.mp4",
+    "thumb_url": "http://video.jiudafu.com/jlxw/悬钟.jpg",
+    "code": 200
+  },
+  {
+    "id": 188,
+    "name": "悬颅",
+    "video_url": "http://video.jiudafu.com/jlxw/悬颅.mp4",
+    "thumb_url": "http://video.jiudafu.com/jlxw/悬颅.jpg",
+    "code": 200
+  },
+  {
+    "id": 189,
+    "name": "意舍",
+    "video_url": "http://video.jiudafu.com/jlxw/意舍.mp4",
+    "thumb_url": "http://video.jiudafu.com/jlxw/意舍.jpg",
+    "code": 200
+  },
+  {
+    "id": 190,
+    "name": "手三里",
+    "video_url": "http://video.jiudafu.com/jlxw/手三里.mp4",
+    "thumb_url": "http://video.jiudafu.com/jlxw/手三里.jpg",
+    "code": 200
+  },
+  {
+    "id": 191,
+    "name": "手五里",
+    "video_url": "http://video.jiudafu.com/jlxw/手五里.mp4",
+    "thumb_url": "http://video.jiudafu.com/jlxw/手五里.jpg",
+    "code": 200
+  },
+  {
+    "id": 192,
+    "name": "扶突",
+    "video_url": "http://video.jiudafu.com/jlxw/扶突.mp4",
+    "thumb_url": "http://video.jiudafu.com/jlxw/扶突.jpg",
+    "code": 200
+  },
+  {
+    "id": 193,
+    "name": "承光",
+    "video_url": "http://video.jiudafu.com/jlxw/承光.mp4",
+    "thumb_url": "http://video.jiudafu.com/jlxw/承光.jpg",
+    "code": 200
+  },
+  {
+    "id": 194,
+    "name": "承山",
+    "video_url": "http://video.jiudafu.com/jlxw/承山.mp4",
+    "thumb_url": "http://video.jiudafu.com/jlxw/承山.jpg",
+    "code": 200
+  },
+  {
+    "id": 195,
+    "name": "承扶",
+    "video_url": "http://video.jiudafu.com/jlxw/承扶.mp4",
+    "thumb_url": "http://video.jiudafu.com/jlxw/承扶.jpg",
+    "code": 200
+  },
+  {
+    "id": 196,
+    "name": "承泣",
+    "video_url": "http://video.jiudafu.com/jlxw/承泣.mp4",
+    "thumb_url": "http://video.jiudafu.com/jlxw/承泣.jpg",
+    "code": 200
+  },
+  {
+    "id": 197,
+    "name": "承浆",
+    "video_url": "http://video.jiudafu.com/jlxw/承浆.mp4",
+    "thumb_url": "http://video.jiudafu.com/jlxw/承浆.jpg",
+    "code": 200
+  },
+  {
+    "id": 198,
+    "name": "承满",
+    "video_url": "http://video.jiudafu.com/jlxw/承满.mp4",
+    "thumb_url": "http://video.jiudafu.com/jlxw/承满.jpg",
+    "code": 200
+  },
+  {
+    "id": 199,
+    "name": "承灵",
+    "video_url": "http://video.jiudafu.com/jlxw/承灵.mp4",
+    "thumb_url": "http://video.jiudafu.com/jlxw/承灵.jpg",
+    "code": 200
+  },
+  {
+    "id": 200,
+    "name": "承筋",
+    "video_url": "http://video.jiudafu.com/jlxw/承筋.mp4",
+    "thumb_url": "http://video.jiudafu.com/jlxw/承筋.jpg",
+    "code": 200
+  },
+  {
+    "id": 201,
+    "name": "攒竹",
+    "video_url": "http://video.jiudafu.com/jlxw/攒竹.mp4",
+    "thumb_url": "http://video.jiudafu.com/jlxw/攒竹.jpg",
+    "code": 200
+  },
+  {
+    "id": 202,
+    "name": "支正",
+    "video_url": "http://video.jiudafu.com/jlxw/支正.mp4",
+    "thumb_url": "http://video.jiudafu.com/jlxw/支正.jpg",
+    "code": 200
+  },
+  {
+    "id": 203,
+    "name": "支沟",
+    "video_url": "http://video.jiudafu.com/jlxw/支沟.mp4",
+    "thumb_url": "http://video.jiudafu.com/jlxw/支沟.jpg",
+    "code": 200
+  },
+  {
+    "id": 204,
+    "name": "日月",
+    "video_url": "http://video.jiudafu.com/jlxw/日月.mp4",
+    "thumb_url": "http://video.jiudafu.com/jlxw/日月.jpg",
+    "code": 200
+  },
+  {
+    "id": 205,
+    "name": "昆仑",
+    "video_url": "http://video.jiudafu.com/jlxw/昆仑.mp4",
+    "thumb_url": "http://video.jiudafu.com/jlxw/昆仑.jpg",
+    "code": 200
+  },
+  {
+    "id": 206,
+    "name": "曲垣",
+    "video_url": "http://video.jiudafu.com/jlxw/曲垣.mp4",
+    "thumb_url": "http://video.jiudafu.com/jlxw/曲垣.jpg",
+    "code": 200
+  },
+  {
+    "id": 207,
+    "name": "曲差",
+    "video_url": "http://video.jiudafu.com/jlxw/曲差.mp4",
+    "thumb_url": "http://video.jiudafu.com/jlxw/曲差.jpg",
+    "code": 200
+  },
+  {
+    "id": 208,
+    "name": "曲池",
+    "video_url": "http://video.jiudafu.com/jlxw/曲池.mp4",
+    "thumb_url": "http://video.jiudafu.com/jlxw/曲池.jpg",
+    "code": 200
+  },
+  {
+    "id": 209,
+    "name": "曲泉",
+    "video_url": "http://video.jiudafu.com/jlxw/曲泉.mp4",
+    "thumb_url": "http://video.jiudafu.com/jlxw/曲泉.jpg",
+    "code": 200
+  },
+  {
+    "id": 210,
+    "name": "曲泽",
+    "video_url": "http://video.jiudafu.com/jlxw/曲泽.mp4",
+    "thumb_url": "http://video.jiudafu.com/jlxw/曲泽.jpg",
+    "code": 200
+  },
+  {
+    "id": 211,
+    "name": "曲骨",
+    "video_url": "http://video.jiudafu.com/jlxw/曲骨.mp4",
+    "thumb_url": "http://video.jiudafu.com/jlxw/曲骨.jpg",
+    "code": 200
+  },
+  {
+    "id": 212,
+    "name": "曲鬓",
+    "video_url": "http://video.jiudafu.com/jlxw/曲鬓.mp4",
+    "thumb_url": "http://video.jiudafu.com/jlxw/曲鬓.jpg",
+    "code": 200
+  },
+  {
+    "id": 213,
+    "name": "期门",
+    "video_url": "http://video.jiudafu.com/jlxw/期门.mp4",
+    "thumb_url": "http://video.jiudafu.com/jlxw/期门.jpg",
+    "code": 200
+  },
+  {
+    "id": 214,
+    "name": "本神",
+    "video_url": "http://video.jiudafu.com/jlxw/本神.mp4",
+    "thumb_url": "http://video.jiudafu.com/jlxw/本神.jpg",
+    "code": 200
+  },
+  {
+    "id": 215,
+    "name": "束骨",
+    "video_url": "http://video.jiudafu.com/jlxw/束骨.mp4",
+    "thumb_url": "http://video.jiudafu.com/jlxw/束骨.jpg",
+    "code": 200
+  },
+  {
+    "id": 216,
+    "name": "条口",
+    "video_url": "http://video.jiudafu.com/jlxw/条口.mp4",
+    "thumb_url": "http://video.jiudafu.com/jlxw/条口.jpg",
+    "code": 200
+  },
+  {
+    "id": 217,
+    "name": "极泉",
+    "video_url": "http://video.jiudafu.com/jlxw/极泉.mp4",
+    "thumb_url": "http://video.jiudafu.com/jlxw/极泉.jpg",
+    "code": 200
+  },
+  {
+    "id": 218,
+    "name": "梁丘",
+    "video_url": "http://video.jiudafu.com/jlxw/梁丘.mp4",
+    "thumb_url": "http://video.jiudafu.com/jlxw/梁丘.jpg",
+    "code": 200
+  },
+  {
+    "id": 219,
+    "name": "梁门",
+    "video_url": "http://video.jiudafu.com/jlxw/梁门.mp4",
+    "thumb_url": "http://video.jiudafu.com/jlxw/梁门.jpg",
+    "code": 200
+  },
+  {
+    "id": 220,
+    "name": "横骨",
+    "video_url": "http://video.jiudafu.com/jlxw/横骨.mp4",
+    "thumb_url": "http://video.jiudafu.com/jlxw/横骨.jpg",
+    "code": 200
+  },
+  {
+    "id": 221,
+    "name": "次髎",
+    "video_url": "http://video.jiudafu.com/jlxw/次髎.mp4",
+    "thumb_url": "http://video.jiudafu.com/jlxw/次髎.jpg",
+    "code": 200
+  },
+  {
+    "id": 222,
+    "name": "正营",
+    "video_url": "http://video.jiudafu.com/jlxw/正营.mp4",
+    "thumb_url": "http://video.jiudafu.com/jlxw/正营.jpg",
+    "code": 200
+  },
+  {
+    "id": 223,
+    "name": "步廊",
+    "video_url": "http://video.jiudafu.com/jlxw/步廊.mp4",
+    "thumb_url": "http://video.jiudafu.com/jlxw/步廊.jpg",
+    "code": 200
+  },
+  {
+    "id": 224,
+    "name": "殷门",
+    "video_url": "http://video.jiudafu.com/jlxw/殷门.mp4",
+    "thumb_url": "http://video.jiudafu.com/jlxw/殷门.jpg",
+    "code": 200
+  },
+  {
+    "id": 225,
+    "name": "气冲",
+    "video_url": "http://video.jiudafu.com/jlxw/气冲.mp4",
+    "thumb_url": "http://video.jiudafu.com/jlxw/气冲.jpg",
+    "code": 200
+  },
+  {
+    "id": 226,
+    "name": "气户",
+    "video_url": "http://video.jiudafu.com/jlxw/气户.mp4",
+    "thumb_url": "http://video.jiudafu.com/jlxw/气户.jpg",
+    "code": 200
+  },
+  {
+    "id": 227,
+    "name": "气海",
+    "video_url": "http://video.jiudafu.com/jlxw/气海.mp4",
+    "thumb_url": "http://video.jiudafu.com/jlxw/气海.jpg",
+    "code": 200
+  },
+  {
+    "id": 228,
+    "name": "气海俞",
+    "video_url": "http://video.jiudafu.com/jlxw/气海俞.mp4",
+    "thumb_url": "http://video.jiudafu.com/jlxw/气海俞.jpg",
+    "code": 200
+  },
+  {
+    "id": 229,
+    "name": "气穴",
+    "video_url": "http://video.jiudafu.com/jlxw/气穴.mp4",
+    "thumb_url": "http://video.jiudafu.com/jlxw/气穴.jpg",
+    "code": 200
+  },
+  {
+    "id": 230,
+    "name": "气端",
+    "video_url": "http://video.jiudafu.com/jlxw/气端.mp4",
+    "thumb_url": "http://video.jiudafu.com/jlxw/气端.jpg",
+    "code": 200
+  },
+  {
+    "id": 231,
+    "name": "气舍",
+    "video_url": "http://video.jiudafu.com/jlxw/气舍.mp4",
+    "thumb_url": "http://video.jiudafu.com/jlxw/气舍.jpg",
+    "code": 200
+  },
+  {
+    "id": 232,
+    "name": "水分",
+    "video_url": "http://video.jiudafu.com/jlxw/水分.mp4",
+    "thumb_url": "http://video.jiudafu.com/jlxw/水分.jpg",
+    "code": 200
+  },
+  {
+    "id": 233,
+    "name": "水沟",
+    "video_url": "http://video.jiudafu.com/jlxw/水沟.mp4",
+    "thumb_url": "http://video.jiudafu.com/jlxw/水沟.jpg",
+    "code": 200
+  },
+  {
+    "id": 234,
+    "name": "水泉",
+    "video_url": "http://video.jiudafu.com/jlxw/水泉.mp4",
+    "thumb_url": "http://video.jiudafu.com/jlxw/水泉.jpg",
+    "code": 200
+  },
+  {
+    "id": 235,
+    "name": "水突",
+    "video_url": "http://video.jiudafu.com/jlxw/水突.mp4",
+    "thumb_url": "http://video.jiudafu.com/jlxw/水突.jpg",
+    "code": 200
+  },
+  {
+    "id": 236,
+    "name": "水道",
+    "video_url": "http://video.jiudafu.com/jlxw/水道.mp4",
+    "thumb_url": "http://video.jiudafu.com/jlxw/水道.jpg",
+    "code": 200
+  },
+  {
+    "id": 237,
+    "name": "泽前",
+    "video_url": "http://video.jiudafu.com/jlxw/泽前.mp4",
+    "thumb_url": "http://video.jiudafu.com/jlxw/泽前.jpg",
+    "code": 200
+  },
+  {
+    "id": 238,
+    "name": "浮白",
+    "video_url": "http://video.jiudafu.com/jlxw/浮白.mp4",
+    "thumb_url": "http://video.jiudafu.com/jlxw/浮白.jpg",
+    "code": 200
+  },
+  {
+    "id": 239,
+    "name": "浮郄",
+    "video_url": "http://video.jiudafu.com/jlxw/浮郄.mp4",
+    "thumb_url": "http://video.jiudafu.com/jlxw/浮郄.jpg",
+    "code": 200
+  },
+  {
+    "id": 240,
+    "name": "海泉",
+    "video_url": "http://video.jiudafu.com/jlxw/海泉.mp4",
+    "thumb_url": "http://video.jiudafu.com/jlxw/海泉.jpg",
+    "code": 200
+  },
+  {
+    "id": 241,
+    "name": "消泺",
+    "video_url": "http://video.jiudafu.com/jlxw/消泺.mp4",
+    "thumb_url": "http://video.jiudafu.com/jlxw/消泺.jpg",
+    "code": 200
+  },
+  {
+    "id": 242,
+    "name": "消颤穴",
+    "video_url": "http://video.jiudafu.com/jlxw/消颤穴.mp4",
+    "thumb_url": null,
+    "code": 200
+  },
+  {
+    "id": 243,
+    "name": "涌泉",
+    "video_url": "http://video.jiudafu.com/jlxw/涌泉.mp4",
+    "thumb_url": "http://video.jiudafu.com/jlxw/涌泉.jpg",
+    "code": 200
+  },
+  {
+    "id": 244,
+    "name": "液门",
+    "video_url": "http://video.jiudafu.com/jlxw/液门.mp4",
+    "thumb_url": "http://video.jiudafu.com/jlxw/液门.jpg",
+    "code": 200
+  },
+  {
+    "id": 245,
+    "name": "清冷渊",
+    "video_url": "http://video.jiudafu.com/jlxw/清冷渊.mp4",
+    "thumb_url": "http://video.jiudafu.com/jlxw/清冷渊.jpg",
+    "code": 200
+  },
+  {
+    "id": 246,
+    "name": "渊腋",
+    "video_url": "http://video.jiudafu.com/jlxw/渊腋.mp4",
+    "thumb_url": "http://video.jiudafu.com/jlxw/渊腋.jpg",
+    "code": 200
+  },
+  {
+    "id": 247,
+    "name": "温溜",
+    "video_url": "http://video.jiudafu.com/jlxw/温溜.mp4",
+    "thumb_url": "http://video.jiudafu.com/jlxw/温溜.jpg",
+    "code": 200
+  },
+  {
+    "id": 248,
+    "name": "滑肉门",
+    "video_url": "http://video.jiudafu.com/jlxw/滑肉门.mp4",
+    "thumb_url": "http://video.jiudafu.com/jlxw/滑肉门.jpg",
+    "code": 200
+  },
+  {
+    "id": 249,
+    "name": "漏谷",
+    "video_url": "http://video.jiudafu.com/jlxw/漏谷.mp4",
+    "thumb_url": "http://video.jiudafu.com/jlxw/漏谷.jpg",
+    "code": 200
+  },
+  {
+    "id": 250,
+    "name": "灵台",
+    "video_url": "http://video.jiudafu.com/jlxw/灵台.mp4",
+    "thumb_url": "http://video.jiudafu.com/jlxw/灵台.jpg",
+    "code": 200
+  },
+  {
+    "id": 251,
+    "name": "灵墟",
+    "video_url": "http://video.jiudafu.com/jlxw/灵墟.mp4",
+    "thumb_url": "http://video.jiudafu.com/jlxw/灵墟.jpg",
+    "code": 200
+  },
+  {
+    "id": 252,
+    "name": "灵道",
+    "video_url": "http://video.jiudafu.com/jlxw/灵道.mp4",
+    "thumb_url": "http://video.jiudafu.com/jlxw/灵道.jpg",
+    "code": 200
+  },
+  {
+    "id": 253,
+    "name": "然谷",
+    "video_url": "http://video.jiudafu.com/jlxw/然谷.mp4",
+    "thumb_url": "http://video.jiudafu.com/jlxw/然谷.jpg",
+    "code": 200
+  },
+  {
+    "id": 254,
+    "name": "照海",
+    "video_url": "http://video.jiudafu.com/jlxw/照海.mp4",
+    "thumb_url": "http://video.jiudafu.com/jlxw/照海.jpg",
+    "code": 200
+  },
+  {
+    "id": 255,
+    "name": "牵正",
+    "video_url": "http://video.jiudafu.com/jlxw/牵正.mp4",
+    "thumb_url": "http://video.jiudafu.com/jlxw/牵正.jpg",
+    "code": 200
+  },
+  {
+    "id": 256,
+    "name": "犊鼻",
+    "video_url": "http://video.jiudafu.com/jlxw/犊鼻.mp4",
+    "thumb_url": "http://video.jiudafu.com/jlxw/犊鼻.jpg",
+    "code": 200
+  },
+  {
+    "id": 257,
+    "name": "独阴",
+    "video_url": "http://video.jiudafu.com/jlxw/独阴.mp4",
+    "thumb_url": "http://video.jiudafu.com/jlxw/独阴.jpg",
+    "code": 200
+  },
+  {
+    "id": 258,
+    "name": "率谷",
+    "video_url": "http://video.jiudafu.com/jlxw/率谷.mp4",
+    "thumb_url": "http://video.jiudafu.com/jlxw/率谷.jpg",
+    "code": 200
+  },
+  {
+    "id": 259,
+    "name": "玉堂",
+    "video_url": "http://video.jiudafu.com/jlxw/玉堂.mp4",
+    "thumb_url": "http://video.jiudafu.com/jlxw/玉堂.jpg",
+    "code": 200
+  },
+  {
+    "id": 260,
+    "name": "玉枕",
+    "video_url": "http://video.jiudafu.com/jlxw/玉枕.mp4",
+    "thumb_url": "http://video.jiudafu.com/jlxw/玉枕.jpg",
+    "code": 200
+  },
+  {
+    "id": 261,
+    "name": "环中",
+    "video_url": "http://video.jiudafu.com/jlxw/环中.mp4",
+    "thumb_url": "http://video.jiudafu.com/jlxw/环中.jpg",
+    "code": 200
+  },
+  {
+    "id": 262,
+    "name": "环跳",
+    "video_url": "http://video.jiudafu.com/jlxw/环跳.mp4",
+    "thumb_url": "http://video.jiudafu.com/jlxw/环跳.jpg",
+    "code": 200
+  },
+  {
+    "id": 263,
+    "name": "球后",
+    "video_url": "http://video.jiudafu.com/jlxw/球后.mp4",
+    "thumb_url": "http://video.jiudafu.com/jlxw/球后.jpg",
+    "code": 200
+  },
+  {
+    "id": 264,
+    "name": "璇玑",
+    "video_url": "http://video.jiudafu.com/jlxw/璇玑.mp4",
+    "thumb_url": "http://video.jiudafu.com/jlxw/璇玑.jpg",
+    "code": 200
+  },
+  {
+    "id": 265,
+    "name": "生发穴",
+    "video_url": "http://video.jiudafu.com/jlxw/生发穴.mp4",
+    "thumb_url": null,
+    "code": 200
+  },
+  {
+    "id": 266,
+    "name": "申脉",
+    "video_url": "http://video.jiudafu.com/jlxw/申脉.mp4",
+    "thumb_url": "http://video.jiudafu.com/jlxw/申脉.jpg",
+    "code": 200
+  },
+  {
+    "id": 267,
+    "name": "疔俞",
+    "video_url": "http://video.jiudafu.com/jlxw/疔俞.mp4",
+    "thumb_url": "http://video.jiudafu.com/jlxw/疔俞.jpg",
+    "code": 200
+  },
+  {
+    "id": 268,
+    "name": "痞根",
+    "video_url": "http://video.jiudafu.com/jlxw/痞根.mp4",
+    "thumb_url": "http://video.jiudafu.com/jlxw/痞根.jpg",
+    "code": 200
+  },
+  {
+    "id": 269,
+    "name": "瘈脉",
+    "video_url": "http://video.jiudafu.com/jlxw/瘈脉.mp4",
+    "thumb_url": "http://video.jiudafu.com/jlxw/瘈脉.jpg",
+    "code": 200
+  },
+  {
+    "id": 270,
+    "name": "瘰疬",
+    "video_url": "http://video.jiudafu.com/jlxw/瘰疬.mp4",
+    "thumb_url": "http://video.jiudafu.com/jlxw/瘰疬.jpg",
+    "code": 200
+  },
+  {
+    "id": 271,
+    "name": "瘰疬灸",
+    "video_url": "http://video.jiudafu.com/jlxw/瘰疬灸.mp4",
+    "thumb_url": "http://video.jiudafu.com/jlxw/瘰疬灸.jpg",
+    "code": 200
+  },
+  {
+    "id": 272,
+    "name": "白环俞",
+    "video_url": "http://video.jiudafu.com/jlxw/白环俞.mp4",
+    "thumb_url": "http://video.jiudafu.com/jlxw/白环俞.jpg",
+    "code": 200
+  },
+  {
+    "id": 273,
+    "name": "百会",
+    "video_url": "http://video.jiudafu.com/jlxw/百会.mp4",
+    "thumb_url": "http://video.jiudafu.com/jlxw/百会.jpg",
+    "code": 200
+  },
+  {
+    "id": 274,
+    "name": "百虫窝",
+    "video_url": "http://video.jiudafu.com/jlxw/百虫窝.mp4",
+    "thumb_url": "http://video.jiudafu.com/jlxw/百虫窝.jpg",
+    "code": 200
+  },
+  {
+    "id": 275,
+    "name": "目窗",
+    "video_url": "http://video.jiudafu.com/jlxw/目窗.mp4",
+    "thumb_url": "http://video.jiudafu.com/jlxw/目窗.jpg",
+    "code": 200
+  },
+  {
+    "id": 276,
+    "name": "眉冲",
+    "video_url": "http://video.jiudafu.com/jlxw/眉冲.mp4",
+    "thumb_url": "http://video.jiudafu.com/jlxw/眉冲.jpg",
+    "code": 200
+  },
+  {
+    "id": 277,
+    "name": "睛明",
+    "video_url": "http://video.jiudafu.com/jlxw/睛明.mp4",
+    "thumb_url": "http://video.jiudafu.com/jlxw/睛明.jpg",
+    "code": 200
+  },
+  {
+    "id": 278,
+    "name": "督俞",
+    "video_url": "http://video.jiudafu.com/jlxw/督俞.mp4",
+    "thumb_url": "http://video.jiudafu.com/jlxw/督俞.jpg",
+    "code": 200
+  },
+  {
+    "id": 279,
+    "name": "瞳子髎",
+    "video_url": "http://video.jiudafu.com/jlxw/瞳子髎.mp4",
+    "thumb_url": "http://video.jiudafu.com/jlxw/瞳子髎.jpg",
+    "code": 200
+  },
+  {
+    "id": 280,
+    "name": "石关",
+    "video_url": "http://video.jiudafu.com/jlxw/石关.mp4",
+    "thumb_url": "http://video.jiudafu.com/jlxw/石关.jpg",
+    "code": 200
+  },
+  {
+    "id": 281,
+    "name": "石门",
+    "video_url": "http://video.jiudafu.com/jlxw/石门.mp4",
+    "thumb_url": "http://video.jiudafu.com/jlxw/石门.jpg",
+    "code": 200
+  },
+  {
+    "id": 282,
+    "name": "神堂",
+    "video_url": "http://video.jiudafu.com/jlxw/神堂.mp4",
+    "thumb_url": "http://video.jiudafu.com/jlxw/神堂.jpg",
+    "code": 200
+  },
+  {
+    "id": 283,
+    "name": "神封",
+    "video_url": "http://video.jiudafu.com/jlxw/神封.mp4",
+    "thumb_url": "http://video.jiudafu.com/jlxw/神封.jpg",
+    "code": 200
+  },
+  {
+    "id": 284,
+    "name": "神庭",
+    "video_url": "http://video.jiudafu.com/jlxw/神庭.mp4",
+    "thumb_url": "http://video.jiudafu.com/jlxw/神庭.jpg",
+    "code": 200
+  },
+  {
+    "id": 285,
+    "name": "神藏",
+    "video_url": "http://video.jiudafu.com/jlxw/神藏.mp4",
+    "thumb_url": "http://video.jiudafu.com/jlxw/神藏.jpg",
+    "code": 200
+  },
+  {
+    "id": 286,
+    "name": "神道",
+    "video_url": "http://video.jiudafu.com/jlxw/神道.mp4",
+    "thumb_url": "http://video.jiudafu.com/jlxw/神道.jpg",
+    "code": 200
+  },
+  {
+    "id": 287,
+    "name": "神门",
+    "video_url": "http://video.jiudafu.com/jlxw/神门.mp4",
+    "thumb_url": "http://video.jiudafu.com/jlxw/神门.jpg",
+    "code": 200
+  },
+  {
+    "id": 288,
+    "name": "神阙",
+    "video_url": "http://video.jiudafu.com/jlxw/神阙.mp4",
+    "thumb_url": "http://video.jiudafu.com/jlxw/神阙.jpg",
+    "code": 200
+  },
+  {
+    "id": 289,
+    "name": "秉风",
+    "video_url": "http://video.jiudafu.com/jlxw/秉风.mp4",
+    "thumb_url": "http://video.jiudafu.com/jlxw/秉风.jpg",
+    "code": 200
+  },
+  {
+    "id": 290,
+    "name": "秩边",
+    "video_url": "http://video.jiudafu.com/jlxw/秩边.mp4",
+    "thumb_url": "http://video.jiudafu.com/jlxw/秩边.jpg",
+    "code": 200
+  },
+  {
+    "id": 291,
+    "name": "章门",
+    "video_url": "http://video.jiudafu.com/jlxw/章门.mp4",
+    "thumb_url": "http://video.jiudafu.com/jlxw/章门.jpg",
+    "code": 200
+  },
+  {
+    "id": 292,
+    "name": "筋缩",
+    "video_url": "http://video.jiudafu.com/jlxw/筋缩.mp4",
+    "thumb_url": "http://video.jiudafu.com/jlxw/筋缩.jpg",
+    "code": 200
+  },
+  {
+    "id": 293,
+    "name": "筑宾",
+    "video_url": "http://video.jiudafu.com/jlxw/筑宾.mp4",
+    "thumb_url": "http://video.jiudafu.com/jlxw/筑宾.jpg",
+    "code": 200
+  },
+  {
+    "id": 294,
+    "name": "箕门",
+    "video_url": "http://video.jiudafu.com/jlxw/箕门.mp4",
+    "thumb_url": "http://video.jiudafu.com/jlxw/箕门.jpg",
+    "code": 200
+  },
+  {
+    "id": 295,
+    "name": "素髎",
+    "video_url": "http://video.jiudafu.com/jlxw/素髎.mp4",
+    "thumb_url": "http://video.jiudafu.com/jlxw/素髎.jpg",
+    "code": 200
+  },
+  {
+    "id": 296,
+    "name": "紫宫",
+    "video_url": "http://video.jiudafu.com/jlxw/紫宫.mp4",
+    "thumb_url": "http://video.jiudafu.com/jlxw/紫宫.jpg",
+    "code": 200
+  },
+  {
+    "id": 297,
+    "name": "经渠",
+    "video_url": "http://video.jiudafu.com/jlxw/经渠.mp4",
+    "thumb_url": "http://video.jiudafu.com/jlxw/经渠.jpg",
+    "code": 200
+  },
+  {
+    "id": 298,
+    "name": "络却",
+    "video_url": "http://video.jiudafu.com/jlxw/络却.mp4",
+    "thumb_url": "http://video.jiudafu.com/jlxw/络却.jpg",
+    "code": 200
+  },
+  {
+    "id": 299,
+    "name": "维道",
+    "video_url": "http://video.jiudafu.com/jlxw/维道.mp4",
+    "thumb_url": "http://video.jiudafu.com/jlxw/维道.jpg",
+    "code": 200
+  },
+  {
+    "id": 300,
+    "name": "缺盆",
+    "video_url": "http://video.jiudafu.com/jlxw/缺盆.mp4",
+    "thumb_url": "http://video.jiudafu.com/jlxw/缺盆.jpg",
+    "code": 200
+  },
+  {
+    "id": 301,
+    "name": "翳明",
+    "video_url": "http://video.jiudafu.com/jlxw/翳明.mp4",
+    "thumb_url": "http://video.jiudafu.com/jlxw/翳明.jpg",
+    "code": 200
+  },
+  {
+    "id": 302,
+    "name": "翳风",
+    "video_url": "http://video.jiudafu.com/jlxw/翳风.mp4",
+    "thumb_url": "http://video.jiudafu.com/jlxw/翳风.jpg",
+    "code": 200
+  },
+  {
+    "id": 303,
+    "name": "耳和髎",
+    "video_url": "http://video.jiudafu.com/jlxw/耳和髎.mp4",
+    "thumb_url": "http://video.jiudafu.com/jlxw/耳和髎.jpg",
+    "code": 200
+  },
+  {
+    "id": 304,
+    "name": "耳尖",
+    "video_url": "http://video.jiudafu.com/jlxw/耳尖.mp4",
+    "thumb_url": "http://video.jiudafu.com/jlxw/耳尖.jpg",
+    "code": 200
+  },
+  {
+    "id": 305,
+    "name": "耳门",
+    "video_url": "http://video.jiudafu.com/jlxw/耳门.mp4",
+    "thumb_url": "http://video.jiudafu.com/jlxw/耳门.jpg",
+    "code": 200
+  },
+  {
+    "id": 306,
+    "name": "聚泉",
+    "video_url": "http://video.jiudafu.com/jlxw/聚泉.mp4",
+    "thumb_url": "http://video.jiudafu.com/jlxw/聚泉.jpg",
+    "code": 200
+  },
+  {
+    "id": 307,
+    "name": "肓俞",
+    "video_url": "http://video.jiudafu.com/jlxw/肓俞.mp4",
+    "thumb_url": "http://video.jiudafu.com/jlxw/肓俞.jpg",
+    "code": 200
+  },
+  {
+    "id": 308,
+    "name": "肓门",
+    "video_url": "http://video.jiudafu.com/jlxw/肓门.mp4",
+    "thumb_url": "http://video.jiudafu.com/jlxw/肓门.jpg",
+    "code": 200
+  },
+  {
+    "id": 309,
+    "name": "肘尖",
+    "video_url": "http://video.jiudafu.com/jlxw/肘尖.mp4",
+    "thumb_url": "http://video.jiudafu.com/jlxw/肘尖.jpg",
+    "code": 200
+  },
+  {
+    "id": 310,
+    "name": "肘髎",
+    "video_url": "http://video.jiudafu.com/jlxw/肘髎.mp4",
+    "thumb_url": "http://video.jiudafu.com/jlxw/肘髎.jpg",
+    "code": 200
+  },
+  {
+    "id": 311,
+    "name": "肝俞",
+    "video_url": "http://video.jiudafu.com/jlxw/肝俞.mp4",
+    "thumb_url": "http://video.jiudafu.com/jlxw/肝俞.jpg",
+    "code": 200
+  },
+  {
+    "id": 312,
+    "name": "肩中俞",
+    "video_url": "http://video.jiudafu.com/jlxw/肩中俞.mp4",
+    "thumb_url": "http://video.jiudafu.com/jlxw/肩中俞.jpg",
+    "code": 200
+  },
+  {
+    "id": 313,
+    "name": "肩井",
+    "video_url": "http://video.jiudafu.com/jlxw/肩井.mp4",
+    "thumb_url": "http://video.jiudafu.com/jlxw/肩井.jpg",
+    "code": 200
+  },
+  {
+    "id": 314,
+    "name": "肩前",
+    "video_url": "http://video.jiudafu.com/jlxw/肩前.mp4",
+    "thumb_url": "http://video.jiudafu.com/jlxw/肩前.jpg",
+    "code": 200
+  },
+  {
+    "id": 315,
+    "name": "肩外俞",
+    "video_url": "http://video.jiudafu.com/jlxw/肩外俞.mp4",
+    "thumb_url": "http://video.jiudafu.com/jlxw/肩外俞.jpg",
+    "code": 200
+  },
+  {
+    "id": 316,
+    "name": "肩贞",
+    "video_url": "http://video.jiudafu.com/jlxw/肩贞.mp4",
+    "thumb_url": "http://video.jiudafu.com/jlxw/肩贞.jpg",
+    "code": 200
+  },
+  {
+    "id": 317,
+    "name": "肩髃",
+    "video_url": "http://video.jiudafu.com/jlxw/肩髃.mp4",
+    "thumb_url": "http://video.jiudafu.com/jlxw/肩髃.jpg",
+    "code": 200
+  },
+  {
+    "id": 318,
+    "name": "肩髎",
+    "video_url": "http://video.jiudafu.com/jlxw/肩髎.mp4",
+    "thumb_url": "http://video.jiudafu.com/jlxw/肩髎.jpg",
+    "code": 200
+  },
+  {
+    "id": 319,
+    "name": "肺俞",
+    "video_url": "http://video.jiudafu.com/jlxw/肺俞.mp4",
+    "thumb_url": "http://video.jiudafu.com/jlxw/肺俞.jpg",
+    "code": 200
+  },
+  {
+    "id": 320,
+    "name": "肾俞",
+    "video_url": "http://video.jiudafu.com/jlxw/肾俞.mp4",
+    "thumb_url": "http://video.jiudafu.com/jlxw/肾俞.jpg",
+    "code": 200
+  },
+  {
+    "id": 321,
+    "name": "胃仓",
+    "video_url": "http://video.jiudafu.com/jlxw/胃仓.mp4",
+    "thumb_url": "http://video.jiudafu.com/jlxw/胃仓.jpg",
+    "code": 200
+  },
+  {
+    "id": 322,
+    "name": "胃俞",
+    "video_url": "http://video.jiudafu.com/jlxw/胃俞.mp4",
+    "thumb_url": "http://video.jiudafu.com/jlxw/胃俞.jpg",
+    "code": 200
+  },
+  {
+    "id": 323,
+    "name": "胃脘下俞",
+    "video_url": "http://video.jiudafu.com/jlxw/胃脘下俞.mp4",
+    "thumb_url": "http://video.jiudafu.com/jlxw/胃脘下俞.jpg",
+    "code": 200
+  },
+  {
+    "id": 324,
+    "name": "胆俞",
+    "video_url": "http://video.jiudafu.com/jlxw/胆俞.mp4",
+    "thumb_url": "http://video.jiudafu.com/jlxw/胆俞.jpg",
+    "code": 200
+  },
+  {
+    "id": 325,
+    "name": "胆囊",
+    "video_url": "http://video.jiudafu.com/jlxw/胆囊.mp4",
+    "thumb_url": "http://video.jiudafu.com/jlxw/胆囊.jpg",
+    "code": 200
+  },
+  {
+    "id": 326,
+    "name": "胞肓",
+    "video_url": "http://video.jiudafu.com/jlxw/胞肓.mp4",
+    "thumb_url": "http://video.jiudafu.com/jlxw/胞肓.jpg",
+    "code": 200
+  },
+  {
+    "id": 327,
+    "name": "胸乡",
+    "video_url": "http://video.jiudafu.com/jlxw/胸乡.mp4",
+    "thumb_url": "http://video.jiudafu.com/jlxw/胸乡.jpg",
+    "code": 200
+  },
+  {
+    "id": 328,
+    "name": "脊中",
+    "video_url": "http://video.jiudafu.com/jlxw/脊中.mp4",
+    "thumb_url": "http://video.jiudafu.com/jlxw/脊中.jpg",
+    "code": 200
+  },
+  {
+    "id": 329,
+    "name": "脑户",
+    "video_url": "http://video.jiudafu.com/jlxw/脑户.mp4",
+    "thumb_url": "http://video.jiudafu.com/jlxw/脑户.jpg",
+    "code": 200
+  },
+  {
+    "id": 330,
+    "name": "脑空",
+    "video_url": "http://video.jiudafu.com/jlxw/脑空.mp4",
+    "thumb_url": "http://video.jiudafu.com/jlxw/脑空.jpg",
+    "code": 200
+  },
+  {
+    "id": 331,
+    "name": "脾俞",
+    "video_url": "http://video.jiudafu.com/jlxw/脾俞.mp4",
+    "thumb_url": "http://video.jiudafu.com/jlxw/脾俞.jpg",
+    "code": 200
+  },
+  {
+    "id": 332,
+    "name": "腕骨",
+    "video_url": "http://video.jiudafu.com/jlxw/腕骨.mp4",
+    "thumb_url": "http://video.jiudafu.com/jlxw/腕骨.jpg",
+    "code": 200
+  },
+  {
+    "id": 333,
+    "name": "腰俞",
+    "video_url": "http://video.jiudafu.com/jlxw/腰俞.mp4",
+    "thumb_url": "http://video.jiudafu.com/jlxw/腰俞.jpg",
+    "code": 200
+  },
+  {
+    "id": 334,
+    "name": "腰奇",
+    "video_url": "http://video.jiudafu.com/jlxw/腰奇.mp4",
+    "thumb_url": "http://video.jiudafu.com/jlxw/腰奇.jpg",
+    "code": 200
+  },
+  {
+    "id": 335,
+    "name": "腰痛点",
+    "video_url": "http://video.jiudafu.com/jlxw/腰痛点.mp4",
+    "thumb_url": "http://video.jiudafu.com/jlxw/腰痛点.jpg",
+    "code": 200
+  },
+  {
+    "id": 336,
+    "name": "腰眼",
+    "video_url": "http://video.jiudafu.com/jlxw/腰眼.mp4",
+    "thumb_url": "http://video.jiudafu.com/jlxw/腰眼.jpg",
+    "code": 200
+  },
+  {
+    "id": 337,
+    "name": "腰阳关",
+    "video_url": "http://video.jiudafu.com/jlxw/腰阳关.mp4",
+    "thumb_url": "http://video.jiudafu.com/jlxw/腰阳关.jpg",
+    "code": 200
+  },
+  {
+    "id": 338,
+    "name": "腹哀",
+    "video_url": "http://video.jiudafu.com/jlxw/腹哀.mp4",
+    "thumb_url": "http://video.jiudafu.com/jlxw/腹哀.jpg",
+    "code": 200
+  },
+  {
+    "id": 339,
+    "name": "腹结",
+    "video_url": "http://video.jiudafu.com/jlxw/腹结.mp4",
+    "thumb_url": "http://video.jiudafu.com/jlxw/腹结.jpg",
+    "code": 200
+  },
+  {
+    "id": 340,
+    "name": "腹通谷",
+    "video_url": "http://video.jiudafu.com/jlxw/腹通谷.mp4",
+    "thumb_url": "http://video.jiudafu.com/jlxw/腹通谷.jpg",
+    "code": 200
+  },
+  {
+    "id": 341,
+    "name": "膀胱俞",
+    "video_url": "http://video.jiudafu.com/jlxw/膀胱俞.mp4",
+    "thumb_url": "http://video.jiudafu.com/jlxw/膀胱俞.jpg",
+    "code": 200
+  },
+  {
+    "id": 342,
+    "name": "膈俞",
+    "video_url": "http://video.jiudafu.com/jlxw/膈俞.mp4",
+    "thumb_url": "http://video.jiudafu.com/jlxw/膈俞.jpg",
+    "code": 200
+  },
+  {
+    "id": 343,
+    "name": "膈关",
+    "video_url": "http://video.jiudafu.com/jlxw/膈关.mp4",
+    "thumb_url": "http://video.jiudafu.com/jlxw/膈关.jpg",
+    "code": 200
+  },
+  {
+    "id": 344,
+    "name": "膏肓",
+    "video_url": "http://video.jiudafu.com/jlxw/膏肓.mp4",
+    "thumb_url": "http://video.jiudafu.com/jlxw/膏肓.jpg",
+    "code": 200
+  },
+  {
+    "id": 345,
+    "name": "膝关",
+    "video_url": "http://video.jiudafu.com/jlxw/膝关.mp4",
+    "thumb_url": "http://video.jiudafu.com/jlxw/膝关.jpg",
+    "code": 200
+  },
+  {
+    "id": 346,
+    "name": "膝眼",
+    "video_url": "http://video.jiudafu.com/jlxw/膝眼.mp4",
+    "thumb_url": "http://video.jiudafu.com/jlxw/膝眼.jpg",
+    "code": 200
+  },
+  {
+    "id": 347,
+    "name": "膝阳关",
+    "video_url": "http://video.jiudafu.com/jlxw/膝阳关.mp4",
+    "thumb_url": "http://video.jiudafu.com/jlxw/膝阳关.jpg",
+    "code": 200
+  },
+  {
+    "id": 348,
+    "name": "膺窗",
+    "video_url": "http://video.jiudafu.com/jlxw/膺窗.mp4",
+    "thumb_url": "http://video.jiudafu.com/jlxw/膺窗.jpg",
+    "code": 200
+  },
+  {
+    "id": 349,
+    "name": "膻中",
+    "video_url": "http://video.jiudafu.com/jlxw/膻中.mp4",
+    "thumb_url": "http://video.jiudafu.com/jlxw/膻中.jpg",
+    "code": 200
+  },
+  {
+    "id": 350,
+    "name": "臂臑",
+    "video_url": "http://video.jiudafu.com/jlxw/臂臑.mp4",
+    "thumb_url": "http://video.jiudafu.com/jlxw/臂臑.jpg",
+    "code": 200
+  },
+  {
+    "id": 351,
+    "name": "臑会",
+    "video_url": "http://video.jiudafu.com/jlxw/臑会.mp4",
+    "thumb_url": "http://video.jiudafu.com/jlxw/臑会.jpg",
+    "code": 200
+  },
+  {
+    "id": 352,
+    "name": "臑俞",
+    "video_url": "http://video.jiudafu.com/jlxw/臑俞.mp4",
+    "thumb_url": "http://video.jiudafu.com/jlxw/臑俞.jpg",
+    "code": 200
+  },
+  {
+    "id": 353,
+    "name": "至阳",
+    "video_url": "http://video.jiudafu.com/jlxw/至阳.mp4",
+    "thumb_url": "http://video.jiudafu.com/jlxw/至阳.jpg",
+    "code": 200
+  },
+  {
+    "id": 354,
+    "name": "至阴",
+    "video_url": "http://video.jiudafu.com/jlxw/至阴.mp4",
+    "thumb_url": "http://video.jiudafu.com/jlxw/至阴.jpg",
+    "code": 200
+  },
+  {
+    "id": 355,
+    "name": "蠡沟",
+    "video_url": "http://video.jiudafu.com/jlxw/蠡沟.mp4",
+    "thumb_url": "http://video.jiudafu.com/jlxw/蠡沟.jpg",
+    "code": 200
+  },
+  {
+    "id": 356,
+    "name": "血海",
+    "video_url": "http://video.jiudafu.com/jlxw/血海.mp4",
+    "thumb_url": "http://video.jiudafu.com/jlxw/血海.jpg",
+    "code": 200
+  },
+  {
+    "id": 357,
+    "name": "行间",
+    "video_url": "http://video.jiudafu.com/jlxw/行间.mp4",
+    "thumb_url": "http://video.jiudafu.com/jlxw/行间.jpg",
+    "code": 200
+  },
+  {
+    "id": 358,
+    "name": "角孙",
+    "video_url": "http://video.jiudafu.com/jlxw/角孙.mp4",
+    "thumb_url": "http://video.jiudafu.com/jlxw/角孙.jpg",
+    "code": 200
+  },
+  {
+    "id": 359,
+    "name": "解溪",
+    "video_url": "http://video.jiudafu.com/jlxw/解溪.mp4",
+    "thumb_url": "http://video.jiudafu.com/jlxw/解溪.jpg",
+    "code": 200
+  },
+  {
+    "id": 360,
+    "name": "譩譆",
+    "video_url": "http://video.jiudafu.com/jlxw/譩譆.mp4",
+    "thumb_url": "http://video.jiudafu.com/jlxw/譩譆.jpg",
+    "code": 200
+  },
+  {
+    "id": 361,
+    "name": "足三里",
+    "video_url": "http://video.jiudafu.com/jlxw/足三里.mp4",
+    "thumb_url": "http://video.jiudafu.com/jlxw/足三里.jpg",
+    "code": 200
+  },
+  {
+    "id": 362,
+    "name": "足临泣",
+    "video_url": "http://video.jiudafu.com/jlxw/足临泣.mp4",
+    "thumb_url": "http://video.jiudafu.com/jlxw/足临泣.jpg",
+    "code": 200
+  },
+  {
+    "id": 363,
+    "name": "足五里",
+    "video_url": "http://video.jiudafu.com/jlxw/足五里.mp4",
+    "thumb_url": "http://video.jiudafu.com/jlxw/足五里.jpg",
+    "code": 200
+  },
+  {
+    "id": 364,
+    "name": "足窍阴",
+    "video_url": "http://video.jiudafu.com/jlxw/足窍阴.mp4",
+    "thumb_url": "http://video.jiudafu.com/jlxw/足窍阴.jpg",
+    "code": 200
+  },
+  {
+    "id": 365,
+    "name": "足通谷",
+    "video_url": "http://video.jiudafu.com/jlxw/足通谷.mp4",
+    "thumb_url": "http://video.jiudafu.com/jlxw/足通谷.jpg",
+    "code": 200
+  },
+  {
+    "id": 366,
+    "name": "跗阳",
+    "video_url": "http://video.jiudafu.com/jlxw/跗阳.mp4",
+    "thumb_url": "http://video.jiudafu.com/jlxw/跗阳.jpg",
+    "code": 200
+  },
+  {
+    "id": 367,
+    "name": "身柱",
+    "video_url": "http://video.jiudafu.com/jlxw/身柱.mp4",
+    "thumb_url": "http://video.jiudafu.com/jlxw/身柱.jpg",
+    "code": 200
+  },
+  {
+    "id": 368,
+    "name": "辄筋",
+    "video_url": "http://video.jiudafu.com/jlxw/辄筋.mp4",
+    "thumb_url": "http://video.jiudafu.com/jlxw/辄筋.jpg",
+    "code": 200
+  },
+  {
+    "id": 369,
+    "name": "迎香",
+    "video_url": "http://video.jiudafu.com/jlxw/迎香.mp4",
+    "thumb_url": "http://video.jiudafu.com/jlxw/迎香.jpg",
+    "code": 200
+  },
+  {
+    "id": 370,
+    "name": "通天",
+    "video_url": "http://video.jiudafu.com/jlxw/通天.mp4",
+    "thumb_url": "http://video.jiudafu.com/jlxw/通天.jpg",
+    "code": 200
+  },
+  {
+    "id": 371,
+    "name": "通里",
+    "video_url": "http://video.jiudafu.com/jlxw/通里.mp4",
+    "thumb_url": "http://video.jiudafu.com/jlxw/通里.jpg",
+    "code": 200
+  },
+  {
+    "id": 372,
+    "name": "郄门",
+    "video_url": "http://video.jiudafu.com/jlxw/郄门.mp4",
+    "thumb_url": "http://video.jiudafu.com/jlxw/郄门.jpg",
+    "code": 200
+  },
+  {
+    "id": 373,
+    "name": "金津、玉液",
+    "video_url": "http://video.jiudafu.com/jlxw/金津、玉液.mp4",
+    "thumb_url": "http://video.jiudafu.com/jlxw/金津、玉液.jpg",
+    "code": 200
+  },
+  {
+    "id": 374,
+    "name": "金门",
+    "video_url": "http://video.jiudafu.com/jlxw/金门.mp4",
+    "thumb_url": "http://video.jiudafu.com/jlxw/金门.jpg",
+    "code": 200
+  },
+  {
+    "code": 404
+  },
+  {
+    "id": 375,
+    "name": "间使",
+    "video_url": "http://video.jiudafu.com/jlxw/间使.mp4",
+    "thumb_url": "http://video.jiudafu.com/jlxw/间使.jpg",
+    "code": 200
+  },
+  {
+    "id": 376,
+    "name": "阑尾",
+    "video_url": "http://video.jiudafu.com/jlxw/阑尾.mp4",
+    "thumb_url": "http://video.jiudafu.com/jlxw/阑尾.jpg",
+    "code": 200
+  },
+  {
+    "id": 377,
+    "name": "阳交",
+    "video_url": "http://video.jiudafu.com/jlxw/阳交.mp4",
+    "thumb_url": "http://video.jiudafu.com/jlxw/阳交.jpg",
+    "code": 200
+  },
+  {
+    "id": 378,
+    "name": "阳池",
+    "video_url": "http://video.jiudafu.com/jlxw/阳池.mp4",
+    "thumb_url": "http://video.jiudafu.com/jlxw/阳池.jpg",
+    "code": 200
+  },
+  {
+    "id": 379,
+    "name": "阳溪",
+    "video_url": "http://video.jiudafu.com/jlxw/阳溪.mp4",
+    "thumb_url": "http://video.jiudafu.com/jlxw/阳溪.jpg",
+    "code": 200
+  },
+  {
+    "id": 380,
+    "name": "阳白",
+    "video_url": "http://video.jiudafu.com/jlxw/阳白.mp4",
+    "thumb_url": "http://video.jiudafu.com/jlxw/阳白.jpg",
+    "code": 200
+  },
+  {
+    "id": 381,
+    "name": "阳纲",
+    "video_url": "http://video.jiudafu.com/jlxw/阳纲.mp4",
+    "thumb_url": null,
+    "code": 200
+  },
+  {
+    "id": 382,
+    "name": "阳谷",
+    "video_url": "http://video.jiudafu.com/jlxw/阳谷.mp4",
+    "thumb_url": "http://video.jiudafu.com/jlxw/阳谷.jpg",
+    "code": 200
+  },
+  {
+    "id": 383,
+    "name": "阳辅",
+    "video_url": "http://video.jiudafu.com/jlxw/阳辅.mp4",
+    "thumb_url": "http://video.jiudafu.com/jlxw/阳辅.jpg",
+    "code": 200
+  },
+  {
+    "id": 384,
+    "name": "阳陵泉",
+    "video_url": "http://video.jiudafu.com/jlxw/阳陵泉.mp4",
+    "thumb_url": "http://video.jiudafu.com/jlxw/阳陵泉.jpg",
+    "code": 200
+  },
+  {
+    "id": 385,
+    "name": "阴交",
+    "video_url": "http://video.jiudafu.com/jlxw/阴交.mp4",
+    "thumb_url": "http://video.jiudafu.com/jlxw/阴交.jpg",
+    "code": 200
+  },
+  {
+    "id": 386,
+    "name": "阴包",
+    "video_url": "http://video.jiudafu.com/jlxw/阴包.mp4",
+    "thumb_url": "http://video.jiudafu.com/jlxw/阴包.jpg",
+    "code": 200
+  },
+  {
+    "id": 387,
+    "name": "阴市",
+    "video_url": "http://video.jiudafu.com/jlxw/阴市.mp4",
+    "thumb_url": "http://video.jiudafu.com/jlxw/阴市.jpg",
+    "code": 200
+  },
+  {
+    "id": 388,
+    "name": "阴廉",
+    "video_url": "http://video.jiudafu.com/jlxw/阴廉.mp4",
+    "thumb_url": "http://video.jiudafu.com/jlxw/阴廉.jpg",
+    "code": 200
+  },
+  {
+    "id": 389,
+    "name": "阴谷",
+    "video_url": "http://video.jiudafu.com/jlxw/阴谷.mp4",
+    "thumb_url": "http://video.jiudafu.com/jlxw/阴谷.jpg",
+    "code": 200
+  },
+  {
+    "id": 390,
+    "name": "阴郄",
+    "video_url": "http://video.jiudafu.com/jlxw/阴郄.mp4",
+    "thumb_url": "http://video.jiudafu.com/jlxw/阴郄.jpg",
+    "code": 200
+  },
+  {
+    "id": 391,
+    "name": "阴都",
+    "video_url": "http://video.jiudafu.com/jlxw/阴都.mp4",
+    "thumb_url": "http://video.jiudafu.com/jlxw/阴都.jpg",
+    "code": 200
+  },
+  {
+    "id": 392,
+    "name": "阴陵泉",
+    "video_url": "http://video.jiudafu.com/jlxw/阴陵泉.mp4",
+    "thumb_url": "http://video.jiudafu.com/jlxw/阴陵泉.jpg",
+    "code": 200
+  },
+  {
+    "code": 404
+  },
+  {
+    "id": 393,
+    "name": "附分",
+    "video_url": "http://video.jiudafu.com/jlxw/附分.mp4",
+    "thumb_url": "http://video.jiudafu.com/jlxw/附分.jpg",
+    "code": 200
+  },
+  {
+    "id": 394,
+    "name": "陶道",
+    "video_url": "http://video.jiudafu.com/jlxw/陶道.mp4",
+    "thumb_url": "http://video.jiudafu.com/jlxw/陶道.jpg",
+    "code": 200
+  },
+  {
+    "id": 395,
+    "name": "陷谷",
+    "video_url": "http://video.jiudafu.com/jlxw/陷谷.mp4",
+    "thumb_url": "http://video.jiudafu.com/jlxw/陷谷.jpg",
+    "code": 200
+  },
+  {
+    "id": 396,
+    "name": "隐白",
+    "video_url": "http://video.jiudafu.com/jlxw/隐白.mp4",
+    "thumb_url": "http://video.jiudafu.com/jlxw/隐白.jpg",
+    "code": 200
+  },
+  {
+    "id": 397,
+    "name": "青灵",
+    "video_url": "http://video.jiudafu.com/jlxw/青灵.mp4",
+    "thumb_url": "http://video.jiudafu.com/jlxw/青灵.jpg",
+    "code": 200
+  },
+  {
+    "id": 398,
+    "name": "颅息",
+    "video_url": "http://video.jiudafu.com/jlxw/颅息.mp4",
+    "thumb_url": "http://video.jiudafu.com/jlxw/颅息.jpg",
+    "code": 200
+  },
+  {
+    "id": 399,
+    "name": "颈四椎旁",
+    "video_url": "http://video.jiudafu.com/jlxw/颈四椎旁.mp4",
+    "thumb_url": "http://video.jiudafu.com/jlxw/颈四椎旁.jpg",
+    "code": 200
+  },
+  {
+    "id": 400,
+    "name": "颈百劳",
+    "video_url": "http://video.jiudafu.com/jlxw/颈百劳.mp4",
+    "thumb_url": "http://video.jiudafu.com/jlxw/颈百劳.jpg",
+    "code": 200
+  },
+  {
+    "id": 401,
+    "name": "颊车",
+    "video_url": "http://video.jiudafu.com/jlxw/颊车.mp4",
+    "thumb_url": "http://video.jiudafu.com/jlxw/颊车.jpg",
+    "code": 200
+  },
+  {
+    "id": 402,
+    "name": "颔厌",
+    "video_url": "http://video.jiudafu.com/jlxw/颔厌.mp4",
+    "thumb_url": "http://video.jiudafu.com/jlxw/颔厌.jpg",
+    "code": 200
+  },
+  {
+    "id": 403,
+    "name": "颧髎",
+    "video_url": "http://video.jiudafu.com/jlxw/颧髎.mp4",
+    "thumb_url": "http://video.jiudafu.com/jlxw/颧髎.jpg",
+    "code": 200
+  },
+  {
+    "id": 404,
+    "name": "风市",
+    "video_url": "http://video.jiudafu.com/jlxw/风市.mp4",
+    "thumb_url": "http://video.jiudafu.com/jlxw/风市.jpg",
+    "code": 200
+  },
+  {
+    "id": 405,
+    "name": "风府",
+    "video_url": "http://video.jiudafu.com/jlxw/风府.mp4",
+    "thumb_url": "http://video.jiudafu.com/jlxw/风府.jpg",
+    "code": 200
+  },
+  {
+    "id": 406,
+    "name": "风池",
+    "video_url": "http://video.jiudafu.com/jlxw/风池.mp4",
+    "thumb_url": "http://video.jiudafu.com/jlxw/风池.jpg",
+    "code": 200
+  },
+  {
+    "id": 407,
+    "name": "风门",
+    "video_url": "http://video.jiudafu.com/jlxw/风门.mp4",
+    "thumb_url": "http://video.jiudafu.com/jlxw/风门.jpg",
+    "code": 200
+  },
+  {
+    "id": 408,
+    "name": "飞扬",
+    "video_url": "http://video.jiudafu.com/jlxw/飞扬.mp4",
+    "thumb_url": "http://video.jiudafu.com/jlxw/飞扬.jpg",
+    "code": 200
+  },
+  {
+    "id": 409,
+    "name": "食窦",
+    "video_url": "http://video.jiudafu.com/jlxw/食窦.mp4",
+    "thumb_url": "http://video.jiudafu.com/jlxw/食窦.jpg",
+    "code": 200
+  },
+  {
+    "code": 404
+  },
+  {
+    "id": 410,
+    "name": "髋骨",
+    "video_url": "http://video.jiudafu.com/jlxw/髋骨.mp4",
+    "thumb_url": "http://video.jiudafu.com/jlxw/髋骨.jpg",
+    "code": 200
+  },
+  {
+    "id": 411,
+    "name": "魂门",
+    "video_url": "http://video.jiudafu.com/jlxw/魂门.mp4",
+    "thumb_url": "http://video.jiudafu.com/jlxw/魂门.jpg",
+    "code": 200
+  },
+  {
+    "id": 412,
+    "name": "魄户",
+    "video_url": "http://video.jiudafu.com/jlxw/魄户.mp4",
+    "thumb_url": "http://video.jiudafu.com/jlxw/魄户.jpg",
+    "code": 200
+  },
+  {
+    "id": 413,
+    "name": "鱼腰",
+    "video_url": "http://video.jiudafu.com/jlxw/鱼腰.mp4",
+    "thumb_url": "http://video.jiudafu.com/jlxw/鱼腰.jpg",
+    "code": 200
+  },
+  {
+    "id": 414,
+    "name": "鱼际",
+    "video_url": "http://video.jiudafu.com/jlxw/鱼际.mp4",
+    "thumb_url": "http://video.jiudafu.com/jlxw/鱼际.jpg",
+    "code": 200
+  },
+  {
+    "id": 415,
+    "name": "鸠尾",
+    "video_url": "http://video.jiudafu.com/jlxw/鸠尾.mp4",
+    "thumb_url": "http://video.jiudafu.com/jlxw/鸠尾.jpg",
+    "code": 200
+  },
+  {
+    "id": 416,
+    "name": "鹤顶",
+    "video_url": "http://video.jiudafu.com/jlxw/鹤顶.mp4",
+    "thumb_url": "http://video.jiudafu.com/jlxw/鹤顶.jpg",
+    "code": 200
+  },
+  {
+    "id": 417,
+    "name": "龈交",
+    "video_url": "http://video.jiudafu.com/jlxw/龈交.mp4",
+    "thumb_url": "http://video.jiudafu.com/jlxw/龈交.jpg",
+    "code": 200
+  }
+]
