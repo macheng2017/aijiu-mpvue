@@ -51,6 +51,16 @@ const xwList = async () => {
 }
 // xwList()
 
+// 清洗xwDetail.json中的信息
+const dataClean = async () => {
+    const xwDetail = require(path.resolve(__dirname, '../database/json/xwDetail.json'))
+    let res = R.map(v => {
+        return R.omit(['notes', 'study_collect'])(v)
+    })(xwDetail)
+    fs.writeFileSync(path.resolve(__dirname, '../database/json/completeXwDetail.json'), JSON.stringify(res, null, 2), 'utf8')
+}
+
+dataClean()
 // 爬取详情中的图片
 
 // 1.获取到穴位的数组,
@@ -117,4 +127,4 @@ const getXwImg = async () => {
 
     fs.writeFileSync(path.resolve(__dirname, '../database/json/fileUrl.json'), JSON.stringify(arrs, null, 2), 'utf8')
 }
-getXwImg()
+// getXwImg()

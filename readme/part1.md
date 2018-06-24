@@ -37,3 +37,17 @@ data.jiudafu.com/jingluo/images0/%E5%BC%BA%E9%97%B4%E5%90%8E%E9%A1%B6%E7%99%BE%E
   "root_url": "http://data.jiudafu.com/jingluo/",
   "img_url": "http://data.jiudafu.com/jingluo/images/",
   "img_ext": ".jpic",
+
+
+
+
+将数据入库 放入mysql数据库
+
+1. 分两张表 xwDetail xwUrl
+2. 查询的时候需要联表查询
+3. json存入数据库是将其分字段存入
+
+
+
+
+
