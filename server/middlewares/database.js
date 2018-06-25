@@ -72,3 +72,5 @@ const iniMysql = async () => {
     })
 }
 iniMysql()
+
+// java -jar apktool_2.3.3.jar d -f D: \360安全浏览器下载\com.jiaxun.acupoint_602.apk -o MMTS

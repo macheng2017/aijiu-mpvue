@@ -39,3 +39,9 @@ create table xwUrl(
     video_url varchar(200),
     thumb_url varchar(200)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+create table jingluo (
+  id int not null auto_increment primary key,
+  jlid int not null,
+  name varchar()
+)

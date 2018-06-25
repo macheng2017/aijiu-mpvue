@@ -1,0 +1,2262 @@
+[
+  {
+    "jl": {
+      "jlId": "1",
+      "name": "手太阴肺经",
+      "url": "info/1"
+    },
+    "xw": [
+      {
+        "xid": "25",
+        "name": "中府",
+        "url": "xinfo/25"
+      },
+      {
+        "xid": "44",
+        "name": "云门",
+        "url": "xinfo/44"
+      },
+      {
+        "xid": "57",
+        "name": "侠白",
+        "url": "xinfo/57"
+      },
+      {
+        "xid": "77",
+        "name": "列缺",
+        "url": "xinfo/77"
+      },
+      {
+        "xid": "133",
+        "name": "天府",
+        "url": "xinfo/133"
+      },
+      {
+        "xid": "146",
+        "name": "太渊",
+        "url": "xinfo/146"
+      },
+      {
+        "xid": "159",
+        "name": "孔最",
+        "url": "xinfo/159"
+      },
+      {
+        "xid": "167",
+        "name": "少商",
+        "url": "xinfo/167"
+      },
+      {
+        "xid": "171",
+        "name": "尺泽",
+        "url": "xinfo/171"
+      },
+      {
+        "xid": "302",
+        "name": "经渠",
+        "url": "xinfo/302"
+      },
+      {
+        "xid": "422",
+        "name": "鱼际",
+        "url": "xinfo/422"
+      }
+    ]
+  },
+  {
+    "jl": {
+      "jlId": "2",
+      "name": "手阳明大肠经",
+      "url": "info/2"
+    },
+    "xw": [
+      {
+        "xid": "3",
+        "name": "三间",
+        "url": "xinfo/3"
+      },
+      {
+        "xid": "8",
+        "name": "上廉",
+        "url": "xinfo/8"
+      },
+      {
+        "xid": "16",
+        "name": "下廉",
+        "url": "xinfo/16"
+      },
+      {
+        "xid": "43",
+        "name": "二间",
+        "url": "xinfo/43"
+      },
+      {
+        "xid": "59",
+        "name": "偏历",
+        "url": "xinfo/59"
+      },
+      {
+        "xid": "88",
+        "name": "口禾髎",
+        "url": "xinfo/88"
+      },
+      {
+        "xid": "89",
+        "name": "合谷",
+        "url": "xinfo/89"
+      },
+      {
+        "xid": "100",
+        "name": "商阳",
+        "url": "xinfo/100"
+      },
+      {
+        "xid": "143",
+        "name": "天鼎",
+        "url": "xinfo/143"
+      },
+      {
+        "xid": "175",
+        "name": "巨骨",
+        "url": "xinfo/175"
+      },
+      {
+        "xid": "195",
+        "name": "手三里",
+        "url": "xinfo/195"
+      },
+      {
+        "xid": "196",
+        "name": "手五里",
+        "url": "xinfo/196"
+      },
+      {
+        "xid": "197",
+        "name": "扶突",
+        "url": "xinfo/197"
+      },
+      {
+        "xid": "213",
+        "name": "曲池",
+        "url": "xinfo/213"
+      },
+      {
+        "xid": "252",
+        "name": "温溜",
+        "url": "xinfo/252"
+      },
+      {
+        "xid": "315",
+        "name": "肘髎",
+        "url": "xinfo/315"
+      },
+      {
+        "xid": "322",
+        "name": "肩髃",
+        "url": "xinfo/322"
+      },
+      {
+        "xid": "355",
+        "name": "臂臑",
+        "url": "xinfo/355"
+      },
+      {
+        "xid": "374",
+        "name": "迎香",
+        "url": "xinfo/374"
+      },
+      {
+        "xid": "385",
+        "name": "阳溪",
+        "url": "xinfo/385"
+      }
+    ]
+  },
+  {
+    "jl": {
+      "jlId": "3",
+      "name": "足阳明胃经",
+      "url": "info/3"
+    },
+    "xw": [
+      {
+        "xid": "7",
+        "name": "上巨虚",
+        "url": "xinfo/7"
+      },
+      {
+        "xid": "14",
+        "name": "下关",
+        "url": "xinfo/14"
+      },
+      {
+        "xid": "15",
+        "name": "下巨虚",
+        "url": "xinfo/15"
+      },
+      {
+        "xid": "20",
+        "name": "不容",
+        "url": "xinfo/20"
+      },
+      {
+        "xid": "38",
+        "name": "丰隆",
+        "url": "xinfo/38"
+      },
+      {
+        "xid": "39",
+        "name": "乳中",
+        "url": "xinfo/39"
+      },
+      {
+        "xid": "41",
+        "name": "乳根",
+        "url": "xinfo/41"
+      },
+      {
+        "xid": "50",
+        "name": "人迎",
+        "url": "xinfo/50"
+      },
+      {
+        "xid": "52",
+        "name": "伏兔",
+        "url": "xinfo/52"
+      },
+      {
+        "xid": "69",
+        "name": "关门",
+        "url": "xinfo/69"
+      },
+      {
+        "xid": "72",
+        "name": "内庭",
+        "url": "xinfo/72"
+      },
+      {
+        "xid": "76",
+        "name": "冲阳",
+        "url": "xinfo/76"
+      },
+      {
+        "xid": "86",
+        "name": "厉兑",
+        "url": "xinfo/86"
+      },
+      {
+        "xid": "103",
+        "name": "四白",
+        "url": "xinfo/103"
+      },
+      {
+        "xid": "108",
+        "name": "地仓",
+        "url": "xinfo/108"
+      },
+      {
+        "xid": "115",
+        "name": "外陵",
+        "url": "xinfo/115"
+      },
+      {
+        "xid": "117",
+        "name": "大巨",
+        "url": "xinfo/117"
+      },
+      {
+        "xid": "124",
+        "name": "大迎",
+        "url": "xinfo/124"
+      },
+      {
+        "xid": "134",
+        "name": "天枢",
+        "url": "xinfo/134"
+      },
+      {
+        "xid": "144",
+        "name": "太乙",
+        "url": "xinfo/144"
+      },
+      {
+        "xid": "152",
+        "name": "头维",
+        "url": "xinfo/152"
+      },
+      {
+        "xid": "173",
+        "name": "屋翳",
+        "url": "xinfo/173"
+      },
+      {
+        "xid": "176",
+        "name": "巨髎",
+        "url": "xinfo/176"
+      },
+      {
+        "xid": "179",
+        "name": "库房",
+        "url": "xinfo/179"
+      },
+      {
+        "xid": "184",
+        "name": "归来",
+        "url": "xinfo/184"
+      },
+      {
+        "xid": "201",
+        "name": "承泣",
+        "url": "xinfo/201"
+      },
+      {
+        "xid": "203",
+        "name": "承满",
+        "url": "xinfo/203"
+      },
+      {
+        "xid": "221",
+        "name": "条口",
+        "url": "xinfo/221"
+      },
+      {
+        "xid": "223",
+        "name": "梁丘",
+        "url": "xinfo/223"
+      },
+      {
+        "xid": "224",
+        "name": "梁门",
+        "url": "xinfo/224"
+      },
+      {
+        "xid": "230",
+        "name": "气冲",
+        "url": "xinfo/230"
+      },
+      {
+        "xid": "231",
+        "name": "气户",
+        "url": "xinfo/231"
+      },
+      {
+        "xid": "236",
+        "name": "气舍",
+        "url": "xinfo/236"
+      },
+      {
+        "xid": "240",
+        "name": "水突",
+        "url": "xinfo/240"
+      },
+      {
+        "xid": "241",
+        "name": "水道",
+        "url": "xinfo/241"
+      },
+      {
+        "xid": "253",
+        "name": "滑肉门",
+        "url": "xinfo/253"
+      },
+      {
+        "xid": "261",
+        "name": "犊鼻",
+        "url": "xinfo/261"
+      },
+      {
+        "xid": "305",
+        "name": "缺盆",
+        "url": "xinfo/305"
+      },
+      {
+        "xid": "353",
+        "name": "膺窗",
+        "url": "xinfo/353"
+      },
+      {
+        "xid": "364",
+        "name": "解溪",
+        "url": "xinfo/364"
+      },
+      {
+        "xid": "366",
+        "name": "足三里",
+        "url": "xinfo/366"
+      },
+      {
+        "xid": "393",
+        "name": "阴市",
+        "url": "xinfo/393"
+      },
+      {
+        "xid": "402",
+        "name": "陷谷",
+        "url": "xinfo/402"
+      },
+      {
+        "xid": "408",
+        "name": "颊车",
+        "url": "xinfo/408"
+      },
+      {
+        "xid": "417",
+        "name": "髀关",
+        "url": "xinfo/417"
+      }
+    ]
+  },
+  {
+    "jl": {
+      "jlId": "4",
+      "name": "足太阴脾经",
+      "url": "info/4"
+    },
+    "xw": [
+      {
+        "xid": "5",
+        "name": "三阴交",
+        "url": "xinfo/5"
+      },
+      {
+        "xid": "65",
+        "name": "公孙",
+        "url": "xinfo/65"
+      },
+      {
+        "xid": "75",
+        "name": "冲门",
+        "url": "xinfo/75"
+      },
+      {
+        "xid": "95",
+        "name": "周荣",
+        "url": "xinfo/95"
+      },
+      {
+        "xid": "98",
+        "name": "商丘",
+        "url": "xinfo/98"
+      },
+      {
+        "xid": "109",
+        "name": "地机",
+        "url": "xinfo/109"
+      },
+      {
+        "xid": "116",
+        "name": "大包",
+        "url": "xinfo/116"
+      },
+      {
+        "xid": "121",
+        "name": "大横",
+        "url": "xinfo/121"
+      },
+      {
+        "xid": "125",
+        "name": "大都",
+        "url": "xinfo/125"
+      },
+      {
+        "xid": "138",
+        "name": "天溪",
+        "url": "xinfo/138"
+      },
+      {
+        "xid": "148",
+        "name": "太白",
+        "url": "xinfo/148"
+      },
+      {
+        "xid": "180",
+        "name": "府舍",
+        "url": "xinfo/180"
+      },
+      {
+        "xid": "254",
+        "name": "漏谷",
+        "url": "xinfo/254"
+      },
+      {
+        "xid": "299",
+        "name": "箕门",
+        "url": "xinfo/299"
+      },
+      {
+        "xid": "332",
+        "name": "胸乡",
+        "url": "xinfo/332"
+      },
+      {
+        "xid": "343",
+        "name": "腹哀",
+        "url": "xinfo/343"
+      },
+      {
+        "xid": "344",
+        "name": "腹结",
+        "url": "xinfo/344"
+      },
+      {
+        "xid": "361",
+        "name": "血海",
+        "url": "xinfo/361"
+      },
+      {
+        "xid": "398",
+        "name": "阴陵泉",
+        "url": "xinfo/398"
+      },
+      {
+        "xid": "403",
+        "name": "隐白",
+        "url": "xinfo/403"
+      },
+      {
+        "xid": "416",
+        "name": "食窦",
+        "url": "xinfo/416"
+      }
+    ]
+  },
+  {
+    "jl": {
+      "jlId": "5",
+      "name": "手少阴心经",
+      "url": "info/5"
+    },
+    "xw": [
+      {
+        "xid": "166",
+        "name": "少冲",
+        "url": "xinfo/166"
+      },
+      {
+        "xid": "168",
+        "name": "少府",
+        "url": "xinfo/168"
+      },
+      {
+        "xid": "170",
+        "name": "少海",
+        "url": "xinfo/170"
+      },
+      {
+        "xid": "222",
+        "name": "极泉",
+        "url": "xinfo/222"
+      },
+      {
+        "xid": "257",
+        "name": "灵道",
+        "url": "xinfo/257"
+      },
+      {
+        "xid": "292",
+        "name": "神门",
+        "url": "xinfo/292"
+      },
+      {
+        "xid": "376",
+        "name": "通里",
+        "url": "xinfo/376"
+      },
+      {
+        "xid": "396",
+        "name": "阴郄",
+        "url": "xinfo/396"
+      },
+      {
+        "xid": "404",
+        "name": "青灵",
+        "url": "xinfo/404"
+      }
+    ]
+  },
+  {
+    "jl": {
+      "jlId": "6",
+      "name": "手太阳小肠经",
+      "url": "info/6"
+    },
+    "xw": [
+      {
+        "xid": "70",
+        "name": "养老",
+        "url": "xinfo/70"
+      },
+      {
+        "xid": "78",
+        "name": "前谷",
+        "url": "xinfo/78"
+      },
+      {
+        "xid": "91",
+        "name": "后溪",
+        "url": "xinfo/91"
+      },
+      {
+        "xid": "94",
+        "name": "听宫",
+        "url": "xinfo/94"
+      },
+      {
+        "xid": "131",
+        "name": "天宗",
+        "url": "xinfo/131"
+      },
+      {
+        "xid": "132",
+        "name": "天容",
+        "url": "xinfo/132"
+      },
+      {
+        "xid": "141",
+        "name": "天窗",
+        "url": "xinfo/141"
+      },
+      {
+        "xid": "163",
+        "name": "小海",
+        "url": "xinfo/163"
+      },
+      {
+        "xid": "169",
+        "name": "少泽",
+        "url": "xinfo/169"
+      },
+      {
+        "xid": "207",
+        "name": "支正",
+        "url": "xinfo/207"
+      },
+      {
+        "xid": "211",
+        "name": "曲垣",
+        "url": "xinfo/211"
+      },
+      {
+        "xid": "294",
+        "name": "秉风",
+        "url": "xinfo/294"
+      },
+      {
+        "xid": "317",
+        "name": "肩中俞",
+        "url": "xinfo/317"
+      },
+      {
+        "xid": "320",
+        "name": "肩外俞",
+        "url": "xinfo/320"
+      },
+      {
+        "xid": "321",
+        "name": "肩贞",
+        "url": "xinfo/321"
+      },
+      {
+        "xid": "337",
+        "name": "腕骨",
+        "url": "xinfo/337"
+      },
+      {
+        "xid": "357",
+        "name": "臑俞",
+        "url": "xinfo/357"
+      },
+      {
+        "xid": "388",
+        "name": "阳谷",
+        "url": "xinfo/388"
+      },
+      {
+        "xid": "410",
+        "name": "颧髎",
+        "url": "xinfo/410"
+      }
+    ]
+  },
+  {
+    "jl": {
+      "jlId": "7",
+      "name": "足太阳膀胱经",
+      "url": "info/7"
+    },
+    "xw": [
+      {
+        "xid": "1",
+        "name": "三焦俞",
+        "url": "xinfo/1"
+      },
+      {
+        "xid": "13",
+        "name": "上髎",
+        "url": "xinfo/13"
+      },
+      {
+        "xid": "19",
+        "name": "下髎",
+        "url": "xinfo/19"
+      },
+      {
+        "xid": "34",
+        "name": "中膂俞",
+        "url": "xinfo/34"
+      },
+      {
+        "xid": "36",
+        "name": "中髎",
+        "url": "xinfo/36"
+      },
+      {
+        "xid": "45",
+        "name": "五处",
+        "url": "xinfo/45"
+      },
+      {
+        "xid": "49",
+        "name": "京骨",
+        "url": "xinfo/49"
+      },
+      {
+        "xid": "51",
+        "name": "仆参",
+        "url": "xinfo/51"
+      },
+      {
+        "xid": "54",
+        "name": "会阳",
+        "url": "xinfo/54"
+      },
+      {
+        "xid": "67",
+        "name": "关元俞",
+        "url": "xinfo/67"
+      },
+      {
+        "xid": "87",
+        "name": "厥阴俞",
+        "url": "xinfo/87"
+      },
+      {
+        "xid": "90",
+        "name": "合阳",
+        "url": "xinfo/90"
+      },
+      {
+        "xid": "119",
+        "name": "大杼",
+        "url": "xinfo/119"
+      },
+      {
+        "xid": "122",
+        "name": "大肠俞",
+        "url": "xinfo/122"
+      },
+      {
+        "xid": "135",
+        "name": "天柱",
+        "url": "xinfo/135"
+      },
+      {
+        "xid": "156",
+        "name": "委中",
+        "url": "xinfo/156"
+      },
+      {
+        "xid": "157",
+        "name": "委阳",
+        "url": "xinfo/157"
+      },
+      {
+        "xid": "164",
+        "name": "小肠俞",
+        "url": "xinfo/164"
+      },
+      {
+        "xid": "187",
+        "name": "心俞",
+        "url": "xinfo/187"
+      },
+      {
+        "xid": "188",
+        "name": "志室",
+        "url": "xinfo/188"
+      },
+      {
+        "xid": "194",
+        "name": "意舍",
+        "url": "xinfo/194"
+      },
+      {
+        "xid": "198",
+        "name": "承光",
+        "url": "xinfo/198"
+      },
+      {
+        "xid": "199",
+        "name": "承山",
+        "url": "xinfo/199"
+      },
+      {
+        "xid": "200",
+        "name": "承扶",
+        "url": "xinfo/200"
+      },
+      {
+        "xid": "205",
+        "name": "承筋",
+        "url": "xinfo/205"
+      },
+      {
+        "xid": "206",
+        "name": "攒竹",
+        "url": "xinfo/206"
+      },
+      {
+        "xid": "210",
+        "name": "昆仑",
+        "url": "xinfo/210"
+      },
+      {
+        "xid": "212",
+        "name": "曲差",
+        "url": "xinfo/212"
+      },
+      {
+        "xid": "220",
+        "name": "束骨",
+        "url": "xinfo/220"
+      },
+      {
+        "xid": "226",
+        "name": "次髎",
+        "url": "xinfo/226"
+      },
+      {
+        "xid": "229",
+        "name": "殷门",
+        "url": "xinfo/229"
+      },
+      {
+        "xid": "233",
+        "name": "气海俞",
+        "url": "xinfo/233"
+      },
+      {
+        "xid": "244",
+        "name": "浮郄",
+        "url": "xinfo/244"
+      },
+      {
+        "xid": "265",
+        "name": "玉枕",
+        "url": "xinfo/265"
+      },
+      {
+        "xid": "271",
+        "name": "申脉",
+        "url": "xinfo/271"
+      },
+      {
+        "xid": "277",
+        "name": "白环俞",
+        "url": "xinfo/277"
+      },
+      {
+        "xid": "281",
+        "name": "眉冲",
+        "url": "xinfo/281"
+      },
+      {
+        "xid": "282",
+        "name": "睛明",
+        "url": "xinfo/282"
+      },
+      {
+        "xid": "283",
+        "name": "督俞",
+        "url": "xinfo/283"
+      },
+      {
+        "xid": "287",
+        "name": "神堂",
+        "url": "xinfo/287"
+      },
+      {
+        "xid": "295",
+        "name": "秩边",
+        "url": "xinfo/295"
+      },
+      {
+        "xid": "303",
+        "name": "络却",
+        "url": "xinfo/303"
+      },
+      {
+        "xid": "313",
+        "name": "肓门",
+        "url": "xinfo/313"
+      },
+      {
+        "xid": "316",
+        "name": "肝俞",
+        "url": "xinfo/316"
+      },
+      {
+        "xid": "324",
+        "name": "肺俞",
+        "url": "xinfo/324"
+      },
+      {
+        "xid": "325",
+        "name": "肾俞",
+        "url": "xinfo/325"
+      },
+      {
+        "xid": "326",
+        "name": "胃仓",
+        "url": "xinfo/326"
+      },
+      {
+        "xid": "327",
+        "name": "胃俞",
+        "url": "xinfo/327"
+      },
+      {
+        "xid": "329",
+        "name": "胆俞",
+        "url": "xinfo/329"
+      },
+      {
+        "xid": "331",
+        "name": "胞肓",
+        "url": "xinfo/331"
+      },
+      {
+        "xid": "336",
+        "name": "脾俞",
+        "url": "xinfo/336"
+      },
+      {
+        "xid": "346",
+        "name": "膀胱俞",
+        "url": "xinfo/346"
+      },
+      {
+        "xid": "347",
+        "name": "膈俞",
+        "url": "xinfo/347"
+      },
+      {
+        "xid": "348",
+        "name": "膈关",
+        "url": "xinfo/348"
+      },
+      {
+        "xid": "349",
+        "name": "膏肓",
+        "url": "xinfo/349"
+      },
+      {
+        "xid": "359",
+        "name": "至阴",
+        "url": "xinfo/359"
+      },
+      {
+        "xid": "365",
+        "name": "譩譆",
+        "url": "xinfo/365"
+      },
+      {
+        "xid": "370",
+        "name": "足通谷",
+        "url": "xinfo/370"
+      },
+      {
+        "xid": "371",
+        "name": "跗阳",
+        "url": "xinfo/371"
+      },
+      {
+        "xid": "375",
+        "name": "通天",
+        "url": "xinfo/375"
+      },
+      {
+        "xid": "379",
+        "name": "金门",
+        "url": "xinfo/379"
+      },
+      {
+        "xid": "387",
+        "name": "阳纲",
+        "url": "xinfo/387"
+      },
+      {
+        "xid": "400",
+        "name": "附分",
+        "url": "xinfo/400"
+      },
+      {
+        "xid": "414",
+        "name": "风门",
+        "url": "xinfo/414"
+      },
+      {
+        "xid": "415",
+        "name": "飞扬",
+        "url": "xinfo/415"
+      },
+      {
+        "xid": "419",
+        "name": "魂门",
+        "url": "xinfo/419"
+      },
+      {
+        "xid": "420",
+        "name": "魄户",
+        "url": "xinfo/420"
+      }
+    ]
+  },
+  {
+    "jl": {
+      "jlId": "8",
+      "name": "足少阴肾经",
+      "url": "info/8"
+    },
+    "xw": [
+      {
+        "xid": "30",
+        "name": "中注",
+        "url": "xinfo/30"
+      },
+      {
+        "xid": "47",
+        "name": "交信",
+        "url": "xinfo/47"
+      },
+      {
+        "xid": "58",
+        "name": "俞府",
+        "url": "xinfo/58"
+      },
+      {
+        "xid": "99",
+        "name": "商曲",
+        "url": "xinfo/99"
+      },
+      {
+        "xid": "102",
+        "name": "四满",
+        "url": "xinfo/102"
+      },
+      {
+        "xid": "110",
+        "name": "复溜",
+        "url": "xinfo/110"
+      },
+      {
+        "xid": "123",
+        "name": "大赫",
+        "url": "xinfo/123"
+      },
+      {
+        "xid": "126",
+        "name": "大钟",
+        "url": "xinfo/126"
+      },
+      {
+        "xid": "147",
+        "name": "太溪",
+        "url": "xinfo/147"
+      },
+      {
+        "xid": "178",
+        "name": "幽门",
+        "url": "xinfo/178"
+      },
+      {
+        "xid": "186",
+        "name": "彧中",
+        "url": "xinfo/186"
+      },
+      {
+        "xid": "225",
+        "name": "横骨",
+        "url": "xinfo/225"
+      },
+      {
+        "xid": "228",
+        "name": "步廊",
+        "url": "xinfo/228"
+      },
+      {
+        "xid": "234",
+        "name": "气穴",
+        "url": "xinfo/234"
+      },
+      {
+        "xid": "239",
+        "name": "水泉",
+        "url": "xinfo/239"
+      },
+      {
+        "xid": "248",
+        "name": "涌泉",
+        "url": "xinfo/248"
+      },
+      {
+        "xid": "256",
+        "name": "灵墟",
+        "url": "xinfo/256"
+      },
+      {
+        "xid": "258",
+        "name": "然谷",
+        "url": "xinfo/258"
+      },
+      {
+        "xid": "259",
+        "name": "照海",
+        "url": "xinfo/259"
+      },
+      {
+        "xid": "285",
+        "name": "石关",
+        "url": "xinfo/285"
+      },
+      {
+        "xid": "288",
+        "name": "神封",
+        "url": "xinfo/288"
+      },
+      {
+        "xid": "290",
+        "name": "神藏",
+        "url": "xinfo/290"
+      },
+      {
+        "xid": "298",
+        "name": "筑宾",
+        "url": "xinfo/298"
+      },
+      {
+        "xid": "312",
+        "name": "肓俞",
+        "url": "xinfo/312"
+      },
+      {
+        "xid": "345",
+        "name": "腹通谷",
+        "url": "xinfo/345"
+      },
+      {
+        "xid": "395",
+        "name": "阴谷",
+        "url": "xinfo/395"
+      },
+      {
+        "xid": "397",
+        "name": "阴都",
+        "url": "xinfo/397"
+      }
+    ]
+  },
+  {
+    "jl": {
+      "jlId": "9",
+      "name": "手厥阴心包经",
+      "url": "info/9"
+    },
+    "xw": [
+      {
+        "xid": "23",
+        "name": "中冲",
+        "url": "xinfo/23"
+      },
+      {
+        "xid": "71",
+        "name": "内关",
+        "url": "xinfo/71"
+      },
+      {
+        "xid": "80",
+        "name": "劳宫",
+        "url": "xinfo/80"
+      },
+      {
+        "xid": "127",
+        "name": "大陵",
+        "url": "xinfo/127"
+      },
+      {
+        "xid": "136",
+        "name": "天池",
+        "url": "xinfo/136"
+      },
+      {
+        "xid": "137",
+        "name": "天泉",
+        "url": "xinfo/137"
+      },
+      {
+        "xid": "215",
+        "name": "曲泽",
+        "url": "xinfo/215"
+      },
+      {
+        "xid": "377",
+        "name": "郄门",
+        "url": "xinfo/377"
+      },
+      {
+        "xid": "381",
+        "name": "间使",
+        "url": "xinfo/381"
+      }
+    ]
+  },
+  {
+    "jl": {
+      "jlId": "10",
+      "name": "手少阳三焦经",
+      "url": "info/10"
+    },
+    "xw": [
+      {
+        "xid": "4",
+        "name": "三阳络",
+        "url": "xinfo/4"
+      },
+      {
+        "xid": "22",
+        "name": "丝竹空",
+        "url": "xinfo/22"
+      },
+      {
+        "xid": "32",
+        "name": "中渚",
+        "url": "xinfo/32"
+      },
+      {
+        "xid": "53",
+        "name": "会宗",
+        "url": "xinfo/53"
+      },
+      {
+        "xid": "68",
+        "name": "关冲",
+        "url": "xinfo/68"
+      },
+      {
+        "xid": "101",
+        "name": "四渎",
+        "url": "xinfo/101"
+      },
+      {
+        "xid": "112",
+        "name": "外关",
+        "url": "xinfo/112"
+      },
+      {
+        "xid": "129",
+        "name": "天井",
+        "url": "xinfo/129"
+      },
+      {
+        "xid": "139",
+        "name": "天牖",
+        "url": "xinfo/139"
+      },
+      {
+        "xid": "142",
+        "name": "天髎",
+        "url": "xinfo/142"
+      },
+      {
+        "xid": "208",
+        "name": "支沟",
+        "url": "xinfo/208"
+      },
+      {
+        "xid": "246",
+        "name": "消泺",
+        "url": "xinfo/246"
+      },
+      {
+        "xid": "249",
+        "name": "液门",
+        "url": "xinfo/249"
+      },
+      {
+        "xid": "250",
+        "name": "清冷渊",
+        "url": "xinfo/250"
+      },
+      {
+        "xid": "274",
+        "name": "瘈脉",
+        "url": "xinfo/274"
+      },
+      {
+        "xid": "307",
+        "name": "翳风",
+        "url": "xinfo/307"
+      },
+      {
+        "xid": "308",
+        "name": "耳和髎",
+        "url": "xinfo/308"
+      },
+      {
+        "xid": "310",
+        "name": "耳门",
+        "url": "xinfo/310"
+      },
+      {
+        "xid": "323",
+        "name": "肩髎",
+        "url": "xinfo/323"
+      },
+      {
+        "xid": "356",
+        "name": "臑会",
+        "url": "xinfo/356"
+      },
+      {
+        "xid": "363",
+        "name": "角孙",
+        "url": "xinfo/363"
+      },
+      {
+        "xid": "384",
+        "name": "阳池",
+        "url": "xinfo/384"
+      },
+      {
+        "xid": "405",
+        "name": "颅息",
+        "url": "xinfo/405"
+      }
+    ]
+  },
+  {
+    "jl": {
+      "jlId": "11",
+      "name": "足少阳胆经",
+      "url": "info/11"
+    },
+    "xw": [
+      {
+        "xid": "6",
+        "name": "上关",
+        "url": "xinfo/6"
+      },
+      {
+        "xid": "21",
+        "name": "丘墟",
+        "url": "xinfo/21"
+      },
+      {
+        "xid": "31",
+        "name": "中渎",
+        "url": "xinfo/31"
+      },
+      {
+        "xid": "46",
+        "name": "五枢",
+        "url": "xinfo/46"
+      },
+      {
+        "xid": "48",
+        "name": "京门",
+        "url": "xinfo/48"
+      },
+      {
+        "xid": "56",
+        "name": "侠溪",
+        "url": "xinfo/56"
+      },
+      {
+        "xid": "60",
+        "name": "光明",
+        "url": "xinfo/60"
+      },
+      {
+        "xid": "93",
+        "name": "听会",
+        "url": "xinfo/93"
+      },
+      {
+        "xid": "107",
+        "name": "地五会",
+        "url": "xinfo/107"
+      },
+      {
+        "xid": "111",
+        "name": "外丘",
+        "url": "xinfo/111"
+      },
+      {
+        "xid": "130",
+        "name": "天冲",
+        "url": "xinfo/130"
+      },
+      {
+        "xid": "150",
+        "name": "头临泣",
+        "url": "xinfo/150"
+      },
+      {
+        "xid": "151",
+        "name": "头窍阴",
+        "url": "xinfo/151"
+      },
+      {
+        "xid": "161",
+        "name": "完骨",
+        "url": "xinfo/161"
+      },
+      {
+        "xid": "172",
+        "name": "居髎",
+        "url": "xinfo/172"
+      },
+      {
+        "xid": "177",
+        "name": "带脉",
+        "url": "xinfo/177"
+      },
+      {
+        "xid": "190",
+        "name": "悬厘",
+        "url": "xinfo/190"
+      },
+      {
+        "xid": "192",
+        "name": "悬钟",
+        "url": "xinfo/192"
+      },
+      {
+        "xid": "193",
+        "name": "悬颅",
+        "url": "xinfo/193"
+      },
+      {
+        "xid": "204",
+        "name": "承灵",
+        "url": "xinfo/204"
+      },
+      {
+        "xid": "209",
+        "name": "日月",
+        "url": "xinfo/209"
+      },
+      {
+        "xid": "217",
+        "name": "曲鬓",
+        "url": "xinfo/217"
+      },
+      {
+        "xid": "219",
+        "name": "本神",
+        "url": "xinfo/219"
+      },
+      {
+        "xid": "227",
+        "name": "正营",
+        "url": "xinfo/227"
+      },
+      {
+        "xid": "243",
+        "name": "浮白",
+        "url": "xinfo/243"
+      },
+      {
+        "xid": "251",
+        "name": "渊腋",
+        "url": "xinfo/251"
+      },
+      {
+        "xid": "263",
+        "name": "率谷",
+        "url": "xinfo/263"
+      },
+      {
+        "xid": "267",
+        "name": "环跳",
+        "url": "xinfo/267"
+      },
+      {
+        "xid": "280",
+        "name": "目窗",
+        "url": "xinfo/280"
+      },
+      {
+        "xid": "284",
+        "name": "瞳子髎",
+        "url": "xinfo/284"
+      },
+      {
+        "xid": "304",
+        "name": "维道",
+        "url": "xinfo/304"
+      },
+      {
+        "xid": "318",
+        "name": "肩井",
+        "url": "xinfo/318"
+      },
+      {
+        "xid": "335",
+        "name": "脑空",
+        "url": "xinfo/335"
+      },
+      {
+        "xid": "352",
+        "name": "膝阳关",
+        "url": "xinfo/352"
+      },
+      {
+        "xid": "367",
+        "name": "足临泣",
+        "url": "xinfo/367"
+      },
+      {
+        "xid": "369",
+        "name": "足窍阴",
+        "url": "xinfo/369"
+      },
+      {
+        "xid": "373",
+        "name": "辄筋",
+        "url": "xinfo/373"
+      },
+      {
+        "xid": "383",
+        "name": "阳交",
+        "url": "xinfo/383"
+      },
+      {
+        "xid": "386",
+        "name": "阳白",
+        "url": "xinfo/386"
+      },
+      {
+        "xid": "389",
+        "name": "阳辅",
+        "url": "xinfo/389"
+      },
+      {
+        "xid": "390",
+        "name": "阳陵泉",
+        "url": "xinfo/390"
+      },
+      {
+        "xid": "409",
+        "name": "颔厌",
+        "url": "xinfo/409"
+      },
+      {
+        "xid": "411",
+        "name": "风市",
+        "url": "xinfo/411"
+      },
+      {
+        "xid": "413",
+        "name": "风池",
+        "url": "xinfo/413"
+      }
+    ]
+  },
+  {
+    "jl": {
+      "jlId": "12",
+      "name": "足厥阴肝经",
+      "url": "info/12"
+    },
+    "xw": [
+      {
+        "xid": "24",
+        "name": "中封",
+        "url": "xinfo/24"
+      },
+      {
+        "xid": "35",
+        "name": "中都",
+        "url": "xinfo/35"
+      },
+      {
+        "xid": "118",
+        "name": "大敦",
+        "url": "xinfo/118"
+      },
+      {
+        "xid": "145",
+        "name": "太冲",
+        "url": "xinfo/145"
+      },
+      {
+        "xid": "189",
+        "name": "急脉",
+        "url": "xinfo/189"
+      },
+      {
+        "xid": "214",
+        "name": "曲泉",
+        "url": "xinfo/214"
+      },
+      {
+        "xid": "218",
+        "name": "期门",
+        "url": "xinfo/218"
+      },
+      {
+        "xid": "296",
+        "name": "章门",
+        "url": "xinfo/296"
+      },
+      {
+        "xid": "350",
+        "name": "膝关",
+        "url": "xinfo/350"
+      },
+      {
+        "xid": "360",
+        "name": "蠡沟",
+        "url": "xinfo/360"
+      },
+      {
+        "xid": "362",
+        "name": "行间",
+        "url": "xinfo/362"
+      },
+      {
+        "xid": "368",
+        "name": "足五里",
+        "url": "xinfo/368"
+      },
+      {
+        "xid": "392",
+        "name": "阴包",
+        "url": "xinfo/392"
+      },
+      {
+        "xid": "394",
+        "name": "阴廉",
+        "url": "xinfo/394"
+      }
+    ]
+  },
+  {
+    "jl": {
+      "jlId": "13",
+      "name": "督脉",
+      "url": "info/13"
+    },
+    "xw": [
+      {
+        "xid": "10",
+        "name": "上星",
+        "url": "xinfo/10"
+      },
+      {
+        "xid": "28",
+        "name": "中枢",
+        "url": "xinfo/28"
+      },
+      {
+        "xid": "61",
+        "name": "兑端",
+        "url": "xinfo/61"
+      },
+      {
+        "xid": "79",
+        "name": "前顶",
+        "url": "xinfo/79"
+      },
+      {
+        "xid": "85",
+        "name": "印堂",
+        "url": "xinfo/85"
+      },
+      {
+        "xid": "92",
+        "name": "后顶",
+        "url": "xinfo/92"
+      },
+      {
+        "xid": "96",
+        "name": "命门",
+        "url": "xinfo/96"
+      },
+      {
+        "xid": "97",
+        "name": "哑门",
+        "url": "xinfo/97"
+      },
+      {
+        "xid": "106",
+        "name": "囟会",
+        "url": "xinfo/106"
+      },
+      {
+        "xid": "120",
+        "name": "大椎",
+        "url": "xinfo/120"
+      },
+      {
+        "xid": "183",
+        "name": "强间",
+        "url": "xinfo/183"
+      },
+      {
+        "xid": "191",
+        "name": "悬枢",
+        "url": "xinfo/191"
+      },
+      {
+        "xid": "238",
+        "name": "水沟",
+        "url": "xinfo/238"
+      },
+      {
+        "xid": "255",
+        "name": "灵台",
+        "url": "xinfo/255"
+      },
+      {
+        "xid": "278",
+        "name": "百会",
+        "url": "xinfo/278"
+      },
+      {
+        "xid": "289",
+        "name": "神庭",
+        "url": "xinfo/289"
+      },
+      {
+        "xid": "291",
+        "name": "神道",
+        "url": "xinfo/291"
+      },
+      {
+        "xid": "297",
+        "name": "筋缩",
+        "url": "xinfo/297"
+      },
+      {
+        "xid": "300",
+        "name": "素髎",
+        "url": "xinfo/300"
+      },
+      {
+        "xid": "333",
+        "name": "脊中",
+        "url": "xinfo/333"
+      },
+      {
+        "xid": "334",
+        "name": "脑户",
+        "url": "xinfo/334"
+      },
+      {
+        "xid": "338",
+        "name": "腰俞",
+        "url": "xinfo/338"
+      },
+      {
+        "xid": "342",
+        "name": "腰阳关",
+        "url": "xinfo/342"
+      },
+      {
+        "xid": "358",
+        "name": "至阳",
+        "url": "xinfo/358"
+      },
+      {
+        "xid": "372",
+        "name": "身柱",
+        "url": "xinfo/372"
+      },
+      {
+        "xid": "380",
+        "name": "长强",
+        "url": "xinfo/380"
+      },
+      {
+        "xid": "401",
+        "name": "陶道",
+        "url": "xinfo/401"
+      },
+      {
+        "xid": "412",
+        "name": "风府",
+        "url": "xinfo/412"
+      },
+      {
+        "xid": "425",
+        "name": "龈交",
+        "url": "xinfo/425"
+      }
+    ]
+  },
+  {
+    "jl": {
+      "jlId": "14",
+      "name": "任脉",
+      "url": "info/14"
+    },
+    "xw": [
+      {
+        "xid": "11",
+        "name": "上脘",
+        "url": "xinfo/11"
+      },
+      {
+        "xid": "18",
+        "name": "下脘",
+        "url": "xinfo/18"
+      },
+      {
+        "xid": "26",
+        "name": "中庭",
+        "url": "xinfo/26"
+      },
+      {
+        "xid": "27",
+        "name": "中极",
+        "url": "xinfo/27"
+      },
+      {
+        "xid": "33",
+        "name": "中脘",
+        "url": "xinfo/33"
+      },
+      {
+        "xid": "55",
+        "name": "会阴",
+        "url": "xinfo/55"
+      },
+      {
+        "xid": "66",
+        "name": "关元",
+        "url": "xinfo/66"
+      },
+      {
+        "xid": "84",
+        "name": "华盖",
+        "url": "xinfo/84"
+      },
+      {
+        "xid": "140",
+        "name": "天突",
+        "url": "xinfo/140"
+      },
+      {
+        "xid": "174",
+        "name": "巨阙",
+        "url": "xinfo/174"
+      },
+      {
+        "xid": "181",
+        "name": "廉泉",
+        "url": "xinfo/181"
+      },
+      {
+        "xid": "182",
+        "name": "建里",
+        "url": "xinfo/182"
+      },
+      {
+        "xid": "202",
+        "name": "承浆",
+        "url": "xinfo/202"
+      },
+      {
+        "xid": "216",
+        "name": "曲骨",
+        "url": "xinfo/216"
+      },
+      {
+        "xid": "232",
+        "name": "气海",
+        "url": "xinfo/232"
+      },
+      {
+        "xid": "237",
+        "name": "水分",
+        "url": "xinfo/237"
+      },
+      {
+        "xid": "264",
+        "name": "玉堂",
+        "url": "xinfo/264"
+      },
+      {
+        "xid": "269",
+        "name": "璇玑",
+        "url": "xinfo/269"
+      },
+      {
+        "xid": "286",
+        "name": "石门",
+        "url": "xinfo/286"
+      },
+      {
+        "xid": "293",
+        "name": "神阙",
+        "url": "xinfo/293"
+      },
+      {
+        "xid": "301",
+        "name": "紫宫",
+        "url": "xinfo/301"
+      },
+      {
+        "xid": "354",
+        "name": "膻中",
+        "url": "xinfo/354"
+      },
+      {
+        "xid": "391",
+        "name": "阴交",
+        "url": "xinfo/391"
+      },
+      {
+        "xid": "423",
+        "name": "鸠尾",
+        "url": "xinfo/423"
+      }
+    ]
+  },
+  {
+    "jl": {
+      "jlId": "15",
+      "name": "经外奇穴",
+      "url": "info/15"
+    },
+    "xw": [
+      {
+        "xid": "2",
+        "name": "三角灸",
+        "url": "xinfo/2"
+      },
+      {
+        "xid": "9",
+        "name": "上明",
+        "url": "xinfo/9"
+      },
+      {
+        "xid": "12",
+        "name": "上迎香",
+        "url": "xinfo/12"
+      },
+      {
+        "xid": "17",
+        "name": "下极俞",
+        "url": "xinfo/17"
+      },
+      {
+        "xid": "29",
+        "name": "中泉",
+        "url": "xinfo/29"
+      },
+      {
+        "xid": "37",
+        "name": "中魁",
+        "url": "xinfo/37"
+      },
+      {
+        "xid": "40",
+        "name": "乳四穴",
+        "url": "xinfo/40"
+      },
+      {
+        "xid": "42",
+        "name": "二白",
+        "url": "xinfo/42"
+      },
+      {
+        "xid": "62",
+        "name": "八邪",
+        "url": "xinfo/62"
+      },
+      {
+        "xid": "63",
+        "name": "八风",
+        "url": "xinfo/63"
+      },
+      {
+        "xid": "64",
+        "name": "八髎",
+        "url": "xinfo/64"
+      },
+      {
+        "xid": "73",
+        "name": "内踝尖",
+        "url": "xinfo/73"
+      },
+      {
+        "xid": "74",
+        "name": "内迎香",
+        "url": "xinfo/74"
+      },
+      {
+        "xid": "81",
+        "name": "十七椎",
+        "url": "xinfo/81"
+      },
+      {
+        "xid": "82",
+        "name": "十二井穴",
+        "url": "xinfo/82"
+      },
+      {
+        "xid": "83",
+        "name": "十宣",
+        "url": "xinfo/83"
+      },
+      {
+        "xid": "104",
+        "name": "四神聪",
+        "url": "xinfo/104"
+      },
+      {
+        "xid": "105",
+        "name": "四缝",
+        "url": "xinfo/105"
+      },
+      {
+        "xid": "113",
+        "name": "外劳宫",
+        "url": "xinfo/113"
+      },
+      {
+        "xid": "114",
+        "name": "外踝尖",
+        "url": "xinfo/114"
+      },
+      {
+        "xid": "128",
+        "name": "大骨空",
+        "url": "xinfo/128"
+      },
+      {
+        "xid": "149",
+        "name": "太阳",
+        "url": "xinfo/149"
+      },
+      {
+        "xid": "153",
+        "name": "夹承浆",
+        "url": "xinfo/153"
+      },
+      {
+        "xid": "154",
+        "name": "夹脊",
+        "url": "xinfo/154"
+      },
+      {
+        "xid": "155",
+        "name": "女膝",
+        "url": "xinfo/155"
+      },
+      {
+        "xid": "158",
+        "name": "子宫",
+        "url": "xinfo/158"
+      },
+      {
+        "xid": "160",
+        "name": "安眠",
+        "url": "xinfo/160"
+      },
+      {
+        "xid": "162",
+        "name": "定喘",
+        "url": "xinfo/162"
+      },
+      {
+        "xid": "165",
+        "name": "小骨空",
+        "url": "xinfo/165"
+      },
+      {
+        "xid": "185",
+        "name": "当阳",
+        "url": "xinfo/185"
+      },
+      {
+        "xid": "235",
+        "name": "气端",
+        "url": "xinfo/235"
+      },
+      {
+        "xid": "242",
+        "name": "泽前",
+        "url": "xinfo/242"
+      },
+      {
+        "xid": "245",
+        "name": "海泉",
+        "url": "xinfo/245"
+      },
+      {
+        "xid": "247",
+        "name": "消颤穴",
+        "url": "xinfo/247"
+      },
+      {
+        "xid": "260",
+        "name": "牵正",
+        "url": "xinfo/260"
+      },
+      {
+        "xid": "262",
+        "name": "独阴",
+        "url": "xinfo/262"
+      },
+      {
+        "xid": "266",
+        "name": "环中",
+        "url": "xinfo/266"
+      },
+      {
+        "xid": "268",
+        "name": "球后",
+        "url": "xinfo/268"
+      },
+      {
+        "xid": "270",
+        "name": "生发穴",
+        "url": "xinfo/270"
+      },
+      {
+        "xid": "272",
+        "name": "疔俞",
+        "url": "xinfo/272"
+      },
+      {
+        "xid": "273",
+        "name": "痞根",
+        "url": "xinfo/273"
+      },
+      {
+        "xid": "275",
+        "name": "瘰疬",
+        "url": "xinfo/275"
+      },
+      {
+        "xid": "276",
+        "name": "瘰疬灸",
+        "url": "xinfo/276"
+      },
+      {
+        "xid": "279",
+        "name": "百虫窝",
+        "url": "xinfo/279"
+      },
+      {
+        "xid": "306",
+        "name": "翳明",
+        "url": "xinfo/306"
+      },
+      {
+        "xid": "309",
+        "name": "耳尖",
+        "url": "xinfo/309"
+      },
+      {
+        "xid": "311",
+        "name": "聚泉",
+        "url": "xinfo/311"
+      },
+      {
+        "xid": "314",
+        "name": "肘尖",
+        "url": "xinfo/314"
+      },
+      {
+        "xid": "319",
+        "name": "肩前",
+        "url": "xinfo/319"
+      },
+      {
+        "xid": "328",
+        "name": "胃脘下俞",
+        "url": "xinfo/328"
+      },
+      {
+        "xid": "330",
+        "name": "胆囊",
+        "url": "xinfo/330"
+      },
+      {
+        "xid": "339",
+        "name": "腰奇",
+        "url": "xinfo/339"
+      },
+      {
+        "xid": "340",
+        "name": "腰痛点",
+        "url": "xinfo/340"
+      },
+      {
+        "xid": "341",
+        "name": "腰眼",
+        "url": "xinfo/341"
+      },
+      {
+        "xid": "351",
+        "name": "膝眼",
+        "url": "xinfo/351"
+      },
+      {
+        "xid": "378",
+        "name": "金津、玉液",
+        "url": "xinfo/378"
+      },
+      {
+        "xid": "382",
+        "name": "阑尾",
+        "url": "xinfo/382"
+      },
+      {
+        "xid": "399",
+        "name": "阿是穴",
+        "url": "xinfo/399"
+      },
+      {
+        "xid": "406",
+        "name": "颈四椎旁",
+        "url": "xinfo/406"
+      },
+      {
+        "xid": "407",
+        "name": "颈百劳",
+        "url": "xinfo/407"
+      },
+      {
+        "xid": "418",
+        "name": "髋骨",
+        "url": "xinfo/418"
+      },
+      {
+        "xid": "421",
+        "name": "鱼腰",
+        "url": "xinfo/421"
+      },
+      {
+        "xid": "424",
+        "name": "鹤顶",
+        "url": "xinfo/424"
+      }
+    ]
+  }
+]

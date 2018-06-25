@@ -1,4 +1,5 @@
 require('babel-register')
 // require('./app.js')
 // require('./crawler/uploadQN')
-require('./middlewares/database.js')
+// require('./middlewares/database.js')
+require('./crawler/jingluo')
