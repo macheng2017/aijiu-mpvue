@@ -42,6 +42,20 @@ create table xwUrl(
 
 create table jingluo (
   id int not null auto_increment primary key,
-  jlid int not null,
-  name varchar()
-)
+  jlId int not null,
+  name varchar(100) not null,
+  xwName varchar(1000)
+)ENGINE=InnoDB DEFAULT CHARSET=utf8;
+DROP TABLE IF EXISTS `jlInfo`;
+create table jlInfo(
+ id int not null auto_increment primary key,
+ jlId int not null,
+ name varchar(100),
+ guojidaima varchar(100),
+ jmCircly varchar(1000),
+ binghou varchar(1000),
+ zhiliao varchar(1000),
+ caozuo varchar(1000),
+ xunxing varchar(100),
+ zongtu varchar(100)
+)ENGINE=InnoDB DEFAULT CHARSET=utf8;

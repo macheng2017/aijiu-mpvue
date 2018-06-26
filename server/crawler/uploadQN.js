@@ -31,7 +31,7 @@ import fs from 'fs'
 
 // 最终没有使用 网上找的,这里要的是一个数组,上面返回的是一个对象不合适,可以拆开分别传入,稍麻烦
 export const fetchImageFromIMDb = async () => {
-    let resUrl = require(resolve(__dirname, '../database/json/fileUrl.json'))
+    let resUrl = require(resolve(__dirname, '../database/json/xwInfo.json'))
     // console.log(resUrl)
   // 测试 先使用一个对象测试下代码
   // resUrl = [resUrl[0]]
@@ -40,31 +40,30 @@ export const fetchImageFromIMDb = async () => {
     // resUrl = JSON.parse(resUrl)
     // resUrl = dealObjectValue(resUrl)
     // console.log(resUrl)
-    resUrl = R.reject(R.propEq('code', 404))(resUrl)
+    // resUrl = R.reject(R.propEq('code', 404))(resUrl)
   // 遍历
     resUrl = R.map(
     async item => {
         try {
-            let key = `${item.id}/${randomToken(32)}`
+            let key = `xw_ad${item.xid}/${randomToken(32)}`
         // fetch avatar
-            await fetchImage(encodeURI(item.video_url), key)
-            console.log(item.video_url)
+            await fetchImage(encodeURI(item.xueweitu), key)
+            console.log(item.xueweitu)
             console.log(key)
             console.log('upload done!')
             await (1000)
         // replace url of qiniu server with in item.profile
-            item.video_url = key
+            item.xueweitu = key
         // upload stage photo on the qiniu server
         // 长度改为2 比较快的加载到图片
         // for (let i = 0; i < 2; i++) {
-            let _key = `${item.id}/${randomToken(32)}`
-            await fetchImage(encodeURI(item.thumb_url), _key)
-            console.log(item.thumb_url)
-            console.log(_key)
+            // let _key = `jl${item.jlid}/${randomToken(32)}`
+            // await fetchImage(encodeURI(item.zongtu), _key)
+            // console.log(item.zongtu)
+            // console.log(_key)
           // waiting for 100 ms
-            await (1000)
           // replace url of qiniu server created with in item.images
-            item.thumb_url = _key
+            // item.zongtu = _key
             // }
         } catch (e) {
             console.log(e)
@@ -77,7 +76,7 @@ export const fetchImageFromIMDb = async () => {
 
   // write the file into the local hardDisk
 
-    fs.writeFileSync(resolve(__dirname, '../database/json/complateFileUrl.json'), JSON.stringify(resUrl, null, 2), 'utf8')
+    fs.writeFileSync(resolve(__dirname, '../database/json/complateXwInfo.json'), JSON.stringify(resUrl, null, 2), 'utf8')
 }
-fetchImageFromIMDb()
+// fetchImageFromIMDb()
 

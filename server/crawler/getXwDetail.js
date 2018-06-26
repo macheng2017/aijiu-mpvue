@@ -60,7 +60,7 @@ const dataClean = async () => {
     fs.writeFileSync(path.resolve(__dirname, '../database/json/completeXwDetail.json'), JSON.stringify(res, null, 2), 'utf8')
 }
 
-dataClean()
+// dataClean()
 // 爬取详情中的图片
 
 // 1.获取到穴位的数组,

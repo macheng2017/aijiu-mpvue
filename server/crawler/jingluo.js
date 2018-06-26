@@ -74,7 +74,7 @@ const fetchInfo = async () => {
     }
     fs.writeFileSync(resolve(__dirname, '../database/json/jlInfo.json'), JSON.stringify(names, null, 2), 'utf8')
 }
-fetchInfo()
+// fetchInfo()
 // 由于存入数据库的时候必须保证经络下面的穴位id是正确的,
 // 如果name可以作为关联字段就可以不用在乎xwid的对错
 // 经络下面包含的穴位id 与之前app中获取的 穴位id 不一致,现在匹配下通过名称匹配,然后修改xid
@@ -89,3 +89,41 @@ fetchInfo()
 // }
 
 // matchJson()
+
+// 重新获取网页版的穴位详情
+const xwInfo = async (id = 1, names) => {
+    const option = {
+        uri: `http://jlxw.jiudaifu.com/xinfo/${id}`,
+        transform: body => cheerio.load(body)
+    }
+    const $ = await rp(option)
+  // console.log(names)
+    const liDom = $('.main').find('li')
+    const str = $('h1.center').text().split('(')
+    names.push({
+        xid: id,
+        name: str[0],
+        pinyin: str[1].split(')')[0],
+        suoshujingluo: liDom.eq(0).find('div').text().replace(/(\r\n)|(\n)|(\t)/g, ''),
+        guojidaima: liDom.eq(1).find('div').text(),
+        tedingxue: liDom.eq(2).find('div').text(),
+        bieming: liDom.eq(3).find('div').text(),
+        dingwei: liDom.eq(4).find('div').text(),
+        quxue: liDom.eq(5).find('div').text(),
+        disease: liDom.eq(6).find('div').text(),
+        aijiucanshu: liDom.eq(7).find('div').text(),
+        experience: liDom.eq(8).find('div').text(),
+        xueweitu: liDom.eq(9).find('img').attr('src')
+
+    })
+}
+const fetchXwInfo = async () => {
+    let names = []
+    for (let i = 1; i < 426; i++) {
+        console.log('---------------第' + i + '个----------------')
+        await (500)
+        await xwInfo(i, names)
+    }
+    fs.writeFileSync(resolve(__dirname, '../database/json/xwInfo.json'), JSON.stringify(names, null, 2), 'utf8')
+}
+// fetchXwInfo()
