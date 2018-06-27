@@ -5,6 +5,10 @@
     .userInfo
       img(:src="userInfo.avatarUrl")
       p {{userInfo.nickName}}
+    .punch-in()
+      button(v-if='!punch' class='btn' lang="zh_CN" @click="punchIn") 打卡
+      .msg(v-else) 你已经成功打卡9999天了!
+
 </template>
 <script>
 import qcloud from 'wafer2-client-sdk'
@@ -13,7 +17,14 @@ import config from '@/config'
 export default {
   data() {
     return {
-      userInfo: {}
+      userInfo: {},
+      punch: false
+    }
+  },
+  onShow() {
+    const userInfo = wx.getStorageSync('userInfo')
+    if (userInfo.openId) {
+      this.userInfo = userInfo
     }
   },
   methods: {
@@ -48,10 +59,28 @@ export default {
           }
         })
       }
+    },
+    punchIn() {
+      this.punch = true
+      showSuccess('打卡成功')
+      console.log('打卡成功')
     }
   }
 }
 </script>
 <style lang="sass" scoped>
+.container
+  padding: 0 30px
+  .userInfo
+    margin-top: 100rpx
+    text-align: center
+    img
+      width: 150rpx
+      height: 150rpx
+      margin: 20rpx
+      border-radius: 50%
+  .msg
+    margin-top: 100rpx
+    text-align: center
 
 </style>

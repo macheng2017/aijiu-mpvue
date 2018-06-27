@@ -7,8 +7,9 @@ app.$mount()
 
 // 配置小程序显示界面
 export default {
-  config: {
-    navigationBarTitleText: '郭林艾灸',
-    navigationBarTextStyle: 'light'
-  }
+  // config: {
+  //   navigationBarTitleText: '郭林艾灸',
+  //   navigationBarTextStyle: 'light',
+  //   navigationBarBackgroundColor: '#42C593'
+  // }
 }
