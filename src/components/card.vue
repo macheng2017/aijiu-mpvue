@@ -1,19 +1,22 @@
-<template>
-  <div>
-    <p class="card">
-      {{text}}
-    </p>
-  </div>
-</template>
+<template lang="pug">
+.container
+  .jl {{item.id}}
+    .xw(v-for="(xw, i) in item" :key="i") {{xw.xwName}}
 
+</template>
 <script>
 export default {
-  props: ['text']
+  props() {
+    return {
+      item: {}
+    }
+  },
+  onShow() {
+    console.log(this.item)
+  }
 }
 </script>
+<style lang="sass" scoped>
 
-<style>
-.card {
-  padding: 10px;
-}
 </style>
+

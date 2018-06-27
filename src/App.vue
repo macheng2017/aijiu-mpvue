@@ -2,7 +2,7 @@
 </script>
 
 <style lang='sass'>
-@import ../static/sass/base
+@import static/sass/base
 .btn
   color: white
   background: $green
