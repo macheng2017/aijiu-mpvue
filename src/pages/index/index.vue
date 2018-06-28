@@ -2,7 +2,7 @@
 .container
   Search()
   TopSwiper(:tops="tops")
-  Card( v-for="item in items" :key="item.id")
+  Card( v-for="item in items" :item='item' :key="item.id")
 </template>
 
 <script>
@@ -28,8 +28,8 @@ export default {
       wx.showNavigationBarLoading()
       const items = await get('/weapp/jlList')
       this.items = items.list
-      console.log('--------------------')
-      console.log(this.items)
+      // console.log('--------------------')
+      // console.log(this.items)
       wx.hideNavigationBarLoading()
     }
   },
