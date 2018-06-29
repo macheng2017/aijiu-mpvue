@@ -18,8 +18,8 @@ export default {
   // },
   props: ['item'],
   mounted() {
-    console.log(this.item)
-    console.log(this.xw)
+    // console.log(this.item)
+    // console.log(this.xw)
   },
   computed: {
     parasJL() {

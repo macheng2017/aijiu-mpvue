@@ -36,5 +36,6 @@ router.post('/message', controllers.message.post)
 router.get('/demo', controllers.demo)
 router.get('/jlList', controllers.jlList)
 router.get('/xwDeatil', controllers.xwDetail)
+router.get('/jlInfo', controllers.jlInfo)
 
 module.exports = router
