@@ -5,7 +5,7 @@ import store from '@/store'
 Vue.config.productionTip = false
 App.mpType = 'app'
 // 传入store
-const app = new Vue({ App, store })
+const app = new Vue({ store, ...App })
 app.$mount()
 
 export default {
