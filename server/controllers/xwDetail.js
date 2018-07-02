@@ -12,7 +12,10 @@ module.exports = async ctx => {
     // 而且 里面的数据太多了需要筛选一部分
     // const info = JSON.parse(detail.user_info)
     console.log(detail)
-    ctx.state.data = detail
+    ctx.state.data = Object.assign({}, detail, {
+        disease_treat: detail.disease_treat.split(','),
+        experience_treat: detail.experience_treat.split(',')
+    })
 
     // ctx.state.data = Object.assign({}, detail, {
     //     // 将标签根据逗号切开,简介根据换行符切开

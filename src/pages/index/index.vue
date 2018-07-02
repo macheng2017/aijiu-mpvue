@@ -40,9 +40,7 @@ export default {
 </script>
 
 <style lang="sass" scoped>
-@import static/sass/base
-.container
-  background-color: #green
-  .inp
+
+
 
 </style>
