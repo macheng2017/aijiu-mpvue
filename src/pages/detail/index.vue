@@ -20,12 +20,12 @@
     .disease
       .title 主治病症
       .content {{info.zhuzhibingzheng}}
-      .tags(v-if="tagsLength")
+      .tags()
         .badge(v-for="tag in info.disease_treat" :key="info.id") {{tag}}
     .experience
       .title 经验应用
       .content {{info.jingyanyingyong}}
-      .tags(v-if="")
+      .tags()
         .badge( v-for="tag in info.experience_treat" :key="info.id") {{tag}}
   .operation
     .title -- 操作 --
