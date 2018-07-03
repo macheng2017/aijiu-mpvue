@@ -23,7 +23,10 @@ export default {
   },
   computed: {
     parasJL() {
-      return encodeURI(this.item.name)
+      // return encodeURI(this.item.name)
+      return `/pages/jlDetail/main?name=${encodeURI(this.item.name)}&id=${
+        this.item.jlId
+      }`
     }
     // parasXW() {
     //   return encodeURI(this.xw)
