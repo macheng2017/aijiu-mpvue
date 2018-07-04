@@ -59,3 +59,13 @@ create table jlInfo(
  xunxing varchar(100),
  zongtu varchar(100)
 )ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+
+create table comments(
+  id int(11) NOT NULL AUTO_INCREMENT primary key,
+  openid varchar(100) not null,
+  xwName varchar(100) not null,
+  comment varchar(200) not null,
+  phone varchar(50) ,
+  location varchar(50)
+)ENGINE=InnoDB  DEFAULT CHARSET=utf8;
