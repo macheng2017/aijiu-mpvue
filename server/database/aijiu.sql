@@ -69,3 +69,15 @@ create table comments(
   phone varchar(50) ,
   location varchar(50)
 )ENGINE=InnoDB  DEFAULT CHARSET=utf8;
+
+
+DROP TABLE IF EXISTS `punch`;
+create table punch(
+  id varchar(100) not null primary key,
+  openId varchar(100) not null,
+  firstTime varchar(100) not null,
+  punchTime varchar(100) not null,
+  count int default 0,
+  maxCount int default 0,
+  flag boolean default false
+)ENGINE=InnoDB  DEFAULT CHARSET=utf8;

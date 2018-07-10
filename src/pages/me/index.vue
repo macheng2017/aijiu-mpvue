@@ -7,18 +7,19 @@
       p {{userInfo.nickName}}
     .punch-in()
       button(v-if='!punch' class='btn' lang="zh_CN" @click="punchIn") 打卡
-      .msg(v-else) 你已经成功打卡9999天了!
+      .msg(v-else) 你已经成功打卡 {{punchData.count}} 天<br/> 连续打卡{{punchData.maxCount}} 天
 
 </template>
 <script>
 import qcloud from 'wafer2-client-sdk'
-import { showSuccess } from '@/utils'
+import { showSuccess, post } from '@/utils'
 import config from '@/config'
 export default {
   data() {
     return {
       userInfo: {},
-      punch: false
+      punch: false,
+      punchData: {}
     }
   },
   onShow() {
@@ -60,10 +61,14 @@ export default {
         })
       }
     },
-    punchIn() {
-      this.punch = true
-      showSuccess('打卡成功')
-      console.log('打卡成功')
+    async punchIn() {
+      const res = await post('/weapp/punchIn', { openId: this.userInfo.openId })
+      this.punchData = res
+      const difference = new Date().getTime() - res.punchTime
+      if (difference < 1000 * 60 * 60 * 24) {
+        showSuccess('明天再来吧!')
+        this.punch = true
+      }
     }
   }
 }

@@ -3,10 +3,10 @@
   // 增加点击事件的标识 type="user"
   div(v-if="userInfo.openId")
     CommentList(v-if="userInfo.openId" :comments="comments" type="user")
-    .page-title 我的穴位收藏
-    // Card(v-for="book in books" :key="book.id" :book='book')
-    // Card( v-for="item in items" :item='item' :key="item.id")
-    div(v-if="!books.length") 收藏穴位暂时还没有
+    // .page-title 我的穴位收藏
+    // // Card(v-for="book in books" :key="book.id" :book='book')
+    // // Card( v-for="item in items" :item='item' :key="item.id")
+    // div(v-if="!books.length") 收藏穴位暂时还没有
 </template>
 <script>
 import { post } from '@/utils'
