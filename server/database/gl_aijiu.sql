@@ -10,10 +10,40 @@ Target Server Type    : MYSQL
 Target Server Version : 50722
 File Encoding         : 65001
 
-Date: 2018-06-28 18:49:46
+Date: 2018-07-11 10:19:13
 */
 
 SET FOREIGN_KEY_CHECKS=0;
+
+-- ----------------------------
+-- Table structure for comments
+-- ----------------------------
+DROP TABLE IF EXISTS `comments`;
+CREATE TABLE `comments` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `openid` varchar(100) NOT NULL,
+  `xwName` varchar(100) NOT NULL,
+  `comment` varchar(200) NOT NULL,
+  `phone` varchar(50) DEFAULT NULL,
+  `location` varchar(50) DEFAULT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=13 DEFAULT CHARSET=utf8;
+
+-- ----------------------------
+-- Records of comments
+-- ----------------------------
+INSERT INTO `comments` VALUES ('1', 'oVE3y0KxkwqKIJpGwCCOV-ZDxElA', '%E5%88%97%E7%BC%BA', '23333333333', 'iPhone 6', '洛阳市');
+INSERT INTO `comments` VALUES ('2', 'oVE3y0KxkwqKIJpGwCCOV-ZDxElA', '%E5%A4%A9%E5%86%B2', '435435435', 'iPhone 6', '洛阳市');
+INSERT INTO `comments` VALUES ('3', 'oVE3y0KxkwqKIJpGwCCOV-ZDxElA', '%E7%9F%B3%E9%97%A8', '啥东西啊...', 'iPhone 6', '洛阳市');
+INSERT INTO `comments` VALUES ('4', 'oVE3y0KxkwqKIJpGwCCOV-ZDxElA', '%E5%AD%94%E6%9C%80', '艾灸测试', 'iPhone 6', '洛阳市');
+INSERT INTO `comments` VALUES ('5', 'oVE3y0KxkwqKIJpGwCCOV-ZDxElA', '%E6%9B%B2%E6%B1%A0', '呵呵笑很重要', 'iPhone 6', '洛阳市');
+INSERT INTO `comments` VALUES ('6', 'oVE3y0KxkwqKIJpGwCCOV-ZDxElA', '%E8%87%82%E8%87%91', '3333333333333333', 'iPhone 6', '洛阳市');
+INSERT INTO `comments` VALUES ('7', 'oVE3y0KxkwqKIJpGwCCOV-ZDxElA', '%E5%8F%A3%E7%A6%BE%E9%AB%8E', 'resfesf ', 'iPhone 6', '洛阳市');
+INSERT INTO `comments` VALUES ('8', 'oVE3y0KxkwqKIJpGwCCOV-ZDxElA', '%E9%98%B3%E7%99%BD', 'dfgfd', 'iPhone 6', '洛阳市');
+INSERT INTO `comments` VALUES ('9', 'oVE3y0KxkwqKIJpGwCCOV-ZDxElA', '%E9%99%84%E5%88%86', 'dsfd ', 'iPhone 6', '洛阳市');
+INSERT INTO `comments` VALUES ('10', 'oVE3y0KxkwqKIJpGwCCOV-ZDxElA', '%E6%89%8B%E4%B8%89%E9%87%8C', '324324324324', 'iPhone 6', '洛阳市');
+INSERT INTO `comments` VALUES ('11', 'oVE3y0KxkwqKIJpGwCCOV-ZDxElA', '%E9%80%9A%E5%A4%A9', 'vcxbcvbcv', 'iPhone 6', '洛阳市');
+INSERT INTO `comments` VALUES ('12', 'oVE3y0KxkwqKIJpGwCCOV-ZDxElA', '%E9%A3%9E%E6%89%AC', 'dfgfdgfd', 'iPhone 6', '洛阳市');
 
 -- ----------------------------
 -- Table structure for cSessionInfo
@@ -35,7 +65,7 @@ CREATE TABLE `cSessionInfo` (
 -- ----------------------------
 -- Records of cSessionInfo
 -- ----------------------------
-INSERT INTO `cSessionInfo` VALUES ('oVE3y0KxkwqKIJpGwCCOV-ZDxElA', '5437fedf-157e-4b19-8c43-7b4ec600aa9f', 'c52b48fd925b4916798e2f150e999ad114230f61', '2018-06-27 09:16:00', '2018-06-27 10:06:31', 'uDGcbyrnjaAcEFp/yIOhyA==', '{\"openId\":\"oVE3y0KxkwqKIJpGwCCOV-ZDxElA\",\"nickName\":\"mac\",\"gender\":1,\"language\":\"zh_CN\",\"city\":\"Luoyang\",\"province\":\"Henan\",\"country\":\"China\",\"avatarUrl\":\"https://wx.qlogo.cn/mmopen/vi_32/DYAIOgq83eqiaQibMicevib1UQ22T8Rwqe5ACnzobgn85rPRjqsXm9TrreMuEH9r7cRKkvtegRKWeUg1X2DuGlZgGQ/132\",\"unionId\":\"oqgle1go68Wwep6SvUTub0-GCa48\",\"watermark\":{\"timestamp\":1530065191,\"appid\":\"wx1cf3c33d21786f00\"}}');
+INSERT INTO `cSessionInfo` VALUES ('oVE3y0KxkwqKIJpGwCCOV-ZDxElA', '5437fedf-157e-4b19-8c43-7b4ec600aa9f', '7fe6a15cf8fa0164c6099614b14387a44f6b8092', '2018-06-27 09:16:00', '2018-07-04 12:14:14', 'pfMBco4T8ytKWRydOygDtA==', '{\"openId\":\"oVE3y0KxkwqKIJpGwCCOV-ZDxElA\",\"nickName\":\"mac\",\"gender\":1,\"language\":\"zh_CN\",\"city\":\"Luoyang\",\"province\":\"Henan\",\"country\":\"China\",\"avatarUrl\":\"https://wx.qlogo.cn/mmopen/vi_32/DYAIOgq83eqiaQibMicevib1UQ22T8Rwqe5ACnzobgn85rPRjqsXm9TrreMuEH9r7cRKkvtegRKWeUg1X2DuGlZgGQ/132\",\"unionId\":\"oqgle1go68Wwep6SvUTub0-GCa48\",\"watermark\":{\"timestamp\":1530677656,\"appid\":\"wx1cf3c33d21786f00\"}}');
 
 -- ----------------------------
 -- Table structure for jingluo
@@ -46,27 +76,29 @@ CREATE TABLE `jingluo` (
   `jlId` int(11) NOT NULL,
   `name` varchar(100) NOT NULL,
   `xwName` varchar(1000) DEFAULT NULL,
+  `jltime` varchar(100) DEFAULT NULL,
+  `abbr` varchar(100) DEFAULT NULL,
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB AUTO_INCREMENT=16 DEFAULT CHARSET=utf8;
 
 -- ----------------------------
 -- Records of jingluo
 -- ----------------------------
-INSERT INTO `jingluo` VALUES ('1', '1', '手太阴肺经', '中府,云门,侠白,列缺,天府,太渊,孔最,少商,尺泽,经渠,鱼际');
-INSERT INTO `jingluo` VALUES ('2', '2', '手阳明大肠经', '三间,上廉,下廉,二间,偏历,口禾髎,合谷,商阳,天鼎,巨骨,手三里,手五里,扶突,曲池,温溜,肘髎,肩髃,臂臑,迎香,阳溪');
-INSERT INTO `jingluo` VALUES ('3', '4', '足太阴脾经', '三阴交,公孙,冲门,周荣,商丘,地机,大包,大横,大都,天溪,太白,府舍,漏谷,箕门,胸乡,腹哀,腹结,血海,阴陵泉,隐白,食窦');
-INSERT INTO `jingluo` VALUES ('4', '5', '手少阴心经', '少冲,少府,少海,极泉,灵道,神门,通里,阴郄,青灵');
-INSERT INTO `jingluo` VALUES ('5', '3', '足阳明胃经', '上巨虚,下关,下巨虚,不容,丰隆,乳中,乳根,人迎,伏兔,关门,内庭,冲阳,厉兑,四白,地仓,外陵,大巨,大迎,天枢,太乙,头维,屋翳,巨髎,库房,归来,承泣,承满,条口,梁丘,梁门,气冲,气户,气舍,水突,水道,滑肉门,犊鼻,缺盆,膺窗,解溪,足三里,阴市,陷谷,颊车,髀关');
-INSERT INTO `jingluo` VALUES ('6', '7', '足太阳膀胱经', '三焦俞,上髎,下髎,中膂俞,中髎,五处,京骨,仆参,会阳,关元俞,厥阴俞,合阳,大杼,大肠俞,天柱,委中,委阳,小肠俞,心俞,志室,意舍,承光,承山,承扶,承筋,攒竹,昆仑,曲差,束骨,次髎,殷门,气海俞,浮郄,玉枕,申脉,白环俞,眉冲,睛明,督俞,神堂,秩边,络却,肓门,肝俞,肺俞,肾俞,胃仓,胃俞,胆俞,胞肓,脾俞,膀胱俞,膈俞,膈关,膏肓,至阴,譩譆,足通谷,跗阳,通天,金门,阳纲,附分,风门,飞扬,魂门,魄户');
-INSERT INTO `jingluo` VALUES ('7', '6', '手太阳小肠经', '养老,前谷,后溪,听宫,天宗,天容,天窗,小海,少泽,支正,曲垣,秉风,肩中俞,肩外俞,肩贞,腕骨,臑俞,阳谷,颧髎');
-INSERT INTO `jingluo` VALUES ('8', '8', '足少阴肾经', '中注,交信,俞府,商曲,四满,复溜,大赫,大钟,太溪,幽门,彧中,横骨,步廊,气穴,水泉,涌泉,灵墟,然谷,照海,石关,神封,神藏,筑宾,肓俞,腹通谷,阴谷,阴都');
-INSERT INTO `jingluo` VALUES ('9', '9', '手厥阴心包经', '中冲,内关,劳宫,大陵,天池,天泉,曲泽,郄门,间使');
-INSERT INTO `jingluo` VALUES ('10', '10', '手少阳三焦经', '三阳络,丝竹空,中渚,会宗,关冲,四渎,外关,天井,天牖,天髎,支沟,消泺,液门,清冷渊,瘈脉,翳风,耳和髎,耳门,肩髎,臑会,角孙,阳池,颅息');
-INSERT INTO `jingluo` VALUES ('11', '11', '足少阳胆经', '上关,丘墟,中渎,五枢,京门,侠溪,光明,听会,地五会,外丘,天冲,头临泣,头窍阴,完骨,居髎,带脉,悬厘,悬钟,悬颅,承灵,日月,曲鬓,本神,正营,浮白,渊腋,率谷,环跳,目窗,瞳子髎,维道,肩井,脑空,膝阳关,足临泣,足窍阴,辄筋,阳交,阳白,阳辅,阳陵泉,颔厌,风市,风池');
-INSERT INTO `jingluo` VALUES ('12', '12', '足厥阴肝经', '中封,中都,大敦,太冲,急脉,曲泉,期门,章门,膝关,蠡沟,行间,足五里,阴包,阴廉');
-INSERT INTO `jingluo` VALUES ('13', '13', '督脉', '上星,中枢,兑端,前顶,印堂,后顶,命门,哑门,囟会,大椎,强间,悬枢,水沟,灵台,百会,神庭,神道,筋缩,素髎,脊中,脑户,腰俞,腰阳关,至阳,身柱,长强,陶道,风府,龈交');
-INSERT INTO `jingluo` VALUES ('14', '14', '任脉', '上脘,下脘,中庭,中极,中脘,会阴,关元,华盖,天突,巨阙,廉泉,建里,承浆,曲骨,气海,水分,玉堂,璇玑,石门,神阙,紫宫,膻中,阴交,鸠尾');
-INSERT INTO `jingluo` VALUES ('15', '15', '经外奇穴', '三角灸,上明,上迎香,下极俞,中泉,中魁,乳四穴,二白,八邪,八风,八髎,内踝尖,内迎香,十七椎,十二井穴,十宣,四神聪,四缝,外劳宫,外踝尖,大骨空,太阳,夹承浆,夹脊,女膝,子宫,安眠,定喘,小骨空,当阳,气端,泽前,海泉,消颤穴,牵正,独阴,环中,球后,生发穴,疔俞,痞根,瘰疬,瘰疬灸,百虫窝,翳明,耳尖,聚泉,肘尖,肩前,胃脘下俞,胆囊,腰奇,腰痛点,腰眼,膝眼,金津、玉液,阑尾,阿是穴,颈四椎旁,颈百劳,髋骨,鱼腰,鹤顶');
+INSERT INTO `jingluo` VALUES ('1', '1', '手太阴肺经', '中府,云门,侠白,列缺,天府,太渊,孔最,少商,尺泽,经渠,鱼际', '寅时 3-5时', '肺');
+INSERT INTO `jingluo` VALUES ('2', '2', '手阳明大肠经', '三间,上廉,下廉,二间,偏历,口禾髎,合谷,商阳,天鼎,巨骨,手三里,手五里,扶突,曲池,温溜,肘髎,肩髃,臂臑,迎香,阳溪', '卯时 5-7时', '大');
+INSERT INTO `jingluo` VALUES ('3', '4', '足太阴脾经', '三阴交,公孙,冲门,周荣,商丘,地机,大包,大横,大都,天溪,太白,府舍,漏谷,箕门,胸乡,腹哀,腹结,血海,阴陵泉,隐白,食窦', '巳时 9-11时', '脾');
+INSERT INTO `jingluo` VALUES ('4', '5', '手少阴心经', '少冲,少府,少海,极泉,灵道,神门,通里,阴郄,青灵', '午时 11-13时', '心');
+INSERT INTO `jingluo` VALUES ('5', '3', '足阳明胃经', '上巨虚,下关,下巨虚,不容,丰隆,乳中,乳根,人迎,伏兔,关门,内庭,冲阳,厉兑,四白,地仓,外陵,大巨,大迎,天枢,太乙,头维,屋翳,巨髎,库房,归来,承泣,承满,条口,梁丘,梁门,气冲,气户,气舍,水突,水道,滑肉门,犊鼻,缺盆,膺窗,解溪,足三里,阴市,陷谷,颊车,髀关', '辰时 7-9时', '胃');
+INSERT INTO `jingluo` VALUES ('6', '7', '足太阳膀胱经', '三焦俞,上髎,下髎,中膂俞,中髎,五处,京骨,仆参,会阳,关元俞,厥阴俞,合阳,大杼,大肠俞,天柱,委中,委阳,小肠俞,心俞,志室,意舍,承光,承山,承扶,承筋,攒竹,昆仑,曲差,束骨,次髎,殷门,气海俞,浮郄,玉枕,申脉,白环俞,眉冲,睛明,督俞,神堂,秩边,络却,肓门,肝俞,肺俞,肾俞,胃仓,胃俞,胆俞,胞肓,脾俞,膀胱俞,膈俞,膈关,膏肓,至阴,譩譆,足通谷,跗阳,通天,金门,阳纲,附分,风门,飞扬,魂门,魄户', '申时 15-17时', '膀');
+INSERT INTO `jingluo` VALUES ('7', '6', '手太阳小肠经', '养老,前谷,后溪,听宫,天宗,天容,天窗,小海,少泽,支正,曲垣,秉风,肩中俞,肩外俞,肩贞,腕骨,臑俞,阳谷,颧髎', '未时 13-15时', '小');
+INSERT INTO `jingluo` VALUES ('8', '8', '足少阴肾经', '中注,交信,俞府,商曲,四满,复溜,大赫,大钟,太溪,幽门,彧中,横骨,步廊,气穴,水泉,涌泉,灵墟,然谷,照海,石关,神封,神藏,筑宾,肓俞,腹通谷,阴谷,阴都', '酉时 17-19时', '肾');
+INSERT INTO `jingluo` VALUES ('9', '9', '手厥阴心包经', '中冲,内关,劳宫,大陵,天池,天泉,曲泽,郄门,间使', '戍时 19-21时', '包');
+INSERT INTO `jingluo` VALUES ('10', '10', '手少阳三焦经', '三阳络,丝竹空,中渚,会宗,关冲,四渎,外关,天井,天牖,天髎,支沟,消泺,液门,清冷渊,瘈脉,翳风,耳和髎,耳门,肩髎,臑会,角孙,阳池,颅息', '亥时 21-23时', '三');
+INSERT INTO `jingluo` VALUES ('11', '11', '足少阳胆经', '上关,丘墟,中渎,五枢,京门,侠溪,光明,听会,地五会,外丘,天冲,头临泣,头窍阴,完骨,居髎,带脉,悬厘,悬钟,悬颅,承灵,日月,曲鬓,本神,正营,浮白,渊腋,率谷,环跳,目窗,瞳子髎,维道,肩井,脑空,膝阳关,足临泣,足窍阴,辄筋,阳交,阳白,阳辅,阳陵泉,颔厌,风市,风池', '子时 23-1时', '胆');
+INSERT INTO `jingluo` VALUES ('12', '12', '足厥阴肝经', '中封,中都,大敦,太冲,急脉,曲泉,期门,章门,膝关,蠡沟,行间,足五里,阴包,阴廉', '丑时 1-3时', '肝');
+INSERT INTO `jingluo` VALUES ('13', '13', '督脉', '上星,中枢,兑端,前顶,印堂,后顶,命门,哑门,囟会,大椎,强间,悬枢,水沟,灵台,百会,神庭,神道,筋缩,素髎,脊中,脑户,腰俞,腰阳关,至阳,身柱,长强,陶道,风府,龈交', null, '督');
+INSERT INTO `jingluo` VALUES ('14', '14', '任脉', '上脘,下脘,中庭,中极,中脘,会阴,关元,华盖,天突,巨阙,廉泉,建里,承浆,曲骨,气海,水分,玉堂,璇玑,石门,神阙,紫宫,膻中,阴交,鸠尾', null, '任');
+INSERT INTO `jingluo` VALUES ('15', '15', '经外奇穴', '三角灸,上明,上迎香,下极俞,中泉,中魁,乳四穴,二白,八邪,八风,八髎,内踝尖,内迎香,十七椎,十二井穴,十宣,四神聪,四缝,外劳宫,外踝尖,大骨空,太阳,夹承浆,夹脊,女膝,子宫,安眠,定喘,小骨空,当阳,气端,泽前,海泉,消颤穴,牵正,独阴,环中,球后,生发穴,疔俞,痞根,瘰疬,瘰疬灸,百虫窝,翳明,耳尖,聚泉,肘尖,肩前,胃脘下俞,胆囊,腰奇,腰痛点,腰眼,膝眼,金津、玉液,阑尾,阿是穴,颈四椎旁,颈百劳,髋骨,鱼腰,鹤顶', null, '奇');
 
 -- ----------------------------
 -- Table structure for jlInfo
@@ -104,6 +136,26 @@ INSERT INTO `jlInfo` VALUES ('12', '5', '手少阴心经', 'HearT', '手少阴�
 INSERT INTO `jlInfo` VALUES ('13', '13', '督脉', 'DU', '起于胞中，下出会阴，向后从尾骨端（长强）行于脊柱的内部，至项后风府穴处进入脑内，直行至巅顶，沿前额下行鼻柱，止于上齿龈（龈交）。【附】《难经?二十八难》：督脉者，起于下极之俞，并于脊里，上至风府，入属于脑。', '脊柱强痛 角弓反张等。', '长强主治肛肠病；腰俞、腰阳关、命门主治腰痛及下肢痿痹；至阳主治胸胁痛；神道主治神志病；身柱主治脊背痛；陶道主治疟疾和热病；大椎主治热病及外感；哑门治疗以舌强不语及中风为主；风府治疗以中风及癫狂痫为主；脑户主治头项痛；百会治疗以神志病和内脏脱垂为主；上星以治鼻病为主；神庭主治神志病；素髎、水沟升血压。', '长强穴针尖宜向上斜刺；哑门、风府穴宜向下颌方向缓慢刺入，不可深刺；素髎、水沟、兑端、龈交穴宜向上斜刺并浅刺，一般不灸。', 'jl13/r5nz45gdquq5rm7bx30q0qfqi3oder8h', 'jl13/22uc8058y691y7niq40ypruvr0bi6riv');
 INSERT INTO `jlInfo` VALUES ('14', '14', '任脉', 'ReN', '起于胞中，下出会阴，向上前行至阴毛部位，沿腹部和胸部正中线直上，经咽喉，至下颌，环绕口唇，沿面颊，分行至目眶下。【附】《素问?骨穴论》：任脉者，起于中极之下，以上毛际，循腹里，上关元，至咽喉，上颐，循面，入目。', '疝气、带下、腹中结块等。', '曲骨、中极、关元主治妇科及前阴病；气海、神阙主治肠道病；下脘、建里、中脘、上脘主治胃肠病；巨阙、鸠尾、膻中主治心肺病；天突主治肺咽病；廉泉主治口舌病；承浆主治面口病；关元、气海是保健强壮要穴。', '脐以下腧穴孕妇慎用；神阙穴禁刺；天突穴向下沿胸骨柄后缘缓慢刺入；廉泉穴向咽喉部刺。', 'jl14/i3h2c34468monmwrwjnivp6lj3w6r81r', 'jl14/3lpqtbvi9jrhik8lsteu52z3cybhkpp9');
 INSERT INTO `jlInfo` VALUES ('15', '15', '经外奇穴', 'Extra points', '无', '无', '无', '无', 'jl15/ghu0q8654wxz428kn0px9r2wb91r40hx', 'jl15/om4uztwhc7y696mz2z29n4rt6f683ds7');
+
+-- ----------------------------
+-- Table structure for punch
+-- ----------------------------
+DROP TABLE IF EXISTS `punch`;
+CREATE TABLE `punch` (
+  `id` varchar(100) NOT NULL,
+  `openId` varchar(100) NOT NULL,
+  `firstTime` varchar(100) NOT NULL,
+  `punchTime` varchar(100) NOT NULL,
+  `count` int(11) DEFAULT '0',
+  `maxCount` int(11) DEFAULT '0',
+  `flag` tinyint(1) DEFAULT '0',
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+-- ----------------------------
+-- Records of punch
+-- ----------------------------
+INSERT INTO `punch` VALUES ('aa09f362-cb30-40b4-9340-e918ee4c2252', 'oVE3y0KxkwqKIJpGwCCOV-ZDxElA', '1531217902060', '1531217902060', '1', '1', '0');
 
 -- ----------------------------
 -- Table structure for xwDetail

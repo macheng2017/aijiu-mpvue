@@ -1,6 +1,6 @@
 // const https = require('https')
 const { mysql } = require('../qcloud')
-import uuid from 'uuid/v4'
+const uuid = require('uuid/v4')
 
 module.exports = async ctx => {
     const { openId } = ctx.request.body

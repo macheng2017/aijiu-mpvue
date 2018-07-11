@@ -181,6 +181,10 @@ export default {
       if (!this.comment) {
         return
       }
+      if (this.userInfo.openid) {
+        showModal('未登录', '请在我的信息页面登录!')
+        return
+      }
       const data = {
         openId: this.userInfo.openId,
         xwName: this.name,
@@ -208,14 +212,17 @@ export default {
     }
   },
   // 这是一个生命周期函数
-  onShareAppMessage: res => {
+  onShareAppMessage: function res() {
     if (res.from === 'button') {
       // 来自页面内转发按钮
       console.log(res.target)
     }
+    // const that = this.info
     return {
-      title: '自定义转发标题',
-      path: '/page/user?id=123'
+      title:
+        '郭林艾灸-穴位名:' + this.info.name + `( ${this.info.pinyin} )` ||
+        '穴位详情',
+      path: `/page/detail/main?name=${this.name}`
     }
   },
   async mounted() {
