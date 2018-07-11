@@ -200,7 +200,7 @@ export default {
         margin: 10px 10px
         color: #5C5C5C
   .runImg
-    margin-top: 10px
+    margin: 10px 0
     background: #fff
     padding-top: 5px
     .title

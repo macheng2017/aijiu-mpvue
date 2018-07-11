@@ -54,7 +54,7 @@
 
 <script>
 import defaultImg from '../../../static/img/default.jpg'
-import { get, post, showModal } from '@/utils'
+import { get, post, showModal, showSuccess } from '@/utils'
 import { mapState } from 'vuex'
 import CommentList from '@/components/commentList'
 export default {
@@ -181,7 +181,7 @@ export default {
       if (!this.comment) {
         return
       }
-      if (this.userInfo.openid) {
+      if (!this.userInfo.openId) {
         showModal('未登录', '请在我的信息页面登录!')
         return
       }
@@ -218,11 +218,18 @@ export default {
       console.log(res.target)
     }
     // const that = this.info
+
     return {
       title:
         '郭林艾灸-穴位名:' + this.info.name + `( ${this.info.pinyin} )` ||
         '穴位详情',
-      path: `/page/detail/main?name=${this.name}`
+      path: '/pages/index/main?name=' + this.name,
+      success: function(res) {
+        showSuccess('转发成功!')
+      },
+      fail: function(res) {
+        showModal('转发', '转发失败')
+      }
     }
   },
   async mounted() {

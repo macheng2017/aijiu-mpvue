@@ -55,7 +55,7 @@ export default {
       background: #F2F3F7
       font-weight: 100
       font-size: 14px
-      margin-bottom: 5px
+      margin: 25px 0 5px
   .xwlist
     display: flex
     flex-wrap: wrap
