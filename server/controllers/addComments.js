@@ -1,7 +1,7 @@
 // const https = require('https')
-const { mysql } = require('../qcloud')
+import mysql from '../database/mysql'
 
-module.exports = async ctx => {
+export default async ctx => {
     const { xwName, comment, openId, location, phone } = ctx.request.body
     console.log('111111111')
     console.log({ xwName, comment, openId, location, phone })

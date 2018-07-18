@@ -8,15 +8,17 @@ const controllers = require('../controllers')
 
 // 从 sdk 中取出中间件
 // 这里展示如何使用 Koa 中间件完成登录态的颁发与验证
-const {
-    auth: { authorizationMiddleware, validationMiddleware }
-} = require('../qcloud')
+// const {
+//     auth: { authorizationMiddleware, validationMiddleware }
+// } = require('../qcloud')
+
+const { authorizationMiddleware } = require('../middlewares/wechat')
 
 // --- 登录与授权 Demo --- //
 // 登录接口 /weapp/login
 router.get('/login', authorizationMiddleware, controllers.login)
-// 用户信息接口（可以用来验证登录态） /weapp/user
-router.get('/user', validationMiddleware, controllers.user)
+// // 用户信息接口（可以用来验证登录态） /weapp/user
+// router.get('/user', validationMiddleware, controllers.user)
 
 // --- 图片上传 Demo --- //
 // 图片上传接口，小程序端可以直接将 url 填入 wx.uploadFile 中 /weapp/upload

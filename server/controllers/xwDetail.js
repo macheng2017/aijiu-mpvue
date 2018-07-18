@@ -1,5 +1,5 @@
-const { mysql } = require('../qcloud')
-module.exports = async ctx => {
+import mysql from '../database/mysql'
+export default async ctx => {
     const { name } = ctx.request.query
 
     const detail = await mysql('xwDetail')

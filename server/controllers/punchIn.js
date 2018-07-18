@@ -1,8 +1,9 @@
 // const https = require('https')
-const { mysql } = require('../qcloud')
+import mysql from '../database/mysql'
+
 const uuid = require('uuid/v4')
 
-module.exports = async ctx => {
+export default async ctx => {
     const { openId } = ctx.request.body
     // console.log(isbn)
     console.log('*****************************')

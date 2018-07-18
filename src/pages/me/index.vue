@@ -11,9 +11,9 @@
 
 </template>
 <script>
-import qcloud from 'wafer2-client-sdk'
+// import qcloud from 'wafer2-client-sdk'
 import { showSuccess, post } from '@/utils'
-import config from '@/config'
+// import config from '@/config'
 export default {
   data() {
     return {
@@ -30,45 +30,33 @@ export default {
   },
   methods: {
     doLogin: function(e) {
-      console.log(e)
-      if (!this.userInfo.openId) {
-        qcloud.setLoginUrl(config.loginUrl)
-        qcloud.login({
-          // 解决不能成功刷新登录后的信息问题:
-          // 1. 使用=>函数
-          // 2. 使用 const self = this  this.userInfo = userInfo
-          success: userInfo => {
-            console.log('登录成功', userInfo)
-            showSuccess('登录成功')
-            // 存在浏览器中
-            wx.setStorageSync('userInfo', userInfo)
-            this.userInfo = userInfo
-            // 为了解决上个sdk中返回值没有带openId 当然现在'wafer2-client-sdk'已经解决了这个问题
-            // 利用openId来判断是否放权
-            // 自己调用server目录下的
-            // qcloud.request({
-            //   url: config.userUrl,
-            //   login: true,
-            //   success: userReq => {
-            //     wx.setStorageSync('userInfo', userReq.data.data)
-            //     this.userInfo = userReq.data.data
+      wx.login({
+        success: async function(res) {
+          if (res.code) {
+            // 拿到code ,发起请求
+            // wx.request({
+            //   url: '',
+            //   data:{
+            //     code: res.code
             //   }
             // })
-          },
-          fail: function(err) {
-            console.log('登录失败', err)
+            const data = await post('/weapp/login', { code: res.code })
+            console.log('-----login-------')
+            console.log(data)
+          } else {
+            console.log('登录失败!' + res.errMsg)
           }
-        })
-      }
-    },
-    async punchIn() {
-      const res = await post('/weapp/punchIn', { openId: this.userInfo.openId })
-      this.punchData = res
-      const difference = new Date().getTime() - res.punchTime
-      if (difference < 1000 * 60 * 60 * 24) {
-        showSuccess('明天再来吧!')
-        this.punch = true
-      }
+        }
+      })
+    }
+  },
+  async punchIn() {
+    const res = await post('/weapp/punchIn', { openId: this.userInfo.openId })
+    this.punchData = res
+    const difference = new Date().getTime() - res.punchTime
+    if (difference < 1000 * 60 * 60 * 24) {
+      showSuccess('明天再来吧!')
+      this.punch = true
     }
   }
 }
