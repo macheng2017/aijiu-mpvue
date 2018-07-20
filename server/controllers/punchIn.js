@@ -3,7 +3,7 @@ import mysql from '../database/mysql'
 
 const uuid = require('uuid/v4')
 
-export default async ctx => {
+module.exports = async ctx => {
     const { openId } = ctx.request.body
     // console.log(isbn)
     console.log('*****************************')

@@ -13,6 +13,7 @@
 <script>
 // import qcloud from 'wafer2-client-sdk'
 import { showSuccess, post } from '@/utils'
+import '../../vendor'
 // import config from '@/config'
 export default {
   data() {
@@ -29,25 +30,18 @@ export default {
     }
   },
   methods: {
-    doLogin: function(e) {
-      wx.login({
-        success: async function(res) {
-          if (res.code) {
-            // 拿到code ,发起请求
-            // wx.request({
-            //   url: '',
-            //   data:{
-            //     code: res.code
-            //   }
-            // })
-            const data = await post('/weapp/login', { code: res.code })
-            console.log('-----login-------')
-            console.log(data)
-          } else {
-            console.log('登录失败!' + res.errMsg)
-          }
-        }
-      })
+    async doLogin(e) {
+      console.log('================')
+      // 获取 code
+      const { code } = await wx.loginAsync()
+      console.log(code)
+      // 获取加密的userInfo信息
+      const { userInfo } = await wx.getUserInfoAsync()
+      const data = { code, userInfo }
+      console.log(data)
+      const res = await post('/weapp/login', data)
+      console.log('-----login-------')
+      console.log(res)
     }
   },
   async punchIn() {

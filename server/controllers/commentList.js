@@ -1,6 +1,6 @@
 // const https = require('https')
 import mysql from '../database/mysql'
-export default async ctx => {
+module.exports = async ctx => {
     const { xwName, openId } = ctx.request.body
     console.log('----------------------')
     console.log(xwName, openId)

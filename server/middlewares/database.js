@@ -1,6 +1,6 @@
-import R from 'ramda'
-import fs from 'fs'
-import {resolve} from 'path'
+// import R from 'ramda'
+// import fs from 'fs'
+import { resolve } from 'path'
 import knex from 'knex'
 
 // let xwDetail = require(resolve(__dirname, '../database/json/completeXwDetail.json'))

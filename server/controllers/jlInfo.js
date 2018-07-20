@@ -1,6 +1,6 @@
 import mysql from '../database/mysql'
 
-export default async ctx => {
+module.exports = async ctx => {
     const { jlId } = ctx.request.query
 
     const detail = await mysql('jlInfo')

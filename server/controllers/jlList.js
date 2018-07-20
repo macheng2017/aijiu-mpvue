@@ -1,6 +1,6 @@
 import mysql from '../database/mysql'
 
-export default async ctx => {
+module.exports = async ctx => {
     try {
         const jlInfo = await mysql('jingluo').select('jingluo.*')
         const data = jlInfo.map(v => {

@@ -1,5 +1,5 @@
 import mysql from '../database/mysql'
-export default async ctx => {
+module.exports = async ctx => {
     const { name } = ctx.request.query
 
     const detail = await mysql('xwDetail')

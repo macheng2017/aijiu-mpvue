@@ -81,3 +81,15 @@ create table punch(
   maxCount int default 0,
   flag boolean default false
 )ENGINE=InnoDB  DEFAULT CHARSET=utf8;
+
+create table users(
+  id varchar(100) 
+  avatarUrl varchar(100),
+  nickName varchar(100),
+  unionid varchar(100),
+  openid varchar(100) not null,
+  sex varchar(10),
+  country varchar(100),
+  province varchar(100),
+  city varchar(100)
+)ENGINE=InnoDB  DEFAULT CHARSET=utf8;
