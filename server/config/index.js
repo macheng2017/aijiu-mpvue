@@ -4,7 +4,7 @@ export default {
         port: 3306,
         user: 'root',
         db: 'gl_aijiu',
-        pass: '413325181mac',
+        pass: '123456',
         char: 'utf8mb4'
     },
     qiniu: {

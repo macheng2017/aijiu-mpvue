@@ -82,9 +82,10 @@ create table punch(
   flag boolean default false
 )ENGINE=InnoDB  DEFAULT CHARSET=utf8;
 
+DROP TABLE IF EXISTS `users`;
 create table users(
-  id varchar(100) 
-  avatarUrl varchar(100),
+  id varchar(100) not null primary key,
+  avatarUrl varchar(500),
   nickName varchar(100),
   unionid varchar(100),
   openid varchar(100) not null,

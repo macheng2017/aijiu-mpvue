@@ -11,55 +11,82 @@
 import mysql from '../database/mysql'
 // import mongoose from 'mongoose'
 import { openidAndSessionKey, WXBizDataCrypt } from '../wechat-lib/mina'
-// const User = mongoose.model('User')
-
+// const User = mongoose.model('User'
+import uuid from 'uuid/v4'
 // export async function getUserAsync (ctx, next) {
 module.exports = async ctx => {
     const { code, userInfo } = ctx.request.body
-    console.log('code= ' + code)
+    console.log('userInfo= ' + JSON.stringify(userInfo))
     const minaUser = await openidAndSessionKey(code)
     console.log('------------------')
-    console.log(minaUser)
-    let user = await mysql('users').select('unionid')
+    // console.log(minaUser)
+    let user = await mysql('users')
+        .select()
+        .where('unionid', minaUser.unionid)
+        .first()
+    console.log(user)
+    console.log('----------------')
     if (!user) {
+        console.log('******************')
+        console.log(userInfo.encryptedData)
+        console.log(userInfo.iv)
+        // todo: 问题是 wx.userInfo() 获取不到加密信息
         // 复制微信官方提供的解密demo代码
-        let pc = new WXBizDataCrypt(minaUser.session_key)
-        // 传入加密的数据和iv
-        var data = pc.decryptData(userInfo.encryptedData, userInfo.iv)
-        console.log(data)
+        // let pc = new WXBizDataCrypt(minaUser.session_key)
+        // // 传入加密的数据和iv
+        // var data = pc.decryptData(userInfo.encryptedData, userInfo.iv)
+        // console.log(data)
         try {
-            // user = await User.findOne({
-            //     unionid: data.unionId
-            // })
             // if (!user) {
-            //     let _userData = userInfo.userInfo
-            //     mysql('users').insert({
-            //         avatarUrl: _userData.avatarUrl,
-            //         nickName: _userData.nickName,
-            //         unionid: data.unionid,
-            //         openid: [minaUser.openid],
-            //         sex: _userData.gender,
-            //         country: _userData.country,
-            //         province: _userData.province,
-            //         city: _userData.city
+            let _userData = userInfo
+            user = await mysql('users')
+                .returning(['avatarUrl', 'nickName', 'sex', 'openid'])
+                .insert({
+                    id: uuid(),
+                    avatarUrl: _userData.avatarUrl,
+                    nickName: _userData.nickName,
+                    unionid: minaUser.unionid,
+                    openid: minaUser.openid,
+                    sex: _userData.gender,
+                    country: _userData.country,
+                    province: _userData.province,
+                    city: _userData.city
+                })
+            console.log(user)
+            // user = await mysql('users')
+            //     .select()
+            //     .where({
+            //         unionid: minaUser.unionId
             //     })
+            //     .first()
             // }
         } catch (err) {
-            ctx.body = {
-                success: false,
-                err: err
+            console.log(err.sqlMessage)
+            // ctx.body 与ctx.state有什么区别?
+            // ctx.body = {
+            //     code: -1,
+            //     data: { msg: err.sqlMessage }
+            // }
+            ctx.state = {
+                code: -1,
+                data: {
+                    msg: err.sqlMessage
+                }
             }
+            return
         }
-        ctx.body = {
-            success: true,
-            data: {
-                nickName: user.nickName,
-                avatarUrl: user.avatarUrl,
-                sex: user.sex
-            }
+    }
+    ctx.state = {
+        code: 0,
+        data: {
+            nickName: user.nickName,
+            avatarUrl: user.avatarUrl,
+            sex: user.sex,
+            openId: user.openid
         }
     }
 }
+
 // // login
 // export async function loginAsync (ctx, next) {
 //     const { code, avatarUrl, nickName } = ctx.reqest.body

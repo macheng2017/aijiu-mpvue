@@ -19,7 +19,7 @@ const asyncWrap = fn => (options = {}) =>
         reject(err)
       }
     }
-
+    // console.log(options)
     wx[fn](R.merge(conf, options))
   })
 

@@ -1,6 +1,11 @@
 //  工具函数
 import config from '../config'
 
+import * as R from 'ramda'
+
+// 错误日志记录
+// const log4js = require('log4js')
+
 function formatNumber(n) {
   const str = n.toString()
   return str[1] ? str : `0${str}`
@@ -64,3 +69,35 @@ export function showModal(title, content) {
     showCancel: false
   })
 }
+
+// import TWEEN from 'tween.js'
+// global.regeneratorRuntime = regeneratorRuntime
+// global._ = _
+// global.R = R
+
+// 封装下微信常用的方法
+const asyncWrap = fn => (options = {}) =>
+  new Promise((resolve, reject) => {
+    let conf = {
+      success: res => {
+        resolve(res)
+      },
+      fail: err => {
+        reject(err)
+      }
+    }
+    // console.log(options)
+    wx[fn](R.merge(conf, options))
+  })
+
+export const loginAsync = asyncWrap('login')
+export const getUserInfoAsync = asyncWrap('getUserInfo')
+export const reqAsync = asyncWrap('request')
+export const getSystemInfoAsync = asyncWrap('getSystemInfo')
+export const payAsync = asyncWrap('requestPayment')
+// log4js 错误信息配置
+// log4js.configure({
+//   appenders: { cheese: { type: 'file', filename: 'cheese.log' } },
+//   categories: { default: { appenders: ['cheese'], level: 'error' } }
+// })
+// export const logger = log4js.getLogger('cheese')

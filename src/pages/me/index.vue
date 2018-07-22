@@ -12,8 +12,15 @@
 </template>
 <script>
 // import qcloud from 'wafer2-client-sdk'
-import { showSuccess, post } from '@/utils'
-import '../../vendor'
+import {
+  showSuccess,
+  post,
+  showModal,
+  loginAsync,
+  getUserInfoAsync
+  // logger
+} from '@/utils'
+// import '../../vendor'
 // import config from '@/config'
 export default {
   data() {
@@ -31,17 +38,27 @@ export default {
   },
   methods: {
     async doLogin(e) {
-      console.log('================')
-      // 获取 code
-      const { code } = await wx.loginAsync()
-      console.log(code)
-      // 获取加密的userInfo信息
-      const { userInfo } = await wx.getUserInfoAsync()
-      const data = { code, userInfo }
-      console.log(data)
-      const res = await post('/weapp/login', data)
-      console.log('-----login-------')
-      console.log(res)
+      try {
+        console.log('================')
+        // 获取 code
+        const { code } = await loginAsync()
+        console.log(code)
+        // 获取加密的userInfo信息
+        const { userInfo } = await getUserInfoAsync({
+          withCredentials: true,
+          lang: 'zh_CN'
+        })
+        const data = { code, userInfo }
+        console.log(data)
+        const res = await post('/weapp/login', data)
+        console.log('-----login-------')
+        this.userInfo = res
+        wx.setStorageSync('userInfo', res)
+      } catch (err) {
+        console.log(err)
+        showModal('授权失败', `权cai可以打卡哦!`)
+        // logger.error('Cheese is too ripe!')
+      }
     }
   },
   async punchIn() {
