@@ -26,15 +26,23 @@ export default {
     // 获取经络数据
     async getList() {
       wx.showNavigationBarLoading()
+
       const items = await get('/weapp/jlList')
       this.items = items.list
       // console.log('--------------------')
       // console.log(this.items)
+
       wx.hideNavigationBarLoading()
     }
   },
-  mounted() {
-    this.getList()
+  async mounted() {
+    wx.showToast({
+      title: '玩命加载中',
+      icon: 'loading',
+      duration: 5000
+    })
+    await this.getList()
+    wx.hideToast()
   },
   onLoad: function(options) {
     if (options.name) {

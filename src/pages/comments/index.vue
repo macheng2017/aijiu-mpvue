@@ -43,8 +43,14 @@ export default {
 
     init() {
       wx.showNavigationBarLoading()
+      wx.showToast({
+        title: '玩命加载中',
+        icon: 'loading',
+        duration: 5000
+      })
       this.getComments()
       // this.getBooks()
+      wx.hideToast()
       wx.hideNavigationBarLoading()
     }
   },

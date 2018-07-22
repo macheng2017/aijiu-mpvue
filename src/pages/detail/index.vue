@@ -233,6 +233,11 @@ export default {
     }
   },
   async mounted() {
+    wx.showToast({
+      title: '玩命加载中',
+      icon: 'loading'
+      // duration: 2000
+    })
     this.name = this.$root.$mp.query.name
     // this.xwName = this.$root.$mp.query.id
     await this.getDetail()
@@ -243,6 +248,7 @@ export default {
     }
     // 开启分享
     wx.showShareMenu()
+    wx.hideToast()
   }
 }
 </script>

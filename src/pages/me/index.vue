@@ -59,15 +59,16 @@ export default {
         showModal('授权失败', `权cai可以打卡哦!`)
         // logger.error('Cheese is too ripe!')
       }
-    }
-  },
-  async punchIn() {
-    const res = await post('/weapp/punchIn', { openId: this.userInfo.openId })
-    this.punchData = res
-    const difference = new Date().getTime() - res.punchTime
-    if (difference < 1000 * 60 * 60 * 24) {
-      showSuccess('明天再来吧!')
-      this.punch = true
+    },
+    async punchIn() {
+      console.log('daka')
+      const res = await post('/weapp/punchIn', { openId: this.userInfo.openId })
+      this.punchData = res
+      const difference = new Date().getTime() - res.punchTime
+      if (difference < 1000 * 60 * 60 * 24) {
+        showSuccess('明天再来吧!')
+        this.punch = true
+      }
     }
   }
 }

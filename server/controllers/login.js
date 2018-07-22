@@ -22,14 +22,14 @@ module.exports = async ctx => {
     // console.log(minaUser)
     let user = await mysql('users')
         .select()
-        .where('unionid', minaUser.unionid)
+        .where('openid', minaUser.openid)
         .first()
     console.log(user)
     console.log('----------------')
     if (!user) {
         console.log('******************')
-        console.log(userInfo.encryptedData)
-        console.log(userInfo.iv)
+        // console.log(userInfo.encryptedData)
+        // console.log(userInfo.iv)
         // todo: 问题是 wx.userInfo() 获取不到加密信息
         // 复制微信官方提供的解密demo代码
         // let pc = new WXBizDataCrypt(minaUser.session_key)
@@ -39,10 +39,28 @@ module.exports = async ctx => {
         try {
             // if (!user) {
             let _userData = userInfo
-            user = await mysql('users')
-                .returning(['avatarUrl', 'nickName', 'sex', 'openid'])
-                .insert({
-                    id: uuid(),
+            user = await mysql('users').insert({
+                id: uuid(),
+                avatarUrl: _userData.avatarUrl,
+                nickName: _userData.nickName,
+                unionid: minaUser.unionid,
+                openid: minaUser.openid,
+                sex: _userData.gender,
+                country: _userData.country,
+                province: _userData.province,
+                city: _userData.city
+            })
+            console.log(user)
+            // 不用再查询了,浪费性能
+            // user = await mysql('users')
+            //     .select()
+            //     .where({
+            //         openid: minaUser.openid
+            //     })
+            //     .first()
+            if (user >= 0) {
+                // 如果存入成功,那么直接组合一个json
+                user = {
                     avatarUrl: _userData.avatarUrl,
                     nickName: _userData.nickName,
                     unionid: minaUser.unionid,
@@ -51,15 +69,8 @@ module.exports = async ctx => {
                     country: _userData.country,
                     province: _userData.province,
                     city: _userData.city
-                })
-            console.log(user)
-            // user = await mysql('users')
-            //     .select()
-            //     .where({
-            //         unionid: minaUser.unionId
-            //     })
-            //     .first()
-            // }
+                }
+            }
         } catch (err) {
             console.log(err.sqlMessage)
             // ctx.body 与ctx.state有什么区别?
