@@ -42,5 +42,7 @@ router.get('/jlInfo', controllers.jlInfo)
 router.post('/addComments', controllers.addComments)
 router.post('/commentList', controllers.commentList)
 router.post('/punchIn', controllers.punchIn)
+// 搜索功能
+router.get('/search', controllers.search)
 
 module.exports = router

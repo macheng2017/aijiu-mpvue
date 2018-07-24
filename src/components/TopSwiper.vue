@@ -30,10 +30,10 @@ export default {
   },
   methods: {
     swiperChange(e) {
-      console.log('第' + e.mp.detail.current + '张轮播图发生了滑动')
+      // console.log('第' + e.mp.detail.current + '张轮播图发生了滑动')
     },
     animationfinish(e) {
-      console.log('第' + e.mp.detail.current + '张轮播图滑动结束')
+      // console.log('第' + e.mp.detail.current + '张轮播图滑动结束')
     }
   }
 }
