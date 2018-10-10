@@ -17,3 +17,5 @@ server/config.local.js
 server/node_modules/
 .vscode
 server/config/index.js
+server/config/
+

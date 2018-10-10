@@ -16,10 +16,10 @@ import uuid from 'uuid/v4'
 // export async function getUserAsync (ctx, next) {
 module.exports = async ctx => {
     const { code, userInfo } = ctx.request.body
+    console.log('------------------')
     console.log('userInfo= ' + JSON.stringify(userInfo))
     const minaUser = await openidAndSessionKey(code)
-    console.log('------------------')
-    // console.log(minaUser)
+    console.log(minaUser)
     let user = await mysql('users')
         .select()
         .where('openid', minaUser.openid)

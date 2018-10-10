@@ -7,10 +7,10 @@
 		"minified": true,
 		"newFeature": true
 	},
-	"miniprogramRoot": "./dist/",
+	"miniprogramRoot": "dist/",
 	"compileType": "miniprogram",
-	"qcloudRoot": "./server",
-	"appid": "wxae829d52ffa9d7e6",
+	"qcloudRoot": "server/",
+	"appid": "wx1cf3c33d21786f00",
 	"projectname": "aijiu",
 	"libVersion": "2.1.1",
 	"condition": {

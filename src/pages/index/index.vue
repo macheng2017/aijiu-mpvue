@@ -3,6 +3,7 @@
   Search()
   TopSwiper(:tops="tops")
   Card( v-for="item in items" :item='item' :key="item.id")
+
 </template>
 
 <script>
@@ -44,6 +45,8 @@ export default {
     await this.getList()
     wx.hideToast()
   },
+
+  // 增加了分享出去后,先到首页,然后自动切换到详情页
   onLoad: function(options) {
     if (options.name) {
       // 这个pageId的值存在则证明首页的开启来源于用户点击来首页,同时可以通过获取到的pageId的值跳转导航到对应的详情页
