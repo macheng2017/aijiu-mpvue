@@ -1,5 +1,6 @@
 <template lang='pug'>
 .container
+  FloatMenu
   Search()
   TopSwiper(:tops="tops")
   Card( v-for="item in items" :item='item' :key="item.id")
@@ -11,6 +12,7 @@ import { get } from '@/utils'
 import Search from '@/components/Search'
 import Card from '@/components/Card'
 import TopSwiper from '@/components/TopSwiper'
+import FloatMenu from '@/components/FloatMenu'
 export default {
   data() {
     return {
@@ -21,7 +23,8 @@ export default {
   components: {
     Search,
     TopSwiper,
-    Card
+    Card,
+    FloatMenu
   },
   methods: {
     // 获取经络数据
