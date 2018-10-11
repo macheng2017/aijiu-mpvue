@@ -2,6 +2,7 @@
 </script>
 
 <style lang='sass'>
+@import mpvue-zanui/src/assets/style/zanui.wxss
 @import static/sass/base
 .btn
   color: white

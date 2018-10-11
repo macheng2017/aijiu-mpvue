@@ -5,6 +5,8 @@ const host = 'http://localhost:5757'
 
 const config = {
   host,
-  loginUrl: `${host}/weapp/login`
+  loginUrl: `${host}/weapp/login`,
+  articleUrl: 'http://www.guolinaijiu.com',
+  imageCDN: 'http://mini.guolinaijiu.com/'
 }
 export default config
