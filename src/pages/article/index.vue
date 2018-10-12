@@ -92,8 +92,8 @@ export default {
     async arcitleDetail(data) {
       console.log(data)
       wx.navigateTo({
-        url: '/pages/articleDetail/main',
-        item: JSON.stringify(data)
+        url: `/pages/articleDetail/main?item=${JSON.stringify(data)}`
+
       })
     },
     // 向剪贴板中写入信息
