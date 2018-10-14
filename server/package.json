@@ -4,7 +4,7 @@
     "description": "",
     "main": "app.js",
     "scripts": {
-        "start": "pm2 start process.prod.json --no-daemon",
+        "start": "pm2 start ecosystem.json --no-daemon",
         "dev": "nodemon --config nodemon.json index.js",
         "initdb": "npm install && node tools/initdb.js"
     },
