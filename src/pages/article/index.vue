@@ -64,21 +64,23 @@ export default {
         let items = await fly.get(`${this.articleUrl}/api/content/getList`, {
           current: this.page
         })
-        items = items.data
+        items = items.data.data.docs
         console.log('-items.data----------------')
-        console.log(items.data)
+        console.log(items)
+        // 查询出来的数据太大了一次传递不到下个页面,先存到本地
+        wx.setStorageSync('articleList', items)
 
         // 设置显示更多的状态
-        if (items.data.docs.length < 10 && this.page > 0) {
+        if (items.length < 10 && this.page > 0) {
           this.more = false
           console.log(this.more)
         }
         if (init) {
-          this.items = items.data.docs
+          this.items = items
           wx.stopPullDownRefresh()
         } else {
           // 下拉刷新，不能直接覆盖文章 而是累加
-          this.items = this.items.concat(items.list)
+          this.items = this.items.concat(items)
         }
         console.log('--------------------')
         console.log(this.items)
@@ -90,10 +92,10 @@ export default {
       wx.hideLoading()
     },
     async arcitleDetail(data) {
-      console.log(data)
+      // console.log('---arcitleDetail------------')
+      // console.log(data.id)
       wx.navigateTo({
-        url: `/pages/articleDetail/main?item=${JSON.stringify(data)}`
-
+        url: `/pages/articleDetail/main?articleId=${data.id}`
       })
     },
     // 向剪贴板中写入信息

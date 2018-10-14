@@ -1,11 +1,12 @@
 <template>
   <div>
-    <wxParse :content="article" @preview="preview" @navigate="navigate" />
+    <wxParse :content="article" @preview="preview" @navigate="navigate"/>
   </div>
 </template>
 
 <script>
 import wxParse from 'mpvue-wxparse'
+const R = require('ramda')
 
 export default {
   components: {
@@ -14,22 +15,30 @@ export default {
   data() {
     return {
       item: {},
+      articleId: '',
       article: '<div>我是HTML代码</div>'
     }
   },
   methods: {
     preview(src, e) {
       // do something
+      console.log('src')
     },
     navigate(href, e) {
       // do something
+      console.log('herf')
     }
   },
   mounted() {
     // this.item = JSON.parse(this.$root.$mp.query.item)
-    const item = this.$root.$mp.query.item
-    console.log(JSON.parse(item))
-    this.article = this.item.comments
+    const articleId = this.$root.$mp.query.articleId
+    // console.log(articleId)
+    this.articleId = articleId
+    const articleList = wx.getStorageSync('articleList')
+    // console.log(articleList)
+    let article = R.filter(R.propEq('id', this.articleId))(articleList)
+    // console.log(article[0])
+    this.article = article[0].comments
   }
 }
 </script>
