@@ -28,6 +28,7 @@ export default {
       // do something
       console.log('herf')
     }
+
   },
   mounted() {
     // this.item = JSON.parse(this.$root.$mp.query.item)
@@ -38,7 +39,10 @@ export default {
     // console.log(articleList)
     let article = R.filter(R.propEq('id', this.articleId))(articleList)
     // console.log(article[0])
-    this.article = article[0].comments
+    this.article = R.head(article).comments
+    wx.setNavigationBarTitle({
+      title: R.head(article).stitle
+    })
   }
 }
 </script>

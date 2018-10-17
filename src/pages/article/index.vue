@@ -62,7 +62,8 @@ export default {
         //   page: this.page // 分页
         // })
         let items = await fly.get(`${this.articleUrl}/api/content/getList`, {
-          current: this.page
+          current: this.page,
+          typeId: 'NkGSLLZF'
         })
         items = items.data.data.docs
         console.log('-items.data----------------')

@@ -38,8 +38,8 @@ export default {
         {
           pagePath: 'pages/article/main',
           text: '文章',
-          iconPath: 'static/img/icon_learn_nor.png',
-          selectedIconPath: 'static/img/icon_learn_sel.png'
+          iconPath: 'static/img/icon_find_nor.png',
+          selectedIconPath: 'static/img/icon_find_sel.png'
         },
         {
           pagePath: 'pages/comments/main',

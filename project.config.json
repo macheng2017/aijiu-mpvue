@@ -10,7 +10,7 @@
 	"miniprogramRoot": "dist/",
 	"compileType": "miniprogram",
 	"qcloudRoot": "server/",
-	"appid": "wx1cf3c33d21786f00",
+	"appid": "wxae829d52ffa9d7e6",
 	"projectname": "aijiu",
 	"libVersion": "2.1.1",
 	"condition": {
