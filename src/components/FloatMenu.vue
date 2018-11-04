@@ -10,7 +10,7 @@ export default {
   methods: {
     calling: function() {
       wx.makePhoneCall({
-        phoneNumber: '10086'
+        phoneNumber: '18600760405'
       })
     }
   },

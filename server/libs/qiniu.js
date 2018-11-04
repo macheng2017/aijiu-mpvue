@@ -1,8 +1,6 @@
 import qiniu from 'qiniu'
 import config from '../config'
-import {
-  exec
-} from 'shelljs'
+import { exec } from 'shelljs'
 
 // qiniu.config.ACCESS_KEY = config.qiniu.AK
 // qiniu.config.SECRET_KEY = config.qiniu.SK
@@ -12,14 +10,14 @@ const bucket = 'aijiu'
 // 创建各种上传凭证之前，我们需要定义好其中鉴权对象mac
 // const accessKey = config.qiniu.AK
 // const secretKey = config.qiniu.SK
-const accessKey = 'rvMb2GJrTE5b74_F1TZyNrAbcTG1XQnAaLJZXyJ-'
-const secretKey = 'j9fh9KCdCMW9_e5q032VnQgbt2RcWAx5kZV5AZFz'
+const accessKey = ''
+const secretKey = ''
 // https://developer.qiniu.com/kodo/sdk/1289/nodejs#5
 // 资源管理相关的操作首先要构建BucketManager对象：
 const mac = new qiniu.auth.digest.Mac(accessKey, secretKey)
 
 // 构建覆盖文件上传凭证
-export const uptoken = (key) => {
+export const uptoken = key => {
     const options = {
         scope: bucket + ':' + key
     }
@@ -28,16 +26,16 @@ export const uptoken = (key) => {
 }
 
 export const fetchImage = async (url, key) => {
-  // const client = new qiniu.rs.Client()
-  // promise 封装下
+    // const client = new qiniu.rs.Client()
+    // promise 封装下
     return new Promise((resolve, reject) => {
-    // client.fetch(url, bucket, key, (err, ret) => {
-    //   if (err) reject(err)
-    //   else resolve(ret)
-    // })
-    // 使用七牛的shell 脚本
+        // client.fetch(url, bucket, key, (err, ret) => {
+        //   if (err) reject(err)
+        //   else resolve(ret)
+        // })
+        // 使用七牛的shell 脚本
         const bash = `qshell fetch ${url} ${bucket} ${key}`
-    // execute shell
+        // execute shell
         const child = exec(bash, {
             async: true
         })

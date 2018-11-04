@@ -16,7 +16,7 @@ export default {
     return {
       item: {},
       articleId: '',
-      article: '<div>我是HTML代码</div>'
+      article: '<div>没有文章数据</div>'
     }
   },
   methods: {
