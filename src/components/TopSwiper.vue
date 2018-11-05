@@ -4,7 +4,7 @@
       <swiper :indicator-dots="indicatorDots" :autoplay="autoplay" :interval="interval" :duration="duration" :circular="circular" @change="swiperChange" @animationfinish="animationfinish">
         <div v-for="item in imgUrls" :key="index">
           <swiper-item>
-            <image :src="item" class="slide-image" />
+            <image :src="item" class="slide-image"/>
           </swiper-item>
         </div>
       </swiper>
@@ -22,8 +22,8 @@ export default {
       duration: 900,
       circular: true,
       imgUrls: [
-        '../../public/img/banner1.jpg',
-        '../../public/img/banner2.jpg'
+        'https://mina.guolinaijiu.com/img/banner1.jpg',
+        'https://mina.guolinaijiu.com/img/banner2.jpg'
       ]
     }
   },
