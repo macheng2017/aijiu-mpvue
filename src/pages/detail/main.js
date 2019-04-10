@@ -8,7 +8,7 @@ app.$mount()
 // 配置小程序显示界面
 export default {
   config: {
-    navigationBarTextStyle: 'light',
+    navigationBarTextStyle: 'white',
     navigationBarBackgroundColor: '#42C593'
   }
 }

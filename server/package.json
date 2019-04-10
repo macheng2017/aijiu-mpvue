@@ -21,11 +21,11 @@
         "knex": "^0.15.2",
         "koa": "^2.5.2",
         "koa-bodyparser": "^3.2.0",
-        "koa-log4": "^2.1.0",
+        "koa-log4": "^2.3.2",
         "koa-router": "^7.4.0",
         "koa-static": "^5.0.0",
         "latest-node": "0.0.3",
-        "lodash": "^4.17.4",
+        "lodash": "^4.17.11",
         "mkdir-p": "0.0.7",
         "mysql": "^2.15.0",
         "pify": "^2.3.0",
@@ -33,7 +33,7 @@
         "ramda": "^0.25.0",
         "random-token": "0.0.8",
         "request-promise": "^4.2.2",
-        "wafer-node-sdk": "^1.4.0"
+        "wafer-node-sdk": "^1.4.5"
     },
     "devDependencies": {
         "babel-eslint": "^7.1.0",
