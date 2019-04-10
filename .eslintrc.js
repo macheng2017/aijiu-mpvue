@@ -14,9 +14,11 @@ module.exports = {
   // https://github.com/standard/standard/blob/master/docs/RULES-en.md
   extends: 'standard',
   // required to lint *.vue files
-  plugins: ['html'],
+  plugins: [
+    'html'
+  ],
   // add your custom rules here
-  rules: {
+  'rules': {
     'space-before-function-paren': ['error', 'never'],
     // allow paren-less arrow functions
     'arrow-parens': 0,
@@ -29,8 +31,13 @@ module.exports = {
     App: true,
     Page: true,
     wx: true,
+    swan: true,
+    tt: true,
+    my: true,
     getApp: true,
     getPage: true,
-    requirePlugin: true
+    requirePlugin: true,
+    mpvue: true,
+    mpvuePlatform: true
   }
 }
