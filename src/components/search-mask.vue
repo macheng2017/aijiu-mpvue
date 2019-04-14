@@ -6,7 +6,7 @@
         <input
           @confirm="onConfirm"
           placeholder-class="in-bar"
-          placeholder="型号,鞋型,款号,尺码"
+          placeholder="请输入穴位或者经络"
           class="bar"
           focus
           type="text"
