@@ -23,12 +23,7 @@
             "iconPath": "static/img/icon_home_nor.png",
             "selectedIconPath": "static/img/icon_home_sel.png"
           },
-          {
-            "pagePath": "pages/article/main",
-            "text": "文章",
-            "iconPath": "static/img/icon_find_nor.png",
-            "selectedIconPath": "static/img/icon_find_sel.png"
-          },
+
           {
             "pagePath": "pages/comments/main",
             "text": "评论",

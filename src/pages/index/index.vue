@@ -1,15 +1,20 @@
 <template lang='pug'>
 .container
   FloatMenu
-  Search()
-  TopSwiper(:tops="tops")
-  Card( v-for="item in items" :item='item' :key="item.id")
+  .header(@click="onSearch" v-if="!searching")
+    .box
+        img(src="/static/img/icon/search.png")
+        div 搜索数据
+  SearchMask(v-if="searching" @onCancel="onCancel")
+  .sub-container(v-if="!searching")
+    TopSwiper(:tops="tops")
+    Card( v-for="item in items" :item='item' :key="item.id")
 
 </template>
 
 <script>
 import { get } from '@/utils'
-import Search from '@/components/Search'
+import SearchMask from '@/components/search-mask.vue'
 import Card from '@/components/Card'
 import TopSwiper from '@/components/TopSwiper'
 import FloatMenu from '@/components/FloatMenu'
@@ -17,11 +22,12 @@ export default {
   data() {
     return {
       userInfo: {},
-      items: []
+      items: [],
+      searching: false
     }
   },
   components: {
-    Search,
+    SearchMask,
     TopSwiper,
     Card,
     FloatMenu
@@ -37,6 +43,12 @@ export default {
       // console.log(this.items)
 
       wx.hideNavigationBarLoading()
+    },
+    onSearch() {
+      this.searching = true
+    },
+    onCancel(event) {
+      this.searching = event.flag
     }
   },
   async mounted() {
@@ -61,8 +73,40 @@ export default {
 }
 </script>
 
-<style lang="sass" scoped>
-
-
-
+<style  scoped>
+.header {
+  /* position: fixed; */
+  background-color: #ccc;
+  height: 100rpx;
+  width: 100%;
+  border-top: 1px solid #f5f5f51e;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 0 3px 0 #e3e3e3;
+  z-index: 99;
+}
+.box {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+  background-color: #f5f5f5;
+  height: 68rpx;
+  width: 700rpx;
+  color: #999;
+}
+.head-img {
+  width: 106rpx;
+  height: 34rpx;
+  margin-top: 40rpx;
+}
+.box img {
+  margin-right: 10px;
+  width: 14px;
+  height: 14px;
+  margin-bottom: -2px;
+}
 </style>
