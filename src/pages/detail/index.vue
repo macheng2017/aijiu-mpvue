@@ -75,18 +75,22 @@ export default {
     ...mapState(['imageCDN']),
     imgSrc() {
       if (this.jlInfo.zongtu) {
+        // console.log(this.imageCDN + this.jlInfo.zongtu)
         return this.imageCDN + this.jlInfo.zongtu
       }
+      return ''
     },
     videoSrc() {
       if (this.info.video_url) {
         return this.imageCDN + this.info.video_url
       }
+      return ''
     },
     imgSrc2() {
       if (this.info.thumb_url) {
         return this.imageCDN + this.info.thumb_url
       }
+      return ''
     },
     showAdd() {
       // 没登录

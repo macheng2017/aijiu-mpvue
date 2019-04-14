@@ -5,11 +5,13 @@
     a(:href="parasJL") {{item.name}}
     // 现在只能用多层组件嵌套解决template 传值问题
   .xwlist
-    Xw(:xw = "xw"  v-for="xw in item.xwName" :key="item.id" )
+    //- Xw(:xw = "xw"  v-for="xw in item.xwName" :key="item.id" )
+    .xw(v-for="xw in item.xwName" :key="item.id") 
+      a(@click="navi($event,xw)") {{xw}}
 
 </template>
 <script>
-import Xw from '@/components/Xw.vue'
+// import Xw from '@/components/Xw.vue'
 export default {
   // data() {
   //   return {
@@ -35,10 +37,16 @@ export default {
     //   return encodeURI(this.xw)
     // }
   },
-  methods: {},
-  components: {
-    Xw
+  methods: {
+    navi(e, key) {
+      wx.navigateTo({
+        url: `/pages/detail/main?name=${encodeURI(key)}`
+      })
+    }
   }
+  // components: {
+  //   Xw
+  // }
 }
 </script>
 <style lang="sass" scoped>
@@ -60,7 +68,8 @@ export default {
     display: flex
     flex-wrap: wrap
     text-align: center
-
-
+  .xw
+    width: 50px
+    margin: 5px 1px 5px
 </style>
 

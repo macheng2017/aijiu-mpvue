@@ -1,0 +1,52 @@
+{
+      "pages": [
+        "pages/index/main",
+        "pages/article/main",
+        "pages/me/main",
+        "pages/comments/main",
+        "pages/articleDetail/main",
+        "pages/detail/main",
+        "pages/jlDetail/main"
+      ],
+      "window": {
+        "backgroundTextStyle": "light",
+        "navigationBarBackgroundColor": "#42C593",
+        "navigationBarTitleText": "郭林艾灸",
+        "navigationBarTextStyle": "black"
+      },
+      "tabBar": {
+        "selectedColor": "#4ADB97",
+        "list": [
+          {
+            "pagePath": "pages/index/main",
+            "text": "主页",
+            "iconPath": "static/img/icon_home_nor.png",
+            "selectedIconPath": "static/img/icon_home_sel.png"
+          },
+          {
+            "pagePath": "pages/article/main",
+            "text": "文章",
+            "iconPath": "static/img/icon_find_nor.png",
+            "selectedIconPath": "static/img/icon_find_sel.png"
+          },
+          {
+            "pagePath": "pages/comments/main",
+            "text": "评论",
+            "iconPath": "static/img/icon_learn_nor.png",
+            "selectedIconPath": "static/img/icon_learn_sel.png"
+          },
+          {
+            "pagePath": "pages/me/main",
+            "text": "我的信息",
+            "iconPath": "static/img/icon_my_nor.png",
+            "selectedIconPath": "static/img/icon_my_sel.png"
+          }
+        ]
+      },
+      "permission": {
+        "scope.userLocation": {
+          "desc": "你的位置信息将用于小程序短评"
+        }
+    }
+}
+  

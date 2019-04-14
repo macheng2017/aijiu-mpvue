@@ -1,7 +1,7 @@
 // 配置项
-// const host = 'http://localhost:3009'
+const host = 'http://localhost:3009'
 // 从本地切换为线上开发环境域名
-const host = 'https://gl-small.guolinaijiu.com'
+// const host = 'https://gl-small.guolinaijiu.com'
 
 const config = {
   host,

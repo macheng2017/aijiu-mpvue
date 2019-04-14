@@ -5,14 +5,15 @@
 		"es6": false,
 		"postcss": true,
 		"minified": true,
-		"newFeature": true
+		"newFeature": true,
+		"nodeModules": false
 	},
-	"miniprogramRoot": "dist/",
+	"miniprogramRoot": "dist/wx/",
 	"compileType": "miniprogram",
 	"qcloudRoot": "server/",
 	"appid": "wxae829d52ffa9d7e6",
 	"projectname": "aijiu",
-	"libVersion": "2.1.1",
+	"libVersion": "2.6.5",
 	"condition": {
 		"search": {
 			"current": -1,

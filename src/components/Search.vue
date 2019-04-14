@@ -31,7 +31,7 @@
 </template>
 
 <script>
-import _ from 'lodash'
+// import _ from 'lodash'
 // import Fly from 'flyio/dist/npm/wx'
 import Xw from '@/components/Xw.vue'
 import { get } from '@/utils'
@@ -114,7 +114,8 @@ export default {
     }
   },
   created() {
-    this.debounceGetSearch = _.debounce(this.getSearch, 1000)
+    // this.debounceGetSearch = _.debounce(this.getSearch, 1000)
+    this.getSearch()
   },
   components: {
     Xw
