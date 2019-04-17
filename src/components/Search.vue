@@ -114,6 +114,7 @@ export default {
     }
   },
   created() {
+    // 防抖动功能，新版的mpvue2.x好像不兼容lodash
     // this.debounceGetSearch = _.debounce(this.getSearch, 1000)
     this.getSearch()
   },

@@ -1,122 +1,68 @@
 <template lang="pug">
 .container
-  .doc-title.zan-hairline--bottom
-    p(v-if='items.length > 0')
-      a(@longpress="setClip(item)", v-for="item in items" :key="item.id")
-        Card( :item='item' :imageCDN='imageCDN' :defImg='defImg')
-    p(v-else) 没有商品数据
-    p.text-footer(v-if='!more') 没有更多数据
+  p(v-if='xwList.length > 0')
+    a(@click="parasXW($event,xw.name)" v-for="xw in xwList") {{xw.name}}
+  p(v-else) 没有数据，换个词试试
 </template>
 <script>
-// import { get } from '@/utils'
-import Card from '@/components/Card'
+import Xw from '@/components/xw'
 import { mapState } from 'vuex'
-// import ProductModel from '@/models/product'
-// const productModel = new ProductModel()
+import { get } from '@/utils'
 
-// 35条数据
-// 每次加载10条
-// 0页   0-10
-// 1     10-20
-// 2     20-30（5）
-// page 当前第几页
-
-// 没有更多数据
-// 1. page=0 不能显示这条提醒
-// 2. page>0 数据长度<10 停止触底加载
 export default {
   props: ['word'],
   data() {
     return {
-      userInfo: {},
-      items: [],
-      searchKey: '',
-      page: 0,
-      more: true,
-      limited: 150
+      xwList: []
     }
   },
   components: {
-    Card
+    Xw
   },
   computed: {
     ...mapState(['imageCDN', 'defImg'])
   },
   methods: {
-    // 获取经络数据
-    async getList(init) {
-      if (init) {
-        this.page = 0
-        this.more = true
-      }
-      wx.showNavigationBarLoading()
-      wx.showLoading({
-        title: '玩命加载中'
+    parasXW(e, key) {
+      // 加上了一个斜杠解决了,跳转的时候总是有前面的一坨
+      // console.log('------------------------')
+      // console.log(e)
+      wx.navigateTo({
+        url: `/pages/detail/main?name=${encodeURI(key)}`
       })
-
-      try {
-        // const items = await get('/mina/search', {
-        //     searchKey: encodeURI(this.word),
-        //     page: this.page // 分页
-        // })
-        let items
-        if (this.more) {
-        //   items = await productModel.search(this.page, this.word)
-        }
-
-        items = items.list
-        items = items.map(v => {
-          // console.log('img', v.img.img)
-          return Object.assign({}, v, {
-            img: v.img ? v.img.img : []
-          })
-        })
-        // console.log(res)
-        // 设置显示更多的状态
-        if (items.length < 10 && this.page > 0) {
-          this.more = false
-        }
-        if (this.items.length > this.limited) {
-          this.more = false
-        }
-        if (init) {
-          this.items = items
-          wx.stopPullDownRefresh()
-        } else {
-          // 下拉刷新，不能直接覆盖商品 而是累加
-
-          this.items = this.items.concat(items)
-        }
-      } catch (error) {
-        console.log(error)
-      }
-
-      wx.hideNavigationBarLoading()
-      wx.hideLoading()
     },
-    // 向剪贴板中写入信息
-    async setClip(data) {
-      let str = `款号: ${data.styleNumber} 价格: ${data.taobaoPrice} 尺码: ${
-        data.size
-      } 库存: ${data.count}`
-      wx.setClipboardData({
-        data: str
+    async getSearch() {
+      wx.showToast({
+        title: '玩命加载中--',
+        icon: 'loading',
+        duration: 5000
       })
-      // 震动下表示完成
-      wx.vibrateShort()
+      // let res
+      // try {
+      //   let fly = new Fly()
+      //   res = await fly.get('/weapp/search', { searchKey: this.inputVal })
+      // } catch (error) {
+      //   console.log(error)
+      // }
+      let res = {}
+      // 如果最终输入的是汉子则查询
+      let str = this.word.replace(/[^\u4e00-\u9fa5]/gi, '').trim()
+      if (str.length > 0) {
+        console.log('--------true--------' + str)
+        res = await get('/weapp/search', {
+          searchKey: encodeURI(this.word)
+        })
+      }
+      if (res.data.length <= 0) {
+        this.msgShow = true
+      }
+      this.xwList = res.data
+      console.log('-------------')
+      console.log(this.xwList)
+      wx.hideToast()
     }
   },
-  onPullDownRefresh() {
-    this.getList(true)
-  },
-  onReachBottom() {
-    if (!this.more) {
-      // 没有更多了
-      return false
-    }
-    this.page = this.page + 1
-    this.getList()
-  },
+
   mounted() {
     console.log('mounted', this.word)
     wx.setNavigationBarTitle({
@@ -124,7 +70,8 @@ export default {
     })
     // this.searchKey = this.$root.$mp.query.searchKey
 
-    this.getList(true)
+    // this.getList(true)
+    this.getSearch()
   },
 
   onLoad: function(options) {
