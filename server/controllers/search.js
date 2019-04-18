@@ -11,9 +11,9 @@ module.exports = async ctx => {
 
     const detail = await mysql('xwDetail')
         .where('name', 'like', `%${searchKey}%`)
-        // .orWhere('dingwei', 'like', `%${searchKey}%`)
+        .orWhere('dingwei', 'like', `%${searchKey}%`)
         .orWhere('zhuzhibingzheng', 'like', `%${searchKey}%`)
-        // .orWhere('jingyanyingyong', 'like', `%${searchKey}%`)
+        .orWhere('jingyanyingyong', 'like', `%${searchKey}%`)
         // .orWhere('disease_treat', 'like', `%${searchKey}%`)
     // 由于查询出来是一个只有一个元素的[]可以使用.first()
     // 直接使用联表查询由于是mysql数据库,存储的json 都是字符串

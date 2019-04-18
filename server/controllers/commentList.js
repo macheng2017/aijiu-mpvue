@@ -6,15 +6,15 @@ module.exports = async ctx => {
     console.log(xwName, openId)
     try {
         const mysqlSelect = mysql('comments')
-            .select('comments.*', 'cSessionInfo.user_info as userInfo')
-            .join('cSessionInfo', 'comments.openid', 'cSessionInfo.open_id')
+            .select('comments.*', 'users.nickName', 'users.avatarUrl')
+            .join('users', 'comments.openid', 'users.openid')
         let comments
         if (xwName) {
             // 图书详情评论列表
             comments = await mysqlSelect.where('xwName', xwName)
         } else if (openId) {
             // 根据个人openid筛选
-            comments = await mysqlSelect.where('openid', openId)
+            comments = await mysqlSelect.where('comments.openid', openId)
         }
 
         // console.log('--------------------')
@@ -24,10 +24,10 @@ module.exports = async ctx => {
                 code: 0,
                 data: {
                     list: comments.map(v => {
-                        const info = JSON.parse(v.userInfo)
+                        // const info = JSON.parse(v.userv)
                         return Object.assign({}, v, {
-                            title: info.nickName,
-                            image: info.avatarUrl
+                            title: v.nickName,
+                            image: v.avatarUrl
                         })
                     }),
                     msg: 'success'

@@ -2,7 +2,7 @@
   <div class="page">
     <div class="page__bd page__bd_spacing">
       <swiper :indicator-dots="indicatorDots" :autoplay="autoplay" :interval="interval" :duration="duration" :circular="circular" @change="swiperChange" @animationfinish="animationfinish">
-        <div v-for="item in imgUrls" :key="index">
+        <div v-for="(item,index) in imgUrls" :key="index">
           <swiper-item>
             <image :src="item" class="slide-image"/>
           </swiper-item>
@@ -22,8 +22,8 @@ export default {
       duration: 900,
       circular: true,
       imgUrls: [
-        'https://mina.guolinaijiu.com/img/banner1.jpg',
-        'https://mina.guolinaijiu.com/img/banner2.jpg'
+        'http://mini.guolinaijiu.com/banner1.jpg',
+        'http://mini.guolinaijiu.com/banner2.jpg'
       ]
     }
   },

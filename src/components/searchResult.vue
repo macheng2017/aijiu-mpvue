@@ -1,7 +1,9 @@
 <template lang="pug">
 .container
-  p(v-if='xwList.length > 0')
-    a(@click="parasXW($event,xw.name)" v-for="xw in xwList") {{xw.name}}
+  .list-card(v-if='xwList.length > 0')
+    a(@click="parasXW($event,xw.name)" v-for="xw in xwList" :key="xw.id")
+      .xuewei {{xw.name}}
+      .dingwei {{xw.dingwei}}
   p(v-else) 没有数据，换个词试试
 </template>
 <script>
@@ -87,8 +89,17 @@ export default {
 }
 </script>
 
-<style lang="sass" scoped>
-
-
-
+<style  scoped>
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.xuewei {
+}
+.dingwei {
+  font-size: 16px;
+  border-bottom: 1px solid #9492D6;
+  margin: 10px 0;
+}
 </style>

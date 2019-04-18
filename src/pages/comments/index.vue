@@ -2,7 +2,7 @@
 .container
   // 增加点击事件的标识 type="user"
   div(v-if="userInfo.openId")
-    CommentList(v-if="comments.length > 0" :comments="comments" type="user")
+    CommentList(v-if="comments && comments.length > 0" :comments="comments" type="user")
     // .page-title 我的穴位收藏
     // // Card(v-for="book in books" :key="book.id" :book='book')
     // // Card( v-for="item in items" :item='item' :key="item.id")
