@@ -3,11 +3,14 @@
   .page-title(v-if="comments.length") 评论
   .comment(v-for="comment in comments" :key="comment.id" @click="handleClick(comment)")
     .user
-      .inline {{comment.title}}
-        img(:src="comment.image" class="avatar" mode="aspectFit")
-        .right {{comment.location || '未知地点'}}
-        span --
-        div {{comment.phone || '未知型号'}}
+      .inline 
+        .left 
+          img(:src="comment.image" class="avatar" mode="aspectFit")
+          .nick {{comment.title}}
+        .right
+          div {{comment.location || '未知地点'}}
+          span --
+          div {{comment.phone || '未知型号'}}
       .content {{comment.comment}}
 </template>
 <script>
@@ -36,6 +39,9 @@ export default {
     .user
       vertical-align: center
       .inline
+        display: flex
+        flex-direction: row
+        justify-content: space-between
         .right,div,span
           display: inline-block
           float: right
