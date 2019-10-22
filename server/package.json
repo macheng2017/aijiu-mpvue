@@ -18,7 +18,7 @@
         "babel-preset-stage-3": "^6.24.1",
         "babel-register": "^6.26.0",
         "cheerio": "^1.0.0-rc.2",
-        "knex": "^0.15.2",
+        "knex": "^0.19.5",
         "koa": "^2.5.2",
         "koa-bodyparser": "^3.2.0",
         "koa-log4": "^2.3.2",
