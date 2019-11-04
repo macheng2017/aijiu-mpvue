@@ -31,7 +31,7 @@
     "dns": "^0.2.2",
     "flyio": "^0.6.14",
     "fs": "0.0.1-security",
-    "lodash": "^4.17.10",
+    "lodash": "^4.17.13",
     "log4js": "^3.0.2",
     "mpvue": "^2.0.5",
     "mpvue-wxparse": "^0.6.5",
