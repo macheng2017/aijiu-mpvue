@@ -23,7 +23,7 @@
     "lint": "eslint --ext .js,.vue src"
   },
   "dependencies": {
-    "acorn": "^6.1.1",
+    "acorn": "^6.4.1",
     "ajv": "^6.10.0",
     "child_process": "^1.0.2",
     "cluster": "^0.7.7",
