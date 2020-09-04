@@ -37,7 +37,7 @@
     "mpvue-wxparse": "^0.6.5",
     "mpvue-zanui": "^1.0.3",
     "net": "^1.0.2",
-    "node-sass": "^4.9.4",
+    "node-sass": "^4.13.1",
     "ramda": "^0.25.0",
     "regenerator-runtime": "^0.12.0",
     "repl": "^0.1.3",
